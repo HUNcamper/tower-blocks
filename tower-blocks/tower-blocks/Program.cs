@@ -8,8 +8,13 @@ namespace tower_blocks
 {
     class Program
     {
+        /// <summary>
+        /// Main function
+        /// </summary>
+        /// <param name="args">Command line arguments</param>
         static void Main(string[] args)
         {
+            Console.ReadLine();
         }
     }
 }

@@ -12,3 +12,5 @@ To access the full project, open [tower-blocks/tower-blocks.sln](https://github.
 
 ### Full code documentation:
 You can find it here: [https://huncamper.github.io/tower-blocks/](https://huncamper.github.io/tower-blocks/)
+
+todo: https://github.com/dotnet/docfx/issues/1969#issuecomment-323235324
