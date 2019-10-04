@@ -8,7 +8,7 @@ A tower building game written in C#
 
 ### Compiling
 Tower Blocks was written in C#, using [Visual Studio](https://visualstudio.microsoft.com/), uses [SDL2](https://github.com/flibitijibibo/SDL2-CS/) and the [4.6.1 .NET framework](https://www.microsoft.com/en-us/download/details.aspx?id=49981).
-To access the full project, open **tower-blocks.sln**
+To access the full project, open [tower-blocks/tower-blocks.sln](https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks.sln)
 
 ### Full code documentation:
 You can find it here: [https://huncamper.github.io/tower-blocks/](https://huncamper.github.io/tower-blocks/)
