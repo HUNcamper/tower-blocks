@@ -1,4 +1,4 @@
-# tower-blocks
+# Tower Blocks
 A tower building game written in C#
 
 ### Gameplay:
@@ -7,7 +7,7 @@ A tower building game written in C#
 - If a part of it isn't lined up well, the parts hanging off will be cut, making the game harder as it progresses.
 
 ### Compiling
-Tower Blocks was written in C#, using [Visual Studio](https://visualstudio.microsoft.com/), and uses [SDL2](https://github.com/flibitijibibo/SDL2-CS/) and the [4.6.1 .NET framework](https://www.microsoft.com/en-us/download/details.aspx?id=49981).
+Tower Blocks was written in C#, using [Visual Studio](https://visualstudio.microsoft.com/), uses [SDL2](https://github.com/flibitijibibo/SDL2-CS/) and the [4.6.1 .NET framework](https://www.microsoft.com/en-us/download/details.aspx?id=49981).
 To access the full project, open **tower-blocks.sln**
 
 ### Full code documentation:
