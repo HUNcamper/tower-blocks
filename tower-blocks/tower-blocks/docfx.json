@@ -10,8 +10,7 @@
           "exclude": [
             "**/obj/**",
             "**/bin/**",
-            "docs/**",
-            "**/SDL2/**"
+            "_site/**"
           ]
         }
       ],
@@ -35,8 +34,7 @@
         ],
         "exclude": [
           "obj/**",
-          "docs/**",
-          "**/SDL2/**"
+          "_site/**"
         ]
       }
     ],
@@ -47,8 +45,7 @@
         ],
         "exclude": [
           "obj/**",
-          "docs/**",
-          "**/SDL2/**"
+          "_site/**"
         ]
       }
     ],
@@ -59,14 +56,18 @@
         ],
         "exclude": [
           "obj/**",
-          "docs/**",
-          "**/SDL2/**"
+          "_site/**"
         ]
       }
     ],
-    "dest": "docs",
+    "dest": "../../docs",
     "template": [
-      "default"
+      "default",
+      "templates/darkfx"
     ]
+  },
+  "postProcessors": [ "ExtractSearchIndex" ],
+  "globalMetadata": {
+    "_enableSearch": "true"
   }
 }

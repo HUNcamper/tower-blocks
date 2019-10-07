@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace tower_blocks
 {
-    class Program
+    /// <summary>
+    /// The main handling program
+    /// </summary>
+    public class Program
     {
         /// <summary>
         /// Main function
         /// </summary>
         /// <param name="args">Command line arguments</param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
             Console.ReadLine();
         }
     }
