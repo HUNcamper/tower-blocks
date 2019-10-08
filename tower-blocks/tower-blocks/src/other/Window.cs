@@ -9,7 +9,14 @@ namespace tower_blocks
 {
     public class Window
     {
+        /// <summary>
+        /// Pointer of the window
+        /// </summary>
         public IntPtr windowPtr { get; set; }
+
+        /// <summary>
+        /// Pointer of the renderer
+        /// </summary>
         public IntPtr renderer { get; set; }
 
         /// <summary>
@@ -21,7 +28,6 @@ namespace tower_blocks
         /// <param name="w_h_windowpos">Window's horizontal position</param>
         /// <param name="w_v_windowpos">Window's vertical position</param>
         /// <param name="w_windowflags">Window's flags</param>
-        /// <returns>Created window</returns>
         public Window(string w_title, int w_width, int w_height, int w_h_windowpos = SDL.SDL_WINDOWPOS_CENTERED, int w_v_windowpos = SDL.SDL_WINDOWPOS_CENTERED, SDL.SDL_WindowFlags w_windowflags = SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE)
         {
             windowPtr = IntPtr.Zero;

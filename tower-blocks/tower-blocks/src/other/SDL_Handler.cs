@@ -13,6 +13,9 @@ namespace tower_blocks
     /// </summary>
     public class SDL_Handler
     {
+        /// <summary>
+        /// List of windows
+        /// </summary>
         private List<Window> window_list = new List<Window>();
 
         /// <summary>
@@ -20,10 +23,17 @@ namespace tower_blocks
         /// </summary>
         public bool quit { get; set; }
 
+        /// <summary>
+        /// Initialize the SDL Handler
+        /// </summary>
         public SDL_Handler()
         {
             // Initialize SDL2
             SDL.SDL_Init(SDL.SDL_INIT_VIDEO);
+
+            // Initialize SDL_ttf
+            SDL_ttf.TTF_Init();
+
             quit = false;
         }
 
@@ -77,9 +87,18 @@ namespace tower_blocks
             switch (e.type)
             {
                 case SDL.SDL_EventType.SDL_QUIT:
-                    quit = true;
+                    Quit();
                     break;
             }
+        }
+
+        /// <summary>
+        /// Frees up resources and quits the program
+        /// </summary>
+        public void Quit()
+        {
+            quit = true;
+            SDL_ttf.TTF_Quit();
         }
 
         /// <summary>

@@ -20,7 +20,6 @@ namespace tower_blocks
         /// <param name="args">Command line arguments</param>
         public static void Main(string[] args)
         {
-
             SDL_Handler sdl_handler = new SDL_Handler();
 
             Window window = sdl_handler.CreateWindow("Hello World", 1024, 800);

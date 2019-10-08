@@ -23,24 +23,50 @@ namespace Scenes
         }
 
         /// <summary>
+        /// Screen surface
+        /// </summary>
+        public IntPtr screen
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
         /// Creates the main menu on the given window
         /// </summary>
         /// <param name="_window">Window to open the Scene in</param>
         public Scene_MainMenu(Window _window)
         {
             window = _window;
+            //screen = _screen;
+
+            screen = SDL.SDL_GetWindowSurface(window.windowPtr);
         }
 
+        /// <summary>
+        /// Updates the scene
+        /// </summary>
+        public void UpdateScene()
+        {
+            HandleScene();
+            DrawScene();
+        }
+
+        /// <summary>
+        /// Handles the scene elements
+        /// </summary>
+        public void HandleScene()
+        {
+
+        }
+
+        /// <summary>
+        /// Draws the scene
+        /// </summary>
         public void DrawScene()
         {
-            SDL.SDL_Rect rect;
-            rect.x = 250;
-            rect.y = 150;
-            rect.w = 200;
-            rect.h = 200;
-
-            SDL.SDL_SetRenderDrawColor(window.renderer, 255, 255, 255, 255);
-            SDL.SDL_RenderDrawRect(window.renderer, ref rect);
+            MenuButton button = new MenuButton(this, "Hello World");
+            button.DrawElement();
 
             SDL.SDL_SetRenderDrawColor(window.renderer, 0, 0, 0, 255);
         }

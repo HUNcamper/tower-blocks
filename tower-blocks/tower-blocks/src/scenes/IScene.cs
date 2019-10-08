@@ -23,6 +23,25 @@ namespace Scenes
         }
 
         /// <summary>
+        /// Screen surface
+        /// </summary>
+        IntPtr screen
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Updates the scene
+        /// </summary>
+        void UpdateScene();
+
+        /// <summary>
+        /// Handles the scene elements
+        /// </summary>
+        void HandleScene();
+
+        /// <summary>
         /// Draws the scene on the given window
         /// </summary>
         void DrawScene();

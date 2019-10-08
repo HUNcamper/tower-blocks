@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.IScene.html",
-          "hash": "VgiArg+50x4Qdsp0ZtjiIw=="
+          "hash": "1/4wZYU5c7eG6V8U/cLWmw=="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_MainMenu.html",
-          "hash": "ztd/T/KMiO80VmSeqoMYzw=="
+          "hash": "sgaqlgGwxtcqBYgffEokIg=="
         }
       },
       "is_incremental": true,
@@ -93,10 +93,34 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "TtEdWNYOpI+CFIfbV3tM/A=="
+          "hash": "T4Fw9aT8P/Xu8+lGnHKYNA=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/tower_blocks.ISceneElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/tower_blocks.ISceneElement.html",
+          "hash": "5jN50gIs+vukwwofA6modQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/tower_blocks.MenuButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/tower_blocks.MenuButton.html",
+          "hash": "i6FAnRRxHY9Fr7J1kVLfXg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.SDL_Handler.html",
-          "hash": "UkTmJ8KKtd6+o864G13z2g=="
+          "hash": "vcOPUqrEbWLeOgmnPbCGlw=="
         }
       },
       "is_incremental": true,
@@ -129,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.Window.html",
-          "hash": "aY3kF0GrPo7KUDFvMxe4bQ=="
+          "hash": "FAlFgqRjr/BdlcZLIburhA=="
         }
       },
       "is_incremental": true,
@@ -141,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.html",
-          "hash": "5bM3f1ywI4z8Z6IoS47mMQ=="
+          "hash": "9DcdUWm+dn+zr+/9YZsxeA=="
         }
       },
       "is_incremental": true,
@@ -169,24 +193,24 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 7,
-          "skipped_file_count": 7
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 9
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
         }
       }
     },
