@@ -22,14 +22,7 @@ namespace Scenes
             set;
         }
 
-        /// <summary>
-        /// Screen surface
-        /// </summary>
-        public IntPtr screen
-        {
-            get;
-            set;
-        }
+        private List<MenuButton> buttons;
 
         /// <summary>
         /// Creates the main menu on the given window
@@ -38,9 +31,7 @@ namespace Scenes
         public Scene_MainMenu(Window _window)
         {
             window = _window;
-            //screen = _screen;
-
-            screen = SDL.SDL_GetWindowSurface(window.windowPtr);
+            buttons = new List<MenuButton>();
         }
 
         /// <summary>

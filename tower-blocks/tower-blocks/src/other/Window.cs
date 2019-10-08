@@ -7,6 +7,9 @@ using SDL2;
 
 namespace tower_blocks
 {
+    /// <summary>
+    /// Defines an SDL2 window
+    /// </summary>
     public class Window
     {
         /// <summary>

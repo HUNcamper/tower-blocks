@@ -23,10 +23,8 @@ namespace tower_blocks
             SDL_Handler sdl_handler = new SDL_Handler();
 
             Window window = sdl_handler.CreateWindow("Hello World", 1024, 800);
-            
-            IScene current_scene = new Scene_MainMenu(window);
 
-            //SDL.SDL_Delay(1000);
+            IScene current_scene = new Scene_MainMenu(window);
 
             while (!sdl_handler.quit)
             {

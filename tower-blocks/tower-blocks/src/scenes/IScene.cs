@@ -23,15 +23,6 @@ namespace Scenes
         }
 
         /// <summary>
-        /// Screen surface
-        /// </summary>
-        IntPtr screen
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
         /// Updates the scene
         /// </summary>
         void UpdateScene();
