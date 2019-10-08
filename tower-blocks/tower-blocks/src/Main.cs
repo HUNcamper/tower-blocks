@@ -19,16 +19,13 @@ namespace tower_blocks
         /// <param name="args">Command line arguments</param>
         public static void Main(string[] args)
         {
-            SDL.SDL_Init(SDL.SDL_INIT_VIDEO);
+            SDL_Handler sdl_handler = new SDL_Handler();
 
-            var window = IntPtr.Zero;
-            window = SDL.SDL_CreateWindow("Hello World",
-                SDL.SDL_WINDOWPOS_CENTERED,
-                SDL.SDL_WINDOWPOS_CENTERED,
-                1028,
-                800,
-                SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE
-            );
+            sdl_handler.CreateWindow("Hello World", 1024, 800);
+            sdl_handler.CreateWindow("Hello World", 1024, 800);
+            sdl_handler.CreateWindow("Hello World", 1024, 800);
+            sdl_handler.CreateWindow("Hello World", 1024, 800);
+            sdl_handler.CreateWindow("Hello World", 1024, 800);
 
             //SDL.SDL_Delay(1000);
 
@@ -47,7 +44,7 @@ namespace tower_blocks
                 }
             }
 
-            SDL.SDL_DestroyWindow(window);
+            //SDL.SDL_DestroyWindow(window);
         }
     }
 }
