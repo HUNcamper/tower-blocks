@@ -66,9 +66,5 @@
       "default",
       "templates/darkfx"
     ]
-  },
-  "postProcessors": [ "ExtractSearchIndex" ],
-  "globalMetadata": {
-    "_enableSearch": "true"
   }
 }

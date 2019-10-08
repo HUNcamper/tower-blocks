@@ -22,18 +22,13 @@ namespace tower_blocks
             SDL_Handler sdl_handler = new SDL_Handler();
 
             sdl_handler.CreateWindow("Hello World", 1024, 800);
-            sdl_handler.CreateWindow("Hello World", 1024, 800);
-            sdl_handler.CreateWindow("Hello World", 1024, 800);
-            sdl_handler.CreateWindow("Hello World", 1024, 800);
-            sdl_handler.CreateWindow("Hello World", 1024, 800);
+            sdl_handler.CreateWindow("Hello World", 100, 500);
 
             //SDL.SDL_Delay(1000);
 
-            SDL.SDL_Event e;
-            bool quit = false;
-            while (!quit)
+            while (!sdl_handler.quit)
             {
-                while (SDL.SDL_PollEvent(out e) != 0)
+                /*while (SDL.SDL_PollEvent(out e) != 0)
                 {
                     switch (e.type)
                     {
@@ -41,7 +36,9 @@ namespace tower_blocks
                             quit = true;
                             break;
                     }
-                }
+                }*/
+
+                sdl_handler.Update();
             }
 
             //SDL.SDL_DestroyWindow(window);

@@ -48,7 +48,7 @@
           "hash": "3jMF6MISag1Svu07v4X+IA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uFru+mYl0BLcAYg1TkK/WQ=="
+          "hash": "pvZZK8K2gDOGdb0SLYYAaQ=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/tower_blocks.SDL_Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/tower_blocks.SDL_Handler.html",
+          "hash": "qH1OUnzAWZXwBZ9fr+Pw6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/tower_blocks.yml",
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.html",
-          "hash": "On3frYEcStLAvf8eIvQzoQ=="
+          "hash": "s7D+QY5Oee46YHp3byzh0g=="
         }
       },
       "is_incremental": true,
@@ -116,17 +128,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         }
       }
     },
