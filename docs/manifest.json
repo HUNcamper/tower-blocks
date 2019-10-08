@@ -52,12 +52,48 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Scenes.IScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenes.IScene.html",
+          "hash": "VgiArg+50x4Qdsp0ZtjiIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Scenes.Scene_MainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenes.Scene_MainMenu.html",
+          "hash": "ztd/T/KMiO80VmSeqoMYzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Scenes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenes.html",
+          "hash": "E9TnQjlO4D8RhyJyc5vJxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "obj/api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pvZZK8K2gDOGdb0SLYYAaQ=="
+          "hash": "TtEdWNYOpI+CFIfbV3tM/A=="
         }
       },
       "is_incremental": false,
@@ -69,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.Program.html",
-          "hash": "xLrX/BzMOEZT8ZdMAqks8g=="
+          "hash": "na4njkiswBN4HRvZRNbcjg=="
         }
       },
       "is_incremental": true,
@@ -81,7 +117,19 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.SDL_Handler.html",
-          "hash": "qH1OUnzAWZXwBZ9fr+Pw6w=="
+          "hash": "UkTmJ8KKtd6+o864G13z2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/tower_blocks.Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/tower_blocks.Window.html",
+          "hash": "aY3kF0GrPo7KUDFvMxe4bQ=="
         }
       },
       "is_incremental": true,
@@ -93,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.html",
-          "hash": "s7D+QY5Oee46YHp3byzh0g=="
+          "hash": "5bM3f1ywI4z8Z6IoS47mMQ=="
         }
       },
       "is_incremental": true,
@@ -121,24 +169,24 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 7
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
         }
       }
     },

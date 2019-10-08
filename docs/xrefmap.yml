@@ -1,6 +1,89 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Scenes
+  name: Scenes
+  href: api/Scenes.html
+  commentId: N:Scenes
+  fullName: Scenes
+  nameWithType: Scenes
+- uid: Scenes.IScene
+  name: IScene
+  href: api/Scenes.IScene.html
+  commentId: T:Scenes.IScene
+  fullName: Scenes.IScene
+  nameWithType: IScene
+- uid: Scenes.IScene.DrawScene
+  name: DrawScene()
+  href: api/Scenes.IScene.html#Scenes_IScene_DrawScene
+  commentId: M:Scenes.IScene.DrawScene
+  fullName: Scenes.IScene.DrawScene()
+  nameWithType: IScene.DrawScene()
+- uid: Scenes.IScene.DrawScene*
+  name: DrawScene
+  href: api/Scenes.IScene.html#Scenes_IScene_DrawScene_
+  commentId: Overload:Scenes.IScene.DrawScene
+  isSpec: "True"
+  fullName: Scenes.IScene.DrawScene
+  nameWithType: IScene.DrawScene
+- uid: Scenes.IScene.window
+  name: window
+  href: api/Scenes.IScene.html#Scenes_IScene_window
+  commentId: P:Scenes.IScene.window
+  fullName: Scenes.IScene.window
+  nameWithType: IScene.window
+- uid: Scenes.IScene.window*
+  name: window
+  href: api/Scenes.IScene.html#Scenes_IScene_window_
+  commentId: Overload:Scenes.IScene.window
+  isSpec: "True"
+  fullName: Scenes.IScene.window
+  nameWithType: IScene.window
+- uid: Scenes.Scene_MainMenu
+  name: Scene_MainMenu
+  href: api/Scenes.Scene_MainMenu.html
+  commentId: T:Scenes.Scene_MainMenu
+  fullName: Scenes.Scene_MainMenu
+  nameWithType: Scene_MainMenu
+- uid: Scenes.Scene_MainMenu.#ctor(tower_blocks.Window)
+  name: Scene_MainMenu(Window)
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu__ctor_tower_blocks_Window_
+  commentId: M:Scenes.Scene_MainMenu.#ctor(tower_blocks.Window)
+  fullName: Scenes.Scene_MainMenu.Scene_MainMenu(tower_blocks.Window)
+  nameWithType: Scene_MainMenu.Scene_MainMenu(Window)
+- uid: Scenes.Scene_MainMenu.#ctor*
+  name: Scene_MainMenu
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu__ctor_
+  commentId: Overload:Scenes.Scene_MainMenu.#ctor
+  isSpec: "True"
+  fullName: Scenes.Scene_MainMenu.Scene_MainMenu
+  nameWithType: Scene_MainMenu.Scene_MainMenu
+- uid: Scenes.Scene_MainMenu.DrawScene
+  name: DrawScene()
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_DrawScene
+  commentId: M:Scenes.Scene_MainMenu.DrawScene
+  fullName: Scenes.Scene_MainMenu.DrawScene()
+  nameWithType: Scene_MainMenu.DrawScene()
+- uid: Scenes.Scene_MainMenu.DrawScene*
+  name: DrawScene
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_DrawScene_
+  commentId: Overload:Scenes.Scene_MainMenu.DrawScene
+  isSpec: "True"
+  fullName: Scenes.Scene_MainMenu.DrawScene
+  nameWithType: Scene_MainMenu.DrawScene
+- uid: Scenes.Scene_MainMenu.window
+  name: window
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_window
+  commentId: P:Scenes.Scene_MainMenu.window
+  fullName: Scenes.Scene_MainMenu.window
+  nameWithType: Scene_MainMenu.window
+- uid: Scenes.Scene_MainMenu.window*
+  name: window
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_window_
+  commentId: Overload:Scenes.Scene_MainMenu.window
+  isSpec: "True"
+  fullName: Scenes.Scene_MainMenu.window
+  nameWithType: Scene_MainMenu.window
 - uid: tower_blocks
   name: tower_blocks
   href: api/tower_blocks.html
@@ -61,18 +144,12 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.CreateWindow
   nameWithType: SDL_Handler.CreateWindow
-- uid: tower_blocks.SDL_Handler.DestroyWindow(System.IntPtr)
-  name: DestroyWindow(IntPtr)
-  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DestroyWindow_System_IntPtr_
-  commentId: M:tower_blocks.SDL_Handler.DestroyWindow(System.IntPtr)
-  fullName: tower_blocks.SDL_Handler.DestroyWindow(System.IntPtr)
-  nameWithType: SDL_Handler.DestroyWindow(IntPtr)
-- uid: tower_blocks.SDL_Handler.DestroyWindow(System.UInt32)
-  name: DestroyWindow(UInt32)
-  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DestroyWindow_System_UInt32_
-  commentId: M:tower_blocks.SDL_Handler.DestroyWindow(System.UInt32)
-  fullName: tower_blocks.SDL_Handler.DestroyWindow(System.UInt32)
-  nameWithType: SDL_Handler.DestroyWindow(UInt32)
+- uid: tower_blocks.SDL_Handler.DestroyWindow(tower_blocks.Window)
+  name: DestroyWindow(Window)
+  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DestroyWindow_tower_blocks_Window_
+  commentId: M:tower_blocks.SDL_Handler.DestroyWindow(tower_blocks.Window)
+  fullName: tower_blocks.SDL_Handler.DestroyWindow(tower_blocks.Window)
+  nameWithType: SDL_Handler.DestroyWindow(Window)
 - uid: tower_blocks.SDL_Handler.DestroyWindow*
   name: DestroyWindow
   href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DestroyWindow_
@@ -80,6 +157,19 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.DestroyWindow
   nameWithType: SDL_Handler.DestroyWindow
+- uid: tower_blocks.SDL_Handler.DrawScene(Scenes.IScene)
+  name: DrawScene(IScene)
+  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DrawScene_Scenes_IScene_
+  commentId: M:tower_blocks.SDL_Handler.DrawScene(Scenes.IScene)
+  fullName: tower_blocks.SDL_Handler.DrawScene(Scenes.IScene)
+  nameWithType: SDL_Handler.DrawScene(IScene)
+- uid: tower_blocks.SDL_Handler.DrawScene*
+  name: DrawScene
+  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DrawScene_
+  commentId: Overload:tower_blocks.SDL_Handler.DrawScene
+  isSpec: "True"
+  fullName: tower_blocks.SDL_Handler.DrawScene
+  nameWithType: SDL_Handler.DrawScene
 - uid: tower_blocks.SDL_Handler.HandleEvents(SDL2.SDL.SDL_Event)
   name: HandleEvents(SDL.SDL_Event)
   href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_HandleEvents_SDL2_SDL_SDL_Event_
@@ -132,3 +222,74 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.Update
   nameWithType: SDL_Handler.Update
+- uid: tower_blocks.Window
+  name: Window
+  href: api/tower_blocks.Window.html
+  commentId: T:tower_blocks.Window
+  fullName: tower_blocks.Window
+  nameWithType: Window
+- uid: tower_blocks.Window.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,SDL2.SDL.SDL_WindowFlags)
+  name: Window(String, Int32, Int32, Int32, Int32, SDL.SDL_WindowFlags)
+  href: api/tower_blocks.Window.html#tower_blocks_Window__ctor_System_String_System_Int32_System_Int32_System_Int32_System_Int32_SDL2_SDL_SDL_WindowFlags_
+  commentId: M:tower_blocks.Window.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,SDL2.SDL.SDL_WindowFlags)
+  fullName: tower_blocks.Window.Window(System.String, System.Int32, System.Int32, System.Int32, System.Int32, SDL2.SDL.SDL_WindowFlags)
+  nameWithType: Window.Window(String, Int32, Int32, Int32, Int32, SDL.SDL_WindowFlags)
+- uid: tower_blocks.Window.#ctor*
+  name: Window
+  href: api/tower_blocks.Window.html#tower_blocks_Window__ctor_
+  commentId: Overload:tower_blocks.Window.#ctor
+  isSpec: "True"
+  fullName: tower_blocks.Window.Window
+  nameWithType: Window.Window
+- uid: tower_blocks.Window.Destroy
+  name: Destroy()
+  href: api/tower_blocks.Window.html#tower_blocks_Window_Destroy
+  commentId: M:tower_blocks.Window.Destroy
+  fullName: tower_blocks.Window.Destroy()
+  nameWithType: Window.Destroy()
+- uid: tower_blocks.Window.Destroy*
+  name: Destroy
+  href: api/tower_blocks.Window.html#tower_blocks_Window_Destroy_
+  commentId: Overload:tower_blocks.Window.Destroy
+  isSpec: "True"
+  fullName: tower_blocks.Window.Destroy
+  nameWithType: Window.Destroy
+- uid: tower_blocks.Window.HandleEvent(SDL2.SDL.SDL_Event)
+  name: HandleEvent(SDL.SDL_Event)
+  href: api/tower_blocks.Window.html#tower_blocks_Window_HandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:tower_blocks.Window.HandleEvent(SDL2.SDL.SDL_Event)
+  fullName: tower_blocks.Window.HandleEvent(SDL2.SDL.SDL_Event)
+  nameWithType: Window.HandleEvent(SDL.SDL_Event)
+- uid: tower_blocks.Window.HandleEvent*
+  name: HandleEvent
+  href: api/tower_blocks.Window.html#tower_blocks_Window_HandleEvent_
+  commentId: Overload:tower_blocks.Window.HandleEvent
+  isSpec: "True"
+  fullName: tower_blocks.Window.HandleEvent
+  nameWithType: Window.HandleEvent
+- uid: tower_blocks.Window.renderer
+  name: renderer
+  href: api/tower_blocks.Window.html#tower_blocks_Window_renderer
+  commentId: P:tower_blocks.Window.renderer
+  fullName: tower_blocks.Window.renderer
+  nameWithType: Window.renderer
+- uid: tower_blocks.Window.renderer*
+  name: renderer
+  href: api/tower_blocks.Window.html#tower_blocks_Window_renderer_
+  commentId: Overload:tower_blocks.Window.renderer
+  isSpec: "True"
+  fullName: tower_blocks.Window.renderer
+  nameWithType: Window.renderer
+- uid: tower_blocks.Window.windowPtr
+  name: windowPtr
+  href: api/tower_blocks.Window.html#tower_blocks_Window_windowPtr
+  commentId: P:tower_blocks.Window.windowPtr
+  fullName: tower_blocks.Window.windowPtr
+  nameWithType: Window.windowPtr
+- uid: tower_blocks.Window.windowPtr*
+  name: windowPtr
+  href: api/tower_blocks.Window.html#tower_blocks_Window_windowPtr_
+  commentId: Overload:tower_blocks.Window.windowPtr
+  isSpec: "True"
+  fullName: tower_blocks.Window.windowPtr
+  nameWithType: Window.windowPtr

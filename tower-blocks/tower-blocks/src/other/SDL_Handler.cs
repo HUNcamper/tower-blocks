@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SDL2;
+using Scenes;
 
 namespace tower_blocks
 {
@@ -12,7 +13,7 @@ namespace tower_blocks
     /// </summary>
     public class SDL_Handler
     {
-        private List<IntPtr> window_list = new List<IntPtr>();
+        private List<Window> window_list = new List<Window>();
 
         /// <summary>
         /// Is the SDL handler done
@@ -49,17 +50,9 @@ namespace tower_blocks
         /// <param name="w_v_windowpos">Window's vertical position</param>
         /// <param name="w_windowflags">Window's flags</param>
         /// <returns>Created window</returns>
-        public IntPtr CreateWindow(string w_title, int w_width, int w_height, int w_h_windowpos = SDL.SDL_WINDOWPOS_CENTERED, int w_v_windowpos = SDL.SDL_WINDOWPOS_CENTERED, SDL.SDL_WindowFlags w_windowflags = SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE)
+        public Window CreateWindow(string w_title, int w_width, int w_height, int w_h_windowpos = SDL.SDL_WINDOWPOS_CENTERED, int w_v_windowpos = SDL.SDL_WINDOWPOS_CENTERED, SDL.SDL_WindowFlags w_windowflags = SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE)
         {
-            IntPtr window = IntPtr.Zero;
-
-            window = SDL.SDL_CreateWindow(w_title,
-                w_h_windowpos,
-                w_v_windowpos,
-                w_width,
-                w_height,
-                SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE
-            );
+            Window window = new Window(w_title, w_width, w_height, w_h_windowpos, w_v_windowpos, w_windowflags);
 
             window_list.Add(window);
 
@@ -69,21 +62,11 @@ namespace tower_blocks
         /// <summary>
         /// Destroy a given window
         /// </summary>
-        /// <param name="window">window's pointer</param>
-        public void DestroyWindow(IntPtr window)
+        /// <param name="window">Given window</param>
+        public void DestroyWindow(Window window)
         {
-            SDL.SDL_DestroyWindow(window);
+            window.Destroy();
             window_list.Remove(window);
-        }
-
-        /// <summary>
-        /// Destroy a given window
-        /// </summary>
-        /// <param name="windowID">window's ID</param>
-        public void DestroyWindow(uint windowID)
-        {
-            IntPtr window = SDL.SDL_GetWindowFromID(windowID);
-            DestroyWindow(window);
         }
 
         /// <summary>
@@ -106,14 +89,24 @@ namespace tower_blocks
         {
             if (e.type == SDL.SDL_EventType.SDL_WINDOWEVENT)
             {
-                switch (e.window.windowEvent)
+                foreach (Window window in window_list)
                 {
-                    // Close window when X is pressed
-                    case SDL.SDL_WindowEventID.SDL_WINDOWEVENT_CLOSE:
-                        DestroyWindow(e.window.windowID);
-                        break;
+                    window.HandleEvent(e);
                 }
             }
+        }
+
+        /// <summary>
+        /// Draws a scene
+        /// </summary>
+        /// <param name="scene">Scene to draw</param>
+        public void DrawScene(IScene scene)
+        {
+            SDL.SDL_RenderClear(scene.window.renderer);
+
+            scene.DrawScene();
+
+            SDL.SDL_RenderPresent(scene.window.renderer);
         }
     }
 }
