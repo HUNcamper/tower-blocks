@@ -72,7 +72,7 @@
           "hash": "ZnAxw4qSnYNuRuBfSkD6Fw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "WlM1coN70wHsV01pgyzyeg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.MenuButton.html",
-          "hash": "ZRsfyB6IprBV2gZXzaMmEg=="
+          "hash": "wGeJUkxt2s4ALlxSdlOVKw=="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,7 @@
           "hash": "QrFgs/X2BSRH+zHnVFZWrw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "BaVtdp1jUQTBsO8PfhRABA=="
+          "hash": "l+Px2Dj4JIden8CBzslAWQ=="
         }
       },
       "is_incremental": false,
@@ -156,7 +156,19 @@
           "hash": "vcOPUqrEbWLeOgmnPbCGlw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/tower_blocks.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/tower_blocks.Text.html",
+          "hash": "227p4246Sa8JYME5oYxg/A=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.html",
-          "hash": "P22aQ7ZjW+zb8W/teY8EUA=="
+          "hash": "bgMK/rhcj9CZvYbty8iWUQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -215,8 +227,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 5
+          "total_file_count": 10,
+          "skipped_file_count": 9
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,

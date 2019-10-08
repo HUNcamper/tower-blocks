@@ -142,12 +142,12 @@ references:
   commentId: T:Scenes.MenuButton
   fullName: Scenes.MenuButton
   nameWithType: MenuButton
-- uid: Scenes.MenuButton.#ctor(Scenes.IScene,System.String,System.String,System.Int32)
-  name: MenuButton(IScene, String, String, Int32)
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_Scenes_IScene_System_String_System_String_System_Int32_
-  commentId: M:Scenes.MenuButton.#ctor(Scenes.IScene,System.String,System.String,System.Int32)
-  fullName: Scenes.MenuButton.MenuButton(Scenes.IScene, System.String, System.String, System.Int32)
-  nameWithType: MenuButton.MenuButton(IScene, String, String, Int32)
+- uid: Scenes.MenuButton.#ctor(Scenes.IScene,System.String)
+  name: MenuButton(IScene, String)
+  href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_Scenes_IScene_System_String_
+  commentId: M:Scenes.MenuButton.#ctor(Scenes.IScene,System.String)
+  fullName: Scenes.MenuButton.MenuButton(Scenes.IScene, System.String)
+  nameWithType: MenuButton.MenuButton(IScene, String)
 - uid: Scenes.MenuButton.#ctor*
   name: MenuButton
   href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_
@@ -168,45 +168,6 @@ references:
   isSpec: "True"
   fullName: Scenes.MenuButton.DrawElement
   nameWithType: MenuButton.DrawElement
-- uid: Scenes.MenuButton.fontcolor
-  name: fontcolor
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_fontcolor
-  commentId: P:Scenes.MenuButton.fontcolor
-  fullName: Scenes.MenuButton.fontcolor
-  nameWithType: MenuButton.fontcolor
-- uid: Scenes.MenuButton.fontcolor*
-  name: fontcolor
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_fontcolor_
-  commentId: Overload:Scenes.MenuButton.fontcolor
-  isSpec: "True"
-  fullName: Scenes.MenuButton.fontcolor
-  nameWithType: MenuButton.fontcolor
-- uid: Scenes.MenuButton.fontname
-  name: fontname
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_fontname
-  commentId: P:Scenes.MenuButton.fontname
-  fullName: Scenes.MenuButton.fontname
-  nameWithType: MenuButton.fontname
-- uid: Scenes.MenuButton.fontname*
-  name: fontname
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_fontname_
-  commentId: Overload:Scenes.MenuButton.fontname
-  isSpec: "True"
-  fullName: Scenes.MenuButton.fontname
-  nameWithType: MenuButton.fontname
-- uid: Scenes.MenuButton.fontsize
-  name: fontsize
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_fontsize
-  commentId: P:Scenes.MenuButton.fontsize
-  fullName: Scenes.MenuButton.fontsize
-  nameWithType: MenuButton.fontsize
-- uid: Scenes.MenuButton.fontsize*
-  name: fontsize
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_fontsize_
-  commentId: Overload:Scenes.MenuButton.fontsize
-  isSpec: "True"
-  fullName: Scenes.MenuButton.fontsize
-  nameWithType: MenuButton.fontsize
 - uid: Scenes.MenuButton.HandleEvent(SDL2.SDL.SDL_Event)
   name: HandleEvent(SDL.SDL_Event)
   href: api/Scenes.MenuButton.html#Scenes_MenuButton_HandleEvent_SDL2_SDL_SDL_Event_
@@ -494,6 +455,155 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.Update
   nameWithType: SDL_Handler.Update
+- uid: tower_blocks.Text
+  name: Text
+  href: api/tower_blocks.Text.html
+  commentId: T:tower_blocks.Text
+  fullName: tower_blocks.Text
+  nameWithType: Text
+- uid: tower_blocks.Text.#ctor(Scenes.ISceneElement,System.String)
+  name: Text(ISceneElement, String)
+  href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_Scenes_ISceneElement_System_String_
+  commentId: M:tower_blocks.Text.#ctor(Scenes.ISceneElement,System.String)
+  fullName: tower_blocks.Text.Text(Scenes.ISceneElement, System.String)
+  nameWithType: Text.Text(ISceneElement, String)
+- uid: tower_blocks.Text.#ctor*
+  name: Text
+  href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_
+  commentId: Overload:tower_blocks.Text.#ctor
+  isSpec: "True"
+  fullName: tower_blocks.Text.Text
+  nameWithType: Text.Text
+- uid: tower_blocks.Text.Draw
+  name: Draw()
+  href: api/tower_blocks.Text.html#tower_blocks_Text_Draw
+  commentId: M:tower_blocks.Text.Draw
+  fullName: tower_blocks.Text.Draw()
+  nameWithType: Text.Draw()
+- uid: tower_blocks.Text.Draw*
+  name: Draw
+  href: api/tower_blocks.Text.html#tower_blocks_Text_Draw_
+  commentId: Overload:tower_blocks.Text.Draw
+  isSpec: "True"
+  fullName: tower_blocks.Text.Draw
+  nameWithType: Text.Draw
+- uid: tower_blocks.Text.element
+  name: element
+  href: api/tower_blocks.Text.html#tower_blocks_Text_element
+  commentId: P:tower_blocks.Text.element
+  fullName: tower_blocks.Text.element
+  nameWithType: Text.element
+- uid: tower_blocks.Text.element*
+  name: element
+  href: api/tower_blocks.Text.html#tower_blocks_Text_element_
+  commentId: Overload:tower_blocks.Text.element
+  isSpec: "True"
+  fullName: tower_blocks.Text.element
+  nameWithType: Text.element
+- uid: tower_blocks.Text.fontcolor
+  name: fontcolor
+  href: api/tower_blocks.Text.html#tower_blocks_Text_fontcolor
+  commentId: P:tower_blocks.Text.fontcolor
+  fullName: tower_blocks.Text.fontcolor
+  nameWithType: Text.fontcolor
+- uid: tower_blocks.Text.fontcolor*
+  name: fontcolor
+  href: api/tower_blocks.Text.html#tower_blocks_Text_fontcolor_
+  commentId: Overload:tower_blocks.Text.fontcolor
+  isSpec: "True"
+  fullName: tower_blocks.Text.fontcolor
+  nameWithType: Text.fontcolor
+- uid: tower_blocks.Text.fontname
+  name: fontname
+  href: api/tower_blocks.Text.html#tower_blocks_Text_fontname
+  commentId: P:tower_blocks.Text.fontname
+  fullName: tower_blocks.Text.fontname
+  nameWithType: Text.fontname
+- uid: tower_blocks.Text.fontname*
+  name: fontname
+  href: api/tower_blocks.Text.html#tower_blocks_Text_fontname_
+  commentId: Overload:tower_blocks.Text.fontname
+  isSpec: "True"
+  fullName: tower_blocks.Text.fontname
+  nameWithType: Text.fontname
+- uid: tower_blocks.Text.fontsize
+  name: fontsize
+  href: api/tower_blocks.Text.html#tower_blocks_Text_fontsize
+  commentId: P:tower_blocks.Text.fontsize
+  fullName: tower_blocks.Text.fontsize
+  nameWithType: Text.fontsize
+- uid: tower_blocks.Text.fontsize*
+  name: fontsize
+  href: api/tower_blocks.Text.html#tower_blocks_Text_fontsize_
+  commentId: Overload:tower_blocks.Text.fontsize
+  isSpec: "True"
+  fullName: tower_blocks.Text.fontsize
+  nameWithType: Text.fontsize
+- uid: tower_blocks.Text.height
+  name: height
+  href: api/tower_blocks.Text.html#tower_blocks_Text_height
+  commentId: P:tower_blocks.Text.height
+  fullName: tower_blocks.Text.height
+  nameWithType: Text.height
+- uid: tower_blocks.Text.height*
+  name: height
+  href: api/tower_blocks.Text.html#tower_blocks_Text_height_
+  commentId: Overload:tower_blocks.Text.height
+  isSpec: "True"
+  fullName: tower_blocks.Text.height
+  nameWithType: Text.height
+- uid: tower_blocks.Text.text
+  name: text
+  href: api/tower_blocks.Text.html#tower_blocks_Text_text
+  commentId: P:tower_blocks.Text.text
+  fullName: tower_blocks.Text.text
+  nameWithType: Text.text
+- uid: tower_blocks.Text.text*
+  name: text
+  href: api/tower_blocks.Text.html#tower_blocks_Text_text_
+  commentId: Overload:tower_blocks.Text.text
+  isSpec: "True"
+  fullName: tower_blocks.Text.text
+  nameWithType: Text.text
+- uid: tower_blocks.Text.width
+  name: width
+  href: api/tower_blocks.Text.html#tower_blocks_Text_width
+  commentId: P:tower_blocks.Text.width
+  fullName: tower_blocks.Text.width
+  nameWithType: Text.width
+- uid: tower_blocks.Text.width*
+  name: width
+  href: api/tower_blocks.Text.html#tower_blocks_Text_width_
+  commentId: Overload:tower_blocks.Text.width
+  isSpec: "True"
+  fullName: tower_blocks.Text.width
+  nameWithType: Text.width
+- uid: tower_blocks.Text.x
+  name: x
+  href: api/tower_blocks.Text.html#tower_blocks_Text_x
+  commentId: P:tower_blocks.Text.x
+  fullName: tower_blocks.Text.x
+  nameWithType: Text.x
+- uid: tower_blocks.Text.x*
+  name: x
+  href: api/tower_blocks.Text.html#tower_blocks_Text_x_
+  commentId: Overload:tower_blocks.Text.x
+  isSpec: "True"
+  fullName: tower_blocks.Text.x
+  nameWithType: Text.x
+- uid: tower_blocks.Text.y
+  name: y
+  href: api/tower_blocks.Text.html#tower_blocks_Text_y
+  commentId: P:tower_blocks.Text.y
+  fullName: tower_blocks.Text.y
+  nameWithType: Text.y
+- uid: tower_blocks.Text.y*
+  name: y
+  href: api/tower_blocks.Text.html#tower_blocks_Text_y_
+  commentId: Overload:tower_blocks.Text.y
+  isSpec: "True"
+  fullName: tower_blocks.Text.y
+  nameWithType: Text.y
 - uid: tower_blocks.Window
   name: Window
   href: api/tower_blocks.Window.html

@@ -34,8 +34,13 @@ namespace Scenes
         void DrawElement();
 
         /// <summary>
-        /// Handles events
+        /// Handles events and passes it on to the correct method
         /// </summary>
         void HandleEvent(SDL.SDL_Event e);
+
+        void OnHover(SDL.SDL_Event e)
+        {
+
+        }
     }
 }
