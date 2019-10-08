@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Scenes;
 using SDL2;
 
 namespace tower_blocks
@@ -21,6 +22,11 @@ namespace tower_blocks
         /// Pointer of the renderer
         /// </summary>
         public IntPtr renderer { get; set; }
+
+        /// <summary>
+        /// Scene
+        /// </summary>
+        public Scene scene { get; set; }
 
         /// <summary>
         /// Creates an SDL2 window

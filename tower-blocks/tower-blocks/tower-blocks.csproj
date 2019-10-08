@@ -71,12 +71,12 @@
   <ItemGroup>
     <Compile Include="src\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\scenes\ISceneElement.cs" />
     <Compile Include="src\scenes\MenuButton.cs" />
     <Compile Include="src\other\Text.cs" />
     <Compile Include="src\other\Window.cs" />
-    <Compile Include="src\scenes\IScene.cs" />
     <Compile Include="src\other\SDL_Handler.cs" />
+    <Compile Include="src\scenes\Scene.cs" />
+    <Compile Include="src\scenes\SceneElement.cs" />
     <Compile Include="src\scenes\Scene_MainMenu.cs" />
     <Compile Include="src\SDL2-wrapper\SDL2.cs" />
     <Compile Include="src\SDL2-wrapper\SDL2_image.cs" />

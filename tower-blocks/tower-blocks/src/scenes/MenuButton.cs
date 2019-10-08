@@ -21,7 +21,7 @@ namespace Scenes
         /// <param name="_text">Text to display</param>
         /// <param name="_fontsize">Font size</param>
         /// <param name="_fontcolor">Font size</param>
-        public MenuButton(IScene _scene, string _text)
+        public MenuButton(Scene _scene, string _text)
         {
             scene = _scene;
             text = _text;
@@ -30,11 +30,14 @@ namespace Scenes
         /// <summary>
         /// Draws the element on the scene it's on
         /// </summary>
-        public new void DrawElement()
+        public override void Draw()
         {
             Text text_handler = new Text(this, text);
 
             text_handler.Draw();
+
+            this.width = text_handler.width;
+            this.height = text_handler.height;
 
             SDL.SDL_Rect rect;
             rect.x = text_handler.x;
@@ -44,6 +47,11 @@ namespace Scenes
 
             SDL.SDL_SetRenderDrawColor(scene.window.renderer, 255, 255, 255, 255);
             SDL.SDL_RenderDrawRect(scene.window.renderer, ref rect);
+        }
+
+        public override void OnHover(SDL.SDL_Event e)
+        {
+            Console.WriteLine("Hover!");
         }
     }
 }

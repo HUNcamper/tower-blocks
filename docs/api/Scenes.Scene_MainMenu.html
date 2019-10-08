@@ -79,14 +79,23 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Scene_MainMenu</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Scenes.IScene.html">IScene</a></div>
+    <div class="level1"><a class="xref" href="Scenes.Scene.html">Scene</a></div>
+    <div class="level2"><span class="xref">Scene_MainMenu</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Scenes.Scene.html#Scenes_Scene_window">Scene.window</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.Scene.html#Scenes_Scene_element_list">Scene.element_list</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.Scene.html#Scenes_Scene_UpdateScene">Scene.UpdateScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.Scene.html#Scenes_Scene_HandleEvent_SDL2_SDL_SDL_Event_">Scene.HandleEvent(SDL.SDL_Event)</a>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -113,7 +122,7 @@
   <h6><strong>Assembly</strong>: tower-blocks.dll</h6>
   <h5 id="Scenes_Scene_MainMenu_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Scene_MainMenu : IScene</code></pre>
+    <pre><code class="lang-csharp hljs">public class Scene_MainMenu : Scene</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -122,7 +131,7 @@
     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Scene_MainMenu__ctor_tower_blocks_Window_.md&amp;value=---%0Auid%3A%20Scenes.Scene_MainMenu.%23ctor(tower_blocks.Window)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L31">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L20">View Source</a>
   </span>
   <a id="Scenes_Scene_MainMenu__ctor_" data-uid="Scenes.Scene_MainMenu.#ctor*"></a>
   <h4 id="Scenes_Scene_MainMenu__ctor_tower_blocks_Window_" data-uid="Scenes.Scene_MainMenu.#ctor(tower_blocks.Window)">Scene_MainMenu(Window)</h4>
@@ -151,39 +160,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Scene_MainMenu_window.md&amp;value=---%0Auid%3A%20Scenes.Scene_MainMenu.window%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L19">View Source</a>
-  </span>
-  <a id="Scenes_Scene_MainMenu_window_" data-uid="Scenes.Scene_MainMenu.window*"></a>
-  <h4 id="Scenes_Scene_MainMenu_window" data-uid="Scenes.Scene_MainMenu.window">window</h4>
-  <div class="markdown level1 summary"><p>Window to load the scene in</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Window window { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="tower_blocks.Window.html">Window</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -191,7 +167,7 @@
     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Scene_MainMenu_DrawScene.md&amp;value=---%0Auid%3A%20Scenes.Scene_MainMenu.DrawScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L57">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L37">View Source</a>
   </span>
   <a id="Scenes_Scene_MainMenu_DrawScene_" data-uid="Scenes.Scene_MainMenu.DrawScene*"></a>
   <h4 id="Scenes_Scene_MainMenu_DrawScene" data-uid="Scenes.Scene_MainMenu.DrawScene">DrawScene()</h4>
@@ -200,14 +176,16 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DrawScene()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void DrawScene()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Scenes.Scene.html#Scenes_Scene_DrawScene">Scene.DrawScene()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Scene_MainMenu_HandleScene.md&amp;value=---%0Auid%3A%20Scenes.Scene_MainMenu.HandleScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L49">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L29">View Source</a>
   </span>
   <a id="Scenes_Scene_MainMenu_HandleScene_" data-uid="Scenes.Scene_MainMenu.HandleScene*"></a>
   <h4 id="Scenes_Scene_MainMenu_HandleScene" data-uid="Scenes.Scene_MainMenu.HandleScene">HandleScene()</h4>
@@ -216,28 +194,46 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandleScene()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void HandleScene()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Scenes.Scene.html#Scenes_Scene_HandleScene">Scene.HandleScene()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Scene_MainMenu_UpdateScene.md&amp;value=---%0Auid%3A%20Scenes.Scene_MainMenu.UpdateScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Scene_MainMenu_OnHandleEvent_SDL2_SDL_SDL_Event_.md&amp;value=---%0Auid%3A%20Scenes.Scene_MainMenu.OnHandleEvent(SDL2.SDL.SDL_Event)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L40">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/Scene_MainMenu.cs/#L51">View Source</a>
   </span>
-  <a id="Scenes_Scene_MainMenu_UpdateScene_" data-uid="Scenes.Scene_MainMenu.UpdateScene*"></a>
-  <h4 id="Scenes_Scene_MainMenu_UpdateScene" data-uid="Scenes.Scene_MainMenu.UpdateScene">UpdateScene()</h4>
-  <div class="markdown level1 summary"><p>Updates the scene</p>
+  <a id="Scenes_Scene_MainMenu_OnHandleEvent_" data-uid="Scenes.Scene_MainMenu.OnHandleEvent*"></a>
+  <h4 id="Scenes_Scene_MainMenu_OnHandleEvent_SDL2_SDL_SDL_Event_" data-uid="Scenes.Scene_MainMenu.OnHandleEvent(SDL2.SDL.SDL_Event)">OnHandleEvent(SDL.SDL_Event)</h4>
+  <div class="markdown level1 summary"><p>Handles events</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateScene()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnHandleEvent(SDL.SDL_Event e)</code></pre>
   </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Scenes.IScene.html">IScene</a>
-  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SDL2.SDL.SDL_Event</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Scenes.Scene.html#Scenes_Scene_OnHandleEvent_SDL2_SDL_SDL_Event_">Scene.OnHandleEvent(SDL.SDL_Event)</a></div>
 </article>
           </div>
           

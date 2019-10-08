@@ -16,7 +16,7 @@ namespace tower_blocks
         /// <summary>
         /// Scene element handling this text
         /// </summary>
-        public ISceneElement element { get; set; }
+        public SceneElement element { get; set; }
 
         /// <summary>
         /// Text to display
@@ -57,7 +57,7 @@ namespace tower_blocks
         /// </summary>
         /// <param name="_element">Parent element</param>
         /// <param name="_text">Text to display</param>
-        public Text(ISceneElement _element, string _text)
+        public Text(SceneElement _element, string _text)
         {
             element = _element;
             text = _text;

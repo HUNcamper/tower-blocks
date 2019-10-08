@@ -7,147 +7,18 @@ references:
   commentId: N:Scenes
   fullName: Scenes
   nameWithType: Scenes
-- uid: Scenes.IScene
-  name: IScene
-  href: api/Scenes.IScene.html
-  commentId: T:Scenes.IScene
-  fullName: Scenes.IScene
-  nameWithType: IScene
-- uid: Scenes.IScene.DrawScene
-  name: DrawScene()
-  href: api/Scenes.IScene.html#Scenes_IScene_DrawScene
-  commentId: M:Scenes.IScene.DrawScene
-  fullName: Scenes.IScene.DrawScene()
-  nameWithType: IScene.DrawScene()
-- uid: Scenes.IScene.DrawScene*
-  name: DrawScene
-  href: api/Scenes.IScene.html#Scenes_IScene_DrawScene_
-  commentId: Overload:Scenes.IScene.DrawScene
-  isSpec: "True"
-  fullName: Scenes.IScene.DrawScene
-  nameWithType: IScene.DrawScene
-- uid: Scenes.IScene.HandleScene
-  name: HandleScene()
-  href: api/Scenes.IScene.html#Scenes_IScene_HandleScene
-  commentId: M:Scenes.IScene.HandleScene
-  fullName: Scenes.IScene.HandleScene()
-  nameWithType: IScene.HandleScene()
-- uid: Scenes.IScene.HandleScene*
-  name: HandleScene
-  href: api/Scenes.IScene.html#Scenes_IScene_HandleScene_
-  commentId: Overload:Scenes.IScene.HandleScene
-  isSpec: "True"
-  fullName: Scenes.IScene.HandleScene
-  nameWithType: IScene.HandleScene
-- uid: Scenes.IScene.UpdateScene
-  name: UpdateScene()
-  href: api/Scenes.IScene.html#Scenes_IScene_UpdateScene
-  commentId: M:Scenes.IScene.UpdateScene
-  fullName: Scenes.IScene.UpdateScene()
-  nameWithType: IScene.UpdateScene()
-- uid: Scenes.IScene.UpdateScene*
-  name: UpdateScene
-  href: api/Scenes.IScene.html#Scenes_IScene_UpdateScene_
-  commentId: Overload:Scenes.IScene.UpdateScene
-  isSpec: "True"
-  fullName: Scenes.IScene.UpdateScene
-  nameWithType: IScene.UpdateScene
-- uid: Scenes.IScene.window
-  name: window
-  href: api/Scenes.IScene.html#Scenes_IScene_window
-  commentId: P:Scenes.IScene.window
-  fullName: Scenes.IScene.window
-  nameWithType: IScene.window
-- uid: Scenes.IScene.window*
-  name: window
-  href: api/Scenes.IScene.html#Scenes_IScene_window_
-  commentId: Overload:Scenes.IScene.window
-  isSpec: "True"
-  fullName: Scenes.IScene.window
-  nameWithType: IScene.window
-- uid: Scenes.ISceneElement
-  name: ISceneElement
-  href: api/Scenes.ISceneElement.html
-  commentId: T:Scenes.ISceneElement
-  fullName: Scenes.ISceneElement
-  nameWithType: ISceneElement
-- uid: Scenes.ISceneElement.DrawElement
-  name: DrawElement()
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_DrawElement
-  commentId: M:Scenes.ISceneElement.DrawElement
-  fullName: Scenes.ISceneElement.DrawElement()
-  nameWithType: ISceneElement.DrawElement()
-- uid: Scenes.ISceneElement.DrawElement*
-  name: DrawElement
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_DrawElement_
-  commentId: Overload:Scenes.ISceneElement.DrawElement
-  isSpec: "True"
-  fullName: Scenes.ISceneElement.DrawElement
-  nameWithType: ISceneElement.DrawElement
-- uid: Scenes.ISceneElement.HandleEvent(SDL2.SDL.SDL_Event)
-  name: HandleEvent(SDL.SDL_Event)
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_HandleEvent_SDL2_SDL_SDL_Event_
-  commentId: M:Scenes.ISceneElement.HandleEvent(SDL2.SDL.SDL_Event)
-  fullName: Scenes.ISceneElement.HandleEvent(SDL2.SDL.SDL_Event)
-  nameWithType: ISceneElement.HandleEvent(SDL.SDL_Event)
-- uid: Scenes.ISceneElement.HandleEvent*
-  name: HandleEvent
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_HandleEvent_
-  commentId: Overload:Scenes.ISceneElement.HandleEvent
-  isSpec: "True"
-  fullName: Scenes.ISceneElement.HandleEvent
-  nameWithType: ISceneElement.HandleEvent
-- uid: Scenes.ISceneElement.scene
-  name: scene
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_scene
-  commentId: P:Scenes.ISceneElement.scene
-  fullName: Scenes.ISceneElement.scene
-  nameWithType: ISceneElement.scene
-- uid: Scenes.ISceneElement.scene*
-  name: scene
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_scene_
-  commentId: Overload:Scenes.ISceneElement.scene
-  isSpec: "True"
-  fullName: Scenes.ISceneElement.scene
-  nameWithType: ISceneElement.scene
-- uid: Scenes.ISceneElement.x
-  name: x
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_x
-  commentId: P:Scenes.ISceneElement.x
-  fullName: Scenes.ISceneElement.x
-  nameWithType: ISceneElement.x
-- uid: Scenes.ISceneElement.x*
-  name: x
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_x_
-  commentId: Overload:Scenes.ISceneElement.x
-  isSpec: "True"
-  fullName: Scenes.ISceneElement.x
-  nameWithType: ISceneElement.x
-- uid: Scenes.ISceneElement.y
-  name: y
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_y
-  commentId: P:Scenes.ISceneElement.y
-  fullName: Scenes.ISceneElement.y
-  nameWithType: ISceneElement.y
-- uid: Scenes.ISceneElement.y*
-  name: y
-  href: api/Scenes.ISceneElement.html#Scenes_ISceneElement_y_
-  commentId: Overload:Scenes.ISceneElement.y
-  isSpec: "True"
-  fullName: Scenes.ISceneElement.y
-  nameWithType: ISceneElement.y
 - uid: Scenes.MenuButton
   name: MenuButton
   href: api/Scenes.MenuButton.html
   commentId: T:Scenes.MenuButton
   fullName: Scenes.MenuButton
   nameWithType: MenuButton
-- uid: Scenes.MenuButton.#ctor(Scenes.IScene,System.String)
-  name: MenuButton(IScene, String)
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_Scenes_IScene_System_String_
-  commentId: M:Scenes.MenuButton.#ctor(Scenes.IScene,System.String)
-  fullName: Scenes.MenuButton.MenuButton(Scenes.IScene, System.String)
-  nameWithType: MenuButton.MenuButton(IScene, String)
+- uid: Scenes.MenuButton.#ctor(Scenes.Scene,System.String)
+  name: MenuButton(Scene, String)
+  href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_Scenes_Scene_System_String_
+  commentId: M:Scenes.MenuButton.#ctor(Scenes.Scene,System.String)
+  fullName: Scenes.MenuButton.MenuButton(Scenes.Scene, System.String)
+  nameWithType: MenuButton.MenuButton(Scene, String)
 - uid: Scenes.MenuButton.#ctor*
   name: MenuButton
   href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_
@@ -155,84 +26,142 @@ references:
   isSpec: "True"
   fullName: Scenes.MenuButton.MenuButton
   nameWithType: MenuButton.MenuButton
-- uid: Scenes.MenuButton.DrawElement
-  name: DrawElement()
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_DrawElement
-  commentId: M:Scenes.MenuButton.DrawElement
-  fullName: Scenes.MenuButton.DrawElement()
-  nameWithType: MenuButton.DrawElement()
-- uid: Scenes.MenuButton.DrawElement*
-  name: DrawElement
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_DrawElement_
-  commentId: Overload:Scenes.MenuButton.DrawElement
+- uid: Scenes.MenuButton.Draw
+  name: Draw()
+  href: api/Scenes.MenuButton.html#Scenes_MenuButton_Draw
+  commentId: M:Scenes.MenuButton.Draw
+  fullName: Scenes.MenuButton.Draw()
+  nameWithType: MenuButton.Draw()
+- uid: Scenes.MenuButton.Draw*
+  name: Draw
+  href: api/Scenes.MenuButton.html#Scenes_MenuButton_Draw_
+  commentId: Overload:Scenes.MenuButton.Draw
   isSpec: "True"
-  fullName: Scenes.MenuButton.DrawElement
-  nameWithType: MenuButton.DrawElement
-- uid: Scenes.MenuButton.HandleEvent(SDL2.SDL.SDL_Event)
+  fullName: Scenes.MenuButton.Draw
+  nameWithType: MenuButton.Draw
+- uid: Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  name: OnHover(SDL.SDL_Event)
+  href: api/Scenes.MenuButton.html#Scenes_MenuButton_OnHover_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  fullName: Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  nameWithType: MenuButton.OnHover(SDL.SDL_Event)
+- uid: Scenes.MenuButton.OnHover*
+  name: OnHover
+  href: api/Scenes.MenuButton.html#Scenes_MenuButton_OnHover_
+  commentId: Overload:Scenes.MenuButton.OnHover
+  isSpec: "True"
+  fullName: Scenes.MenuButton.OnHover
+  nameWithType: MenuButton.OnHover
+- uid: Scenes.Scene
+  name: Scene
+  href: api/Scenes.Scene.html
+  commentId: T:Scenes.Scene
+  fullName: Scenes.Scene
+  nameWithType: Scene
+- uid: Scenes.Scene.#ctor(tower_blocks.Window)
+  name: Scene(Window)
+  href: api/Scenes.Scene.html#Scenes_Scene__ctor_tower_blocks_Window_
+  commentId: M:Scenes.Scene.#ctor(tower_blocks.Window)
+  fullName: Scenes.Scene.Scene(tower_blocks.Window)
+  nameWithType: Scene.Scene(Window)
+- uid: Scenes.Scene.#ctor*
+  name: Scene
+  href: api/Scenes.Scene.html#Scenes_Scene__ctor_
+  commentId: Overload:Scenes.Scene.#ctor
+  isSpec: "True"
+  fullName: Scenes.Scene.Scene
+  nameWithType: Scene.Scene
+- uid: Scenes.Scene.DrawScene
+  name: DrawScene()
+  href: api/Scenes.Scene.html#Scenes_Scene_DrawScene
+  commentId: M:Scenes.Scene.DrawScene
+  fullName: Scenes.Scene.DrawScene()
+  nameWithType: Scene.DrawScene()
+- uid: Scenes.Scene.DrawScene*
+  name: DrawScene
+  href: api/Scenes.Scene.html#Scenes_Scene_DrawScene_
+  commentId: Overload:Scenes.Scene.DrawScene
+  isSpec: "True"
+  fullName: Scenes.Scene.DrawScene
+  nameWithType: Scene.DrawScene
+- uid: Scenes.Scene.element_list
+  name: element_list
+  href: api/Scenes.Scene.html#Scenes_Scene_element_list
+  commentId: P:Scenes.Scene.element_list
+  fullName: Scenes.Scene.element_list
+  nameWithType: Scene.element_list
+- uid: Scenes.Scene.element_list*
+  name: element_list
+  href: api/Scenes.Scene.html#Scenes_Scene_element_list_
+  commentId: Overload:Scenes.Scene.element_list
+  isSpec: "True"
+  fullName: Scenes.Scene.element_list
+  nameWithType: Scene.element_list
+- uid: Scenes.Scene.HandleEvent(SDL2.SDL.SDL_Event)
   name: HandleEvent(SDL.SDL_Event)
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_HandleEvent_SDL2_SDL_SDL_Event_
-  commentId: M:Scenes.MenuButton.HandleEvent(SDL2.SDL.SDL_Event)
-  fullName: Scenes.MenuButton.HandleEvent(SDL2.SDL.SDL_Event)
-  nameWithType: MenuButton.HandleEvent(SDL.SDL_Event)
-- uid: Scenes.MenuButton.HandleEvent*
+  href: api/Scenes.Scene.html#Scenes_Scene_HandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.Scene.HandleEvent(SDL2.SDL.SDL_Event)
+  fullName: Scenes.Scene.HandleEvent(SDL2.SDL.SDL_Event)
+  nameWithType: Scene.HandleEvent(SDL.SDL_Event)
+- uid: Scenes.Scene.HandleEvent*
   name: HandleEvent
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_HandleEvent_
-  commentId: Overload:Scenes.MenuButton.HandleEvent
+  href: api/Scenes.Scene.html#Scenes_Scene_HandleEvent_
+  commentId: Overload:Scenes.Scene.HandleEvent
   isSpec: "True"
-  fullName: Scenes.MenuButton.HandleEvent
-  nameWithType: MenuButton.HandleEvent
-- uid: Scenes.MenuButton.scene
-  name: scene
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_scene
-  commentId: P:Scenes.MenuButton.scene
-  fullName: Scenes.MenuButton.scene
-  nameWithType: MenuButton.scene
-- uid: Scenes.MenuButton.scene*
-  name: scene
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_scene_
-  commentId: Overload:Scenes.MenuButton.scene
+  fullName: Scenes.Scene.HandleEvent
+  nameWithType: Scene.HandleEvent
+- uid: Scenes.Scene.HandleScene
+  name: HandleScene()
+  href: api/Scenes.Scene.html#Scenes_Scene_HandleScene
+  commentId: M:Scenes.Scene.HandleScene
+  fullName: Scenes.Scene.HandleScene()
+  nameWithType: Scene.HandleScene()
+- uid: Scenes.Scene.HandleScene*
+  name: HandleScene
+  href: api/Scenes.Scene.html#Scenes_Scene_HandleScene_
+  commentId: Overload:Scenes.Scene.HandleScene
   isSpec: "True"
-  fullName: Scenes.MenuButton.scene
-  nameWithType: MenuButton.scene
-- uid: Scenes.MenuButton.text
-  name: text
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_text
-  commentId: P:Scenes.MenuButton.text
-  fullName: Scenes.MenuButton.text
-  nameWithType: MenuButton.text
-- uid: Scenes.MenuButton.text*
-  name: text
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_text_
-  commentId: Overload:Scenes.MenuButton.text
+  fullName: Scenes.Scene.HandleScene
+  nameWithType: Scene.HandleScene
+- uid: Scenes.Scene.OnHandleEvent(SDL2.SDL.SDL_Event)
+  name: OnHandleEvent(SDL.SDL_Event)
+  href: api/Scenes.Scene.html#Scenes_Scene_OnHandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.Scene.OnHandleEvent(SDL2.SDL.SDL_Event)
+  fullName: Scenes.Scene.OnHandleEvent(SDL2.SDL.SDL_Event)
+  nameWithType: Scene.OnHandleEvent(SDL.SDL_Event)
+- uid: Scenes.Scene.OnHandleEvent*
+  name: OnHandleEvent
+  href: api/Scenes.Scene.html#Scenes_Scene_OnHandleEvent_
+  commentId: Overload:Scenes.Scene.OnHandleEvent
   isSpec: "True"
-  fullName: Scenes.MenuButton.text
-  nameWithType: MenuButton.text
-- uid: Scenes.MenuButton.x
-  name: x
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_x
-  commentId: P:Scenes.MenuButton.x
-  fullName: Scenes.MenuButton.x
-  nameWithType: MenuButton.x
-- uid: Scenes.MenuButton.x*
-  name: x
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_x_
-  commentId: Overload:Scenes.MenuButton.x
+  fullName: Scenes.Scene.OnHandleEvent
+  nameWithType: Scene.OnHandleEvent
+- uid: Scenes.Scene.UpdateScene
+  name: UpdateScene()
+  href: api/Scenes.Scene.html#Scenes_Scene_UpdateScene
+  commentId: M:Scenes.Scene.UpdateScene
+  fullName: Scenes.Scene.UpdateScene()
+  nameWithType: Scene.UpdateScene()
+- uid: Scenes.Scene.UpdateScene*
+  name: UpdateScene
+  href: api/Scenes.Scene.html#Scenes_Scene_UpdateScene_
+  commentId: Overload:Scenes.Scene.UpdateScene
   isSpec: "True"
-  fullName: Scenes.MenuButton.x
-  nameWithType: MenuButton.x
-- uid: Scenes.MenuButton.y
-  name: y
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_y
-  commentId: P:Scenes.MenuButton.y
-  fullName: Scenes.MenuButton.y
-  nameWithType: MenuButton.y
-- uid: Scenes.MenuButton.y*
-  name: y
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_y_
-  commentId: Overload:Scenes.MenuButton.y
+  fullName: Scenes.Scene.UpdateScene
+  nameWithType: Scene.UpdateScene
+- uid: Scenes.Scene.window
+  name: window
+  href: api/Scenes.Scene.html#Scenes_Scene_window
+  commentId: P:Scenes.Scene.window
+  fullName: Scenes.Scene.window
+  nameWithType: Scene.window
+- uid: Scenes.Scene.window*
+  name: window
+  href: api/Scenes.Scene.html#Scenes_Scene_window_
+  commentId: Overload:Scenes.Scene.window
   isSpec: "True"
-  fullName: Scenes.MenuButton.y
-  nameWithType: MenuButton.y
+  fullName: Scenes.Scene.window
+  nameWithType: Scene.window
 - uid: Scenes.Scene_MainMenu
   name: Scene_MainMenu
   href: api/Scenes.Scene_MainMenu.html
@@ -278,32 +207,142 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene_MainMenu.HandleScene
   nameWithType: Scene_MainMenu.HandleScene
-- uid: Scenes.Scene_MainMenu.UpdateScene
-  name: UpdateScene()
-  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_UpdateScene
-  commentId: M:Scenes.Scene_MainMenu.UpdateScene
-  fullName: Scenes.Scene_MainMenu.UpdateScene()
-  nameWithType: Scene_MainMenu.UpdateScene()
-- uid: Scenes.Scene_MainMenu.UpdateScene*
-  name: UpdateScene
-  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_UpdateScene_
-  commentId: Overload:Scenes.Scene_MainMenu.UpdateScene
+- uid: Scenes.Scene_MainMenu.OnHandleEvent(SDL2.SDL.SDL_Event)
+  name: OnHandleEvent(SDL.SDL_Event)
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_OnHandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.Scene_MainMenu.OnHandleEvent(SDL2.SDL.SDL_Event)
+  fullName: Scenes.Scene_MainMenu.OnHandleEvent(SDL2.SDL.SDL_Event)
+  nameWithType: Scene_MainMenu.OnHandleEvent(SDL.SDL_Event)
+- uid: Scenes.Scene_MainMenu.OnHandleEvent*
+  name: OnHandleEvent
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_OnHandleEvent_
+  commentId: Overload:Scenes.Scene_MainMenu.OnHandleEvent
   isSpec: "True"
-  fullName: Scenes.Scene_MainMenu.UpdateScene
-  nameWithType: Scene_MainMenu.UpdateScene
-- uid: Scenes.Scene_MainMenu.window
-  name: window
-  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_window
-  commentId: P:Scenes.Scene_MainMenu.window
-  fullName: Scenes.Scene_MainMenu.window
-  nameWithType: Scene_MainMenu.window
-- uid: Scenes.Scene_MainMenu.window*
-  name: window
-  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu_window_
-  commentId: Overload:Scenes.Scene_MainMenu.window
+  fullName: Scenes.Scene_MainMenu.OnHandleEvent
+  nameWithType: Scene_MainMenu.OnHandleEvent
+- uid: Scenes.SceneElement
+  name: SceneElement
+  href: api/Scenes.SceneElement.html
+  commentId: T:Scenes.SceneElement
+  fullName: Scenes.SceneElement
+  nameWithType: SceneElement
+- uid: Scenes.SceneElement.Draw
+  name: Draw()
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_Draw
+  commentId: M:Scenes.SceneElement.Draw
+  fullName: Scenes.SceneElement.Draw()
+  nameWithType: SceneElement.Draw()
+- uid: Scenes.SceneElement.Draw*
+  name: Draw
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_Draw_
+  commentId: Overload:Scenes.SceneElement.Draw
   isSpec: "True"
-  fullName: Scenes.Scene_MainMenu.window
-  nameWithType: Scene_MainMenu.window
+  fullName: Scenes.SceneElement.Draw
+  nameWithType: SceneElement.Draw
+- uid: Scenes.SceneElement.HandleEvent(SDL2.SDL.SDL_Event)
+  name: HandleEvent(SDL.SDL_Event)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_HandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.SceneElement.HandleEvent(SDL2.SDL.SDL_Event)
+  fullName: Scenes.SceneElement.HandleEvent(SDL2.SDL.SDL_Event)
+  nameWithType: SceneElement.HandleEvent(SDL.SDL_Event)
+- uid: Scenes.SceneElement.HandleEvent*
+  name: HandleEvent
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_HandleEvent_
+  commentId: Overload:Scenes.SceneElement.HandleEvent
+  isSpec: "True"
+  fullName: Scenes.SceneElement.HandleEvent
+  nameWithType: SceneElement.HandleEvent
+- uid: Scenes.SceneElement.height
+  name: height
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_height
+  commentId: P:Scenes.SceneElement.height
+  fullName: Scenes.SceneElement.height
+  nameWithType: SceneElement.height
+- uid: Scenes.SceneElement.height*
+  name: height
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_height_
+  commentId: Overload:Scenes.SceneElement.height
+  isSpec: "True"
+  fullName: Scenes.SceneElement.height
+  nameWithType: SceneElement.height
+- uid: Scenes.SceneElement.OnHover(SDL2.SDL.SDL_Event)
+  name: OnHover(SDL.SDL_Event)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnHover_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.SceneElement.OnHover(SDL2.SDL.SDL_Event)
+  fullName: Scenes.SceneElement.OnHover(SDL2.SDL.SDL_Event)
+  nameWithType: SceneElement.OnHover(SDL.SDL_Event)
+- uid: Scenes.SceneElement.OnHover*
+  name: OnHover
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnHover_
+  commentId: Overload:Scenes.SceneElement.OnHover
+  isSpec: "True"
+  fullName: Scenes.SceneElement.OnHover
+  nameWithType: SceneElement.OnHover
+- uid: Scenes.SceneElement.scene
+  name: scene
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_scene
+  commentId: P:Scenes.SceneElement.scene
+  fullName: Scenes.SceneElement.scene
+  nameWithType: SceneElement.scene
+- uid: Scenes.SceneElement.scene*
+  name: scene
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_scene_
+  commentId: Overload:Scenes.SceneElement.scene
+  isSpec: "True"
+  fullName: Scenes.SceneElement.scene
+  nameWithType: SceneElement.scene
+- uid: Scenes.SceneElement.text
+  name: text
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_text
+  commentId: P:Scenes.SceneElement.text
+  fullName: Scenes.SceneElement.text
+  nameWithType: SceneElement.text
+- uid: Scenes.SceneElement.text*
+  name: text
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_text_
+  commentId: Overload:Scenes.SceneElement.text
+  isSpec: "True"
+  fullName: Scenes.SceneElement.text
+  nameWithType: SceneElement.text
+- uid: Scenes.SceneElement.width
+  name: width
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_width
+  commentId: P:Scenes.SceneElement.width
+  fullName: Scenes.SceneElement.width
+  nameWithType: SceneElement.width
+- uid: Scenes.SceneElement.width*
+  name: width
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_width_
+  commentId: Overload:Scenes.SceneElement.width
+  isSpec: "True"
+  fullName: Scenes.SceneElement.width
+  nameWithType: SceneElement.width
+- uid: Scenes.SceneElement.x
+  name: x
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_x
+  commentId: P:Scenes.SceneElement.x
+  fullName: Scenes.SceneElement.x
+  nameWithType: SceneElement.x
+- uid: Scenes.SceneElement.x*
+  name: x
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_x_
+  commentId: Overload:Scenes.SceneElement.x
+  isSpec: "True"
+  fullName: Scenes.SceneElement.x
+  nameWithType: SceneElement.x
+- uid: Scenes.SceneElement.y
+  name: y
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_y
+  commentId: P:Scenes.SceneElement.y
+  fullName: Scenes.SceneElement.y
+  nameWithType: SceneElement.y
+- uid: Scenes.SceneElement.y*
+  name: y
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_y_
+  commentId: Overload:Scenes.SceneElement.y
+  isSpec: "True"
+  fullName: Scenes.SceneElement.y
+  nameWithType: SceneElement.y
 - uid: tower_blocks
   name: tower_blocks
   href: api/tower_blocks.html
@@ -377,12 +416,12 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.DestroyWindow
   nameWithType: SDL_Handler.DestroyWindow
-- uid: tower_blocks.SDL_Handler.DrawScene(Scenes.IScene)
-  name: DrawScene(IScene)
-  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DrawScene_Scenes_IScene_
-  commentId: M:tower_blocks.SDL_Handler.DrawScene(Scenes.IScene)
-  fullName: tower_blocks.SDL_Handler.DrawScene(Scenes.IScene)
-  nameWithType: SDL_Handler.DrawScene(IScene)
+- uid: tower_blocks.SDL_Handler.DrawScene(Scenes.Scene)
+  name: DrawScene(Scene)
+  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DrawScene_Scenes_Scene_
+  commentId: M:tower_blocks.SDL_Handler.DrawScene(Scenes.Scene)
+  fullName: tower_blocks.SDL_Handler.DrawScene(Scenes.Scene)
+  nameWithType: SDL_Handler.DrawScene(Scene)
 - uid: tower_blocks.SDL_Handler.DrawScene*
   name: DrawScene
   href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DrawScene_
@@ -461,12 +500,12 @@ references:
   commentId: T:tower_blocks.Text
   fullName: tower_blocks.Text
   nameWithType: Text
-- uid: tower_blocks.Text.#ctor(Scenes.ISceneElement,System.String)
-  name: Text(ISceneElement, String)
-  href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_Scenes_ISceneElement_System_String_
-  commentId: M:tower_blocks.Text.#ctor(Scenes.ISceneElement,System.String)
-  fullName: tower_blocks.Text.Text(Scenes.ISceneElement, System.String)
-  nameWithType: Text.Text(ISceneElement, String)
+- uid: tower_blocks.Text.#ctor(Scenes.SceneElement,System.String)
+  name: Text(SceneElement, String)
+  href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_Scenes_SceneElement_System_String_
+  commentId: M:tower_blocks.Text.#ctor(Scenes.SceneElement,System.String)
+  fullName: tower_blocks.Text.Text(Scenes.SceneElement, System.String)
+  nameWithType: Text.Text(SceneElement, String)
 - uid: tower_blocks.Text.#ctor*
   name: Text
   href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_
@@ -662,6 +701,19 @@ references:
   isSpec: "True"
   fullName: tower_blocks.Window.renderer
   nameWithType: Window.renderer
+- uid: tower_blocks.Window.scene
+  name: scene
+  href: api/tower_blocks.Window.html#tower_blocks_Window_scene
+  commentId: P:tower_blocks.Window.scene
+  fullName: tower_blocks.Window.scene
+  nameWithType: Window.scene
+- uid: tower_blocks.Window.scene*
+  name: scene
+  href: api/tower_blocks.Window.html#tower_blocks_Window_scene_
+  commentId: Overload:tower_blocks.Window.scene
+  isSpec: "True"
+  fullName: tower_blocks.Window.scene
+  nameWithType: Window.scene
 - uid: tower_blocks.Window.windowPtr
   name: windowPtr
   href: api/tower_blocks.Window.html#tower_blocks_Window_windowPtr

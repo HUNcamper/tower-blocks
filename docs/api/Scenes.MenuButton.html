@@ -78,14 +78,32 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MenuButton</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Scenes.ISceneElement.html">ISceneElement</a></div>
+    <div class="level1"><a class="xref" href="Scenes.SceneElement.html">SceneElement</a></div>
+    <div class="level2"><span class="xref">MenuButton</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_scene">SceneElement.scene</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_x">SceneElement.x</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_y">SceneElement.y</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_width">SceneElement.width</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_height">SceneElement.height</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_text">SceneElement.text</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_HandleEvent_SDL2_SDL_SDL_Event_">SceneElement.HandleEvent(SDL.SDL_Event)</a>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -112,25 +130,25 @@
   <h6><strong>Assembly</strong>: tower-blocks.dll</h6>
   <h5 id="Scenes_MenuButton_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MenuButton : ISceneElement</code></pre>
+    <pre><code class="lang-csharp hljs">public class MenuButton : SceneElement</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton__ctor_Scenes_IScene_System_String_.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.%23ctor(Scenes.IScene%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton__ctor_Scenes_Scene_System_String_.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.%23ctor(Scenes.Scene%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L44">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L24">View Source</a>
   </span>
   <a id="Scenes_MenuButton__ctor_" data-uid="Scenes.MenuButton.#ctor*"></a>
-  <h4 id="Scenes_MenuButton__ctor_Scenes_IScene_System_String_" data-uid="Scenes.MenuButton.#ctor(Scenes.IScene,System.String)">MenuButton(IScene, String)</h4>
+  <h4 id="Scenes_MenuButton__ctor_Scenes_Scene_System_String_" data-uid="Scenes.MenuButton.#ctor(Scenes.Scene,System.String)">MenuButton(Scene, String)</h4>
   <div class="markdown level1 summary"><p>Creates a menu button</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MenuButton(IScene _scene, string _text)</code></pre>
+    <pre><code class="lang-csharp hljs">public MenuButton(Scene _scene, string _text)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,7 +161,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Scenes.IScene.html">IScene</a></td>
+        <td><a class="xref" href="Scenes.Scene.html">Scene</a></td>
         <td><span class="parametername">_scene</span></td>
         <td><p>Scene to create the button in</p>
 </td>
@@ -156,165 +174,40 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_scene.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.scene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L20">View Source</a>
-  </span>
-  <a id="Scenes_MenuButton_scene_" data-uid="Scenes.MenuButton.scene*"></a>
-  <h4 id="Scenes_MenuButton_scene" data-uid="Scenes.MenuButton.scene">scene</h4>
-  <div class="markdown level1 summary"><p>Scene the element is in</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IScene scene { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Scenes.IScene.html">IScene</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_text.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L35">View Source</a>
-  </span>
-  <a id="Scenes_MenuButton_text_" data-uid="Scenes.MenuButton.text*"></a>
-  <h4 id="Scenes_MenuButton_text" data-uid="Scenes.MenuButton.text">text</h4>
-  <div class="markdown level1 summary"><p>Text on the button</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string text { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_x.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.x%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L25">View Source</a>
-  </span>
-  <a id="Scenes_MenuButton_x_" data-uid="Scenes.MenuButton.x*"></a>
-  <h4 id="Scenes_MenuButton_x" data-uid="Scenes.MenuButton.x">x</h4>
-  <div class="markdown level1 summary"><p>X position of the element</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int x { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_y.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.y%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L30">View Source</a>
-  </span>
-  <a id="Scenes_MenuButton_y_" data-uid="Scenes.MenuButton.y*"></a>
-  <h4 id="Scenes_MenuButton_y" data-uid="Scenes.MenuButton.y">y</h4>
-  <div class="markdown level1 summary"><p>Y position of the element</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int y { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_DrawElement.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.DrawElement%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_Draw.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.Draw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L61">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L33">View Source</a>
   </span>
-  <a id="Scenes_MenuButton_DrawElement_" data-uid="Scenes.MenuButton.DrawElement*"></a>
-  <h4 id="Scenes_MenuButton_DrawElement" data-uid="Scenes.MenuButton.DrawElement">DrawElement()</h4>
+  <a id="Scenes_MenuButton_Draw_" data-uid="Scenes.MenuButton.Draw*"></a>
+  <h4 id="Scenes_MenuButton_Draw" data-uid="Scenes.MenuButton.Draw">Draw()</h4>
   <div class="markdown level1 summary"><p>Draws the element on the scene it&apos;s on</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DrawElement()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Draw()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_Draw">SceneElement.Draw()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_HandleEvent_SDL2_SDL_SDL_Event_.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.HandleEvent(SDL2.SDL.SDL_Event)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_MenuButton_OnHover_SDL2_SDL_SDL_Event_.md&amp;value=---%0Auid%3A%20Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L53">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/MenuButton.cs/#L52">View Source</a>
   </span>
-  <a id="Scenes_MenuButton_HandleEvent_" data-uid="Scenes.MenuButton.HandleEvent*"></a>
-  <h4 id="Scenes_MenuButton_HandleEvent_SDL2_SDL_SDL_Event_" data-uid="Scenes.MenuButton.HandleEvent(SDL2.SDL.SDL_Event)">HandleEvent(SDL.SDL_Event)</h4>
-  <div class="markdown level1 summary"><p>Handles events</p>
-</div>
+  <a id="Scenes_MenuButton_OnHover_" data-uid="Scenes.MenuButton.OnHover*"></a>
+  <h4 id="Scenes_MenuButton_OnHover_SDL2_SDL_SDL_Event_" data-uid="Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)">OnHover(SDL.SDL_Event)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandleEvent(SDL.SDL_Event e)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnHover(SDL.SDL_Event e)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -333,10 +226,8 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Scenes.ISceneElement.html">ISceneElement</a>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_OnHover_SDL2_SDL_SDL_Event_">SceneElement.OnHover(SDL.SDL_Event)</a></div>
 </article>
           </div>
           

@@ -47,6 +47,11 @@ namespace tower_blocks
             {
                 HandleEvents(e);
                 HandleWindowEvents(e);
+
+                foreach (Window window in window_list)
+                {
+                    window.scene.HandleEvent(e);
+                }
             }
         }
 
@@ -119,7 +124,7 @@ namespace tower_blocks
         /// Draws a scene
         /// </summary>
         /// <param name="scene">Scene to draw</param>
-        public void DrawScene(IScene scene)
+        public void DrawScene(Scene scene)
         {
             SDL.SDL_RenderClear(scene.window.renderer);
 
