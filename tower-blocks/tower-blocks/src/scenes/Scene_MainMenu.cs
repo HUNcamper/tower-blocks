@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SDL2;
-using tower_blocks;
+﻿using SDL2;
+using UI;
 
 namespace Scenes
 {
@@ -19,8 +14,31 @@ namespace Scenes
         /// <param name="_window">Window to open the Scene in</param>
         public Scene_MainMenu(Window _window) : base (_window)
         {
-            MenuButton button = new MenuButton(this, "Hello World");
-            element_list.Add(button);
+            int w, h;
+            SDL.SDL_GetWindowSize(window.windowPtr, out w, out h);
+
+            int center_x = (w / 2);
+            int center_y = (h / 2);
+
+            TextElement menu_text = new TextElement(this, "Tower Blocks", 0, 0);
+            menu_text.fontsize = 64;
+
+            menu_text.x = center_x - (menu_text.width / 2);
+            menu_text.y = center_y - (menu_text.height / 2) - 125;
+
+            MenuButton b_startgame = new Button_StartGame(this, "Start New Game", 0, 0);
+
+            b_startgame.x = center_x - (b_startgame.width / 2);
+            b_startgame.y = center_y - (b_startgame.height / 2) - 50;
+
+            MenuButton b_quitgame = new MenuButton(this, "Quit Game", 0, 0);
+
+            b_quitgame.x = center_x - (b_quitgame.width / 2);
+            b_quitgame.y = center_y - (b_quitgame.height / 2) + 50;
+
+            element_list.Add(b_startgame);
+            element_list.Add(b_quitgame);
+            element_list.Add(menu_text);
         }
 
         /// <summary>

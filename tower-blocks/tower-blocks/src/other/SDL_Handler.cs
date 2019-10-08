@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using SDL2;
 using Scenes;
+using UI;
 
 namespace tower_blocks
 {
@@ -52,6 +49,12 @@ namespace tower_blocks
                 {
                     window.scene.HandleEvent(e);
                 }
+            }
+
+            foreach (Window window in window_list)
+            {
+                window.scene.UpdateScene();
+                DrawScene(window.scene);
             }
         }
 

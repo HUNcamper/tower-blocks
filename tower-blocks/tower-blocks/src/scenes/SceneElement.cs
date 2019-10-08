@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SDL2;
+﻿using SDL2;
 
 namespace Scenes
 {
+    /// <summary>
+    /// Defines a scene element
+    /// </summary>
     public abstract class SceneElement
     {
         /// <summary>
@@ -42,7 +40,7 @@ namespace Scenes
         /// <summary>
         /// Is the element hovered by the mouse
         /// </summary>
-        private bool hovered;
+        public bool hovered { get; set; }
 
         /// <summary>
         /// Handles events
@@ -61,12 +59,18 @@ namespace Scenes
                     if (!hovered)
                     {
                         OnHover(e);
+                        hovered = true;
                     }
                 }
                 else if (hovered)
                     hovered = false;
             }
         }
+
+        /// <summary>
+        /// Called every frame
+        /// </summary>
+        public abstract void Update();
 
         /// <summary>
         /// Draws the element on the scene it's on
@@ -76,6 +80,7 @@ namespace Scenes
         /// <summary>
         /// Called when mouse hovered over
         /// </summary>
+        /// <param name="e">Event data</param>
         public abstract void OnHover(SDL.SDL_Event e);
     }
 }

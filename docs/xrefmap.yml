@@ -7,62 +7,17 @@ references:
   commentId: N:Scenes
   fullName: Scenes
   nameWithType: Scenes
-- uid: Scenes.MenuButton
-  name: MenuButton
-  href: api/Scenes.MenuButton.html
-  commentId: T:Scenes.MenuButton
-  fullName: Scenes.MenuButton
-  nameWithType: MenuButton
-- uid: Scenes.MenuButton.#ctor(Scenes.Scene,System.String)
-  name: MenuButton(Scene, String)
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_Scenes_Scene_System_String_
-  commentId: M:Scenes.MenuButton.#ctor(Scenes.Scene,System.String)
-  fullName: Scenes.MenuButton.MenuButton(Scenes.Scene, System.String)
-  nameWithType: MenuButton.MenuButton(Scene, String)
-- uid: Scenes.MenuButton.#ctor*
-  name: MenuButton
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton__ctor_
-  commentId: Overload:Scenes.MenuButton.#ctor
-  isSpec: "True"
-  fullName: Scenes.MenuButton.MenuButton
-  nameWithType: MenuButton.MenuButton
-- uid: Scenes.MenuButton.Draw
-  name: Draw()
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_Draw
-  commentId: M:Scenes.MenuButton.Draw
-  fullName: Scenes.MenuButton.Draw()
-  nameWithType: MenuButton.Draw()
-- uid: Scenes.MenuButton.Draw*
-  name: Draw
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_Draw_
-  commentId: Overload:Scenes.MenuButton.Draw
-  isSpec: "True"
-  fullName: Scenes.MenuButton.Draw
-  nameWithType: MenuButton.Draw
-- uid: Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)
-  name: OnHover(SDL.SDL_Event)
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_OnHover_SDL2_SDL_SDL_Event_
-  commentId: M:Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)
-  fullName: Scenes.MenuButton.OnHover(SDL2.SDL.SDL_Event)
-  nameWithType: MenuButton.OnHover(SDL.SDL_Event)
-- uid: Scenes.MenuButton.OnHover*
-  name: OnHover
-  href: api/Scenes.MenuButton.html#Scenes_MenuButton_OnHover_
-  commentId: Overload:Scenes.MenuButton.OnHover
-  isSpec: "True"
-  fullName: Scenes.MenuButton.OnHover
-  nameWithType: MenuButton.OnHover
 - uid: Scenes.Scene
   name: Scene
   href: api/Scenes.Scene.html
   commentId: T:Scenes.Scene
   fullName: Scenes.Scene
   nameWithType: Scene
-- uid: Scenes.Scene.#ctor(tower_blocks.Window)
+- uid: Scenes.Scene.#ctor(UI.Window)
   name: Scene(Window)
-  href: api/Scenes.Scene.html#Scenes_Scene__ctor_tower_blocks_Window_
-  commentId: M:Scenes.Scene.#ctor(tower_blocks.Window)
-  fullName: Scenes.Scene.Scene(tower_blocks.Window)
+  href: api/Scenes.Scene.html#Scenes_Scene__ctor_UI_Window_
+  commentId: M:Scenes.Scene.#ctor(UI.Window)
+  fullName: Scenes.Scene.Scene(UI.Window)
   nameWithType: Scene.Scene(Window)
 - uid: Scenes.Scene.#ctor*
   name: Scene
@@ -168,11 +123,11 @@ references:
   commentId: T:Scenes.Scene_MainMenu
   fullName: Scenes.Scene_MainMenu
   nameWithType: Scene_MainMenu
-- uid: Scenes.Scene_MainMenu.#ctor(tower_blocks.Window)
+- uid: Scenes.Scene_MainMenu.#ctor(UI.Window)
   name: Scene_MainMenu(Window)
-  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu__ctor_tower_blocks_Window_
-  commentId: M:Scenes.Scene_MainMenu.#ctor(tower_blocks.Window)
-  fullName: Scenes.Scene_MainMenu.Scene_MainMenu(tower_blocks.Window)
+  href: api/Scenes.Scene_MainMenu.html#Scenes_Scene_MainMenu__ctor_UI_Window_
+  commentId: M:Scenes.Scene_MainMenu.#ctor(UI.Window)
+  fullName: Scenes.Scene_MainMenu.Scene_MainMenu(UI.Window)
   nameWithType: Scene_MainMenu.Scene_MainMenu(Window)
 - uid: Scenes.Scene_MainMenu.#ctor*
   name: Scene_MainMenu
@@ -265,6 +220,19 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.height
   nameWithType: SceneElement.height
+- uid: Scenes.SceneElement.hovered
+  name: hovered
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_hovered
+  commentId: P:Scenes.SceneElement.hovered
+  fullName: Scenes.SceneElement.hovered
+  nameWithType: SceneElement.hovered
+- uid: Scenes.SceneElement.hovered*
+  name: hovered
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_hovered_
+  commentId: Overload:Scenes.SceneElement.hovered
+  isSpec: "True"
+  fullName: Scenes.SceneElement.hovered
+  nameWithType: SceneElement.hovered
 - uid: Scenes.SceneElement.OnHover(SDL2.SDL.SDL_Event)
   name: OnHover(SDL.SDL_Event)
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnHover_SDL2_SDL_SDL_Event_
@@ -304,6 +272,19 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.text
   nameWithType: SceneElement.text
+- uid: Scenes.SceneElement.Update
+  name: Update()
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_Update
+  commentId: M:Scenes.SceneElement.Update
+  fullName: Scenes.SceneElement.Update()
+  nameWithType: SceneElement.Update()
+- uid: Scenes.SceneElement.Update*
+  name: Update
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_Update_
+  commentId: Overload:Scenes.SceneElement.Update
+  isSpec: "True"
+  fullName: Scenes.SceneElement.Update
+  nameWithType: SceneElement.Update
 - uid: Scenes.SceneElement.width
   name: width
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_width
@@ -403,11 +384,11 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.CreateWindow
   nameWithType: SDL_Handler.CreateWindow
-- uid: tower_blocks.SDL_Handler.DestroyWindow(tower_blocks.Window)
+- uid: tower_blocks.SDL_Handler.DestroyWindow(UI.Window)
   name: DestroyWindow(Window)
-  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DestroyWindow_tower_blocks_Window_
-  commentId: M:tower_blocks.SDL_Handler.DestroyWindow(tower_blocks.Window)
-  fullName: tower_blocks.SDL_Handler.DestroyWindow(tower_blocks.Window)
+  href: api/tower_blocks.SDL_Handler.html#tower_blocks_SDL_Handler_DestroyWindow_UI_Window_
+  commentId: M:tower_blocks.SDL_Handler.DestroyWindow(UI.Window)
+  fullName: tower_blocks.SDL_Handler.DestroyWindow(UI.Window)
   nameWithType: SDL_Handler.DestroyWindow(Window)
 - uid: tower_blocks.SDL_Handler.DestroyWindow*
   name: DestroyWindow
@@ -494,236 +475,319 @@ references:
   isSpec: "True"
   fullName: tower_blocks.SDL_Handler.Update
   nameWithType: SDL_Handler.Update
-- uid: tower_blocks.Text
-  name: Text
-  href: api/tower_blocks.Text.html
-  commentId: T:tower_blocks.Text
-  fullName: tower_blocks.Text
-  nameWithType: Text
-- uid: tower_blocks.Text.#ctor(Scenes.SceneElement,System.String)
-  name: Text(SceneElement, String)
-  href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_Scenes_SceneElement_System_String_
-  commentId: M:tower_blocks.Text.#ctor(Scenes.SceneElement,System.String)
-  fullName: tower_blocks.Text.Text(Scenes.SceneElement, System.String)
-  nameWithType: Text.Text(SceneElement, String)
-- uid: tower_blocks.Text.#ctor*
-  name: Text
-  href: api/tower_blocks.Text.html#tower_blocks_Text__ctor_
-  commentId: Overload:tower_blocks.Text.#ctor
+- uid: UI
+  name: UI
+  href: api/UI.html
+  commentId: N:UI
+  fullName: UI
+  nameWithType: UI
+- uid: UI.Button_StartGame
+  name: Button_StartGame
+  href: api/UI.Button_StartGame.html
+  commentId: T:UI.Button_StartGame
+  fullName: UI.Button_StartGame
+  nameWithType: Button_StartGame
+- uid: UI.Button_StartGame.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
+  name: Button_StartGame(Scene, String, Int32, Int32)
+  href: api/UI.Button_StartGame.html#UI_Button_StartGame__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_
+  commentId: M:UI.Button_StartGame.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
+  fullName: UI.Button_StartGame.Button_StartGame(Scenes.Scene, System.String, System.Int32, System.Int32)
+  nameWithType: Button_StartGame.Button_StartGame(Scene, String, Int32, Int32)
+- uid: UI.Button_StartGame.#ctor*
+  name: Button_StartGame
+  href: api/UI.Button_StartGame.html#UI_Button_StartGame__ctor_
+  commentId: Overload:UI.Button_StartGame.#ctor
   isSpec: "True"
-  fullName: tower_blocks.Text.Text
-  nameWithType: Text.Text
-- uid: tower_blocks.Text.Draw
+  fullName: UI.Button_StartGame.Button_StartGame
+  nameWithType: Button_StartGame.Button_StartGame
+- uid: UI.MenuButton
+  name: MenuButton
+  href: api/UI.MenuButton.html
+  commentId: T:UI.MenuButton
+  fullName: UI.MenuButton
+  nameWithType: MenuButton
+- uid: UI.MenuButton.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
+  name: MenuButton(Scene, String, Int32, Int32)
+  href: api/UI.MenuButton.html#UI_MenuButton__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_
+  commentId: M:UI.MenuButton.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
+  fullName: UI.MenuButton.MenuButton(Scenes.Scene, System.String, System.Int32, System.Int32)
+  nameWithType: MenuButton.MenuButton(Scene, String, Int32, Int32)
+- uid: UI.MenuButton.#ctor*
+  name: MenuButton
+  href: api/UI.MenuButton.html#UI_MenuButton__ctor_
+  commentId: Overload:UI.MenuButton.#ctor
+  isSpec: "True"
+  fullName: UI.MenuButton.MenuButton
+  nameWithType: MenuButton.MenuButton
+- uid: UI.MenuButton.Draw
   name: Draw()
-  href: api/tower_blocks.Text.html#tower_blocks_Text_Draw
-  commentId: M:tower_blocks.Text.Draw
-  fullName: tower_blocks.Text.Draw()
-  nameWithType: Text.Draw()
-- uid: tower_blocks.Text.Draw*
+  href: api/UI.MenuButton.html#UI_MenuButton_Draw
+  commentId: M:UI.MenuButton.Draw
+  fullName: UI.MenuButton.Draw()
+  nameWithType: MenuButton.Draw()
+- uid: UI.MenuButton.Draw*
   name: Draw
-  href: api/tower_blocks.Text.html#tower_blocks_Text_Draw_
-  commentId: Overload:tower_blocks.Text.Draw
+  href: api/UI.MenuButton.html#UI_MenuButton_Draw_
+  commentId: Overload:UI.MenuButton.Draw
   isSpec: "True"
-  fullName: tower_blocks.Text.Draw
+  fullName: UI.MenuButton.Draw
+  nameWithType: MenuButton.Draw
+- uid: UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  name: OnHover(SDL.SDL_Event)
+  href: api/UI.MenuButton.html#UI_MenuButton_OnHover_SDL2_SDL_SDL_Event_
+  commentId: M:UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  fullName: UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  nameWithType: MenuButton.OnHover(SDL.SDL_Event)
+- uid: UI.MenuButton.OnHover*
+  name: OnHover
+  href: api/UI.MenuButton.html#UI_MenuButton_OnHover_
+  commentId: Overload:UI.MenuButton.OnHover
+  isSpec: "True"
+  fullName: UI.MenuButton.OnHover
+  nameWithType: MenuButton.OnHover
+- uid: UI.MenuButton.Update
+  name: Update()
+  href: api/UI.MenuButton.html#UI_MenuButton_Update
+  commentId: M:UI.MenuButton.Update
+  fullName: UI.MenuButton.Update()
+  nameWithType: MenuButton.Update()
+- uid: UI.MenuButton.Update*
+  name: Update
+  href: api/UI.MenuButton.html#UI_MenuButton_Update_
+  commentId: Overload:UI.MenuButton.Update
+  isSpec: "True"
+  fullName: UI.MenuButton.Update
+  nameWithType: MenuButton.Update
+- uid: UI.Text
+  name: Text
+  href: api/UI.Text.html
+  commentId: T:UI.Text
+  fullName: UI.Text
+  nameWithType: Text
+- uid: UI.Text.#ctor(Scenes.SceneElement,System.String)
+  name: Text(SceneElement, String)
+  href: api/UI.Text.html#UI_Text__ctor_Scenes_SceneElement_System_String_
+  commentId: M:UI.Text.#ctor(Scenes.SceneElement,System.String)
+  fullName: UI.Text.Text(Scenes.SceneElement, System.String)
+  nameWithType: Text.Text(SceneElement, String)
+- uid: UI.Text.#ctor*
+  name: Text
+  href: api/UI.Text.html#UI_Text__ctor_
+  commentId: Overload:UI.Text.#ctor
+  isSpec: "True"
+  fullName: UI.Text.Text
+  nameWithType: Text.Text
+- uid: UI.Text.Draw
+  name: Draw()
+  href: api/UI.Text.html#UI_Text_Draw
+  commentId: M:UI.Text.Draw
+  fullName: UI.Text.Draw()
+  nameWithType: Text.Draw()
+- uid: UI.Text.Draw*
+  name: Draw
+  href: api/UI.Text.html#UI_Text_Draw_
+  commentId: Overload:UI.Text.Draw
+  isSpec: "True"
+  fullName: UI.Text.Draw
   nameWithType: Text.Draw
-- uid: tower_blocks.Text.element
+- uid: UI.Text.element
   name: element
-  href: api/tower_blocks.Text.html#tower_blocks_Text_element
-  commentId: P:tower_blocks.Text.element
-  fullName: tower_blocks.Text.element
+  href: api/UI.Text.html#UI_Text_element
+  commentId: P:UI.Text.element
+  fullName: UI.Text.element
   nameWithType: Text.element
-- uid: tower_blocks.Text.element*
+- uid: UI.Text.element*
   name: element
-  href: api/tower_blocks.Text.html#tower_blocks_Text_element_
-  commentId: Overload:tower_blocks.Text.element
+  href: api/UI.Text.html#UI_Text_element_
+  commentId: Overload:UI.Text.element
   isSpec: "True"
-  fullName: tower_blocks.Text.element
+  fullName: UI.Text.element
   nameWithType: Text.element
-- uid: tower_blocks.Text.fontcolor
+- uid: UI.Text.fontcolor
   name: fontcolor
-  href: api/tower_blocks.Text.html#tower_blocks_Text_fontcolor
-  commentId: P:tower_blocks.Text.fontcolor
-  fullName: tower_blocks.Text.fontcolor
+  href: api/UI.Text.html#UI_Text_fontcolor
+  commentId: P:UI.Text.fontcolor
+  fullName: UI.Text.fontcolor
   nameWithType: Text.fontcolor
-- uid: tower_blocks.Text.fontcolor*
+- uid: UI.Text.fontcolor*
   name: fontcolor
-  href: api/tower_blocks.Text.html#tower_blocks_Text_fontcolor_
-  commentId: Overload:tower_blocks.Text.fontcolor
+  href: api/UI.Text.html#UI_Text_fontcolor_
+  commentId: Overload:UI.Text.fontcolor
   isSpec: "True"
-  fullName: tower_blocks.Text.fontcolor
+  fullName: UI.Text.fontcolor
   nameWithType: Text.fontcolor
-- uid: tower_blocks.Text.fontname
+- uid: UI.Text.fontname
   name: fontname
-  href: api/tower_blocks.Text.html#tower_blocks_Text_fontname
-  commentId: P:tower_blocks.Text.fontname
-  fullName: tower_blocks.Text.fontname
+  href: api/UI.Text.html#UI_Text_fontname
+  commentId: P:UI.Text.fontname
+  fullName: UI.Text.fontname
   nameWithType: Text.fontname
-- uid: tower_blocks.Text.fontname*
+- uid: UI.Text.fontname*
   name: fontname
-  href: api/tower_blocks.Text.html#tower_blocks_Text_fontname_
-  commentId: Overload:tower_blocks.Text.fontname
+  href: api/UI.Text.html#UI_Text_fontname_
+  commentId: Overload:UI.Text.fontname
   isSpec: "True"
-  fullName: tower_blocks.Text.fontname
+  fullName: UI.Text.fontname
   nameWithType: Text.fontname
-- uid: tower_blocks.Text.fontsize
+- uid: UI.Text.fontsize
   name: fontsize
-  href: api/tower_blocks.Text.html#tower_blocks_Text_fontsize
-  commentId: P:tower_blocks.Text.fontsize
-  fullName: tower_blocks.Text.fontsize
+  href: api/UI.Text.html#UI_Text_fontsize
+  commentId: P:UI.Text.fontsize
+  fullName: UI.Text.fontsize
   nameWithType: Text.fontsize
-- uid: tower_blocks.Text.fontsize*
+- uid: UI.Text.fontsize*
   name: fontsize
-  href: api/tower_blocks.Text.html#tower_blocks_Text_fontsize_
-  commentId: Overload:tower_blocks.Text.fontsize
+  href: api/UI.Text.html#UI_Text_fontsize_
+  commentId: Overload:UI.Text.fontsize
   isSpec: "True"
-  fullName: tower_blocks.Text.fontsize
+  fullName: UI.Text.fontsize
   nameWithType: Text.fontsize
-- uid: tower_blocks.Text.height
+- uid: UI.Text.height
   name: height
-  href: api/tower_blocks.Text.html#tower_blocks_Text_height
-  commentId: P:tower_blocks.Text.height
-  fullName: tower_blocks.Text.height
+  href: api/UI.Text.html#UI_Text_height
+  commentId: P:UI.Text.height
+  fullName: UI.Text.height
   nameWithType: Text.height
-- uid: tower_blocks.Text.height*
+- uid: UI.Text.height*
   name: height
-  href: api/tower_blocks.Text.html#tower_blocks_Text_height_
-  commentId: Overload:tower_blocks.Text.height
+  href: api/UI.Text.html#UI_Text_height_
+  commentId: Overload:UI.Text.height
   isSpec: "True"
-  fullName: tower_blocks.Text.height
+  fullName: UI.Text.height
   nameWithType: Text.height
-- uid: tower_blocks.Text.text
+- uid: UI.Text.text
   name: text
-  href: api/tower_blocks.Text.html#tower_blocks_Text_text
-  commentId: P:tower_blocks.Text.text
-  fullName: tower_blocks.Text.text
+  href: api/UI.Text.html#UI_Text_text
+  commentId: P:UI.Text.text
+  fullName: UI.Text.text
   nameWithType: Text.text
-- uid: tower_blocks.Text.text*
+- uid: UI.Text.text*
   name: text
-  href: api/tower_blocks.Text.html#tower_blocks_Text_text_
-  commentId: Overload:tower_blocks.Text.text
+  href: api/UI.Text.html#UI_Text_text_
+  commentId: Overload:UI.Text.text
   isSpec: "True"
-  fullName: tower_blocks.Text.text
+  fullName: UI.Text.text
   nameWithType: Text.text
-- uid: tower_blocks.Text.width
+- uid: UI.Text.width
   name: width
-  href: api/tower_blocks.Text.html#tower_blocks_Text_width
-  commentId: P:tower_blocks.Text.width
-  fullName: tower_blocks.Text.width
+  href: api/UI.Text.html#UI_Text_width
+  commentId: P:UI.Text.width
+  fullName: UI.Text.width
   nameWithType: Text.width
-- uid: tower_blocks.Text.width*
+- uid: UI.Text.width*
   name: width
-  href: api/tower_blocks.Text.html#tower_blocks_Text_width_
-  commentId: Overload:tower_blocks.Text.width
+  href: api/UI.Text.html#UI_Text_width_
+  commentId: Overload:UI.Text.width
   isSpec: "True"
-  fullName: tower_blocks.Text.width
+  fullName: UI.Text.width
   nameWithType: Text.width
-- uid: tower_blocks.Text.x
+- uid: UI.Text.x
   name: x
-  href: api/tower_blocks.Text.html#tower_blocks_Text_x
-  commentId: P:tower_blocks.Text.x
-  fullName: tower_blocks.Text.x
+  href: api/UI.Text.html#UI_Text_x
+  commentId: P:UI.Text.x
+  fullName: UI.Text.x
   nameWithType: Text.x
-- uid: tower_blocks.Text.x*
+- uid: UI.Text.x*
   name: x
-  href: api/tower_blocks.Text.html#tower_blocks_Text_x_
-  commentId: Overload:tower_blocks.Text.x
+  href: api/UI.Text.html#UI_Text_x_
+  commentId: Overload:UI.Text.x
   isSpec: "True"
-  fullName: tower_blocks.Text.x
+  fullName: UI.Text.x
   nameWithType: Text.x
-- uid: tower_blocks.Text.y
+- uid: UI.Text.y
   name: y
-  href: api/tower_blocks.Text.html#tower_blocks_Text_y
-  commentId: P:tower_blocks.Text.y
-  fullName: tower_blocks.Text.y
+  href: api/UI.Text.html#UI_Text_y
+  commentId: P:UI.Text.y
+  fullName: UI.Text.y
   nameWithType: Text.y
-- uid: tower_blocks.Text.y*
+- uid: UI.Text.y*
   name: y
-  href: api/tower_blocks.Text.html#tower_blocks_Text_y_
-  commentId: Overload:tower_blocks.Text.y
+  href: api/UI.Text.html#UI_Text_y_
+  commentId: Overload:UI.Text.y
   isSpec: "True"
-  fullName: tower_blocks.Text.y
+  fullName: UI.Text.y
   nameWithType: Text.y
-- uid: tower_blocks.Window
+- uid: UI.Window
   name: Window
-  href: api/tower_blocks.Window.html
-  commentId: T:tower_blocks.Window
-  fullName: tower_blocks.Window
+  href: api/UI.Window.html
+  commentId: T:UI.Window
+  fullName: UI.Window
   nameWithType: Window
-- uid: tower_blocks.Window.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,SDL2.SDL.SDL_WindowFlags)
+- uid: UI.Window.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,SDL2.SDL.SDL_WindowFlags)
   name: Window(String, Int32, Int32, Int32, Int32, SDL.SDL_WindowFlags)
-  href: api/tower_blocks.Window.html#tower_blocks_Window__ctor_System_String_System_Int32_System_Int32_System_Int32_System_Int32_SDL2_SDL_SDL_WindowFlags_
-  commentId: M:tower_blocks.Window.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,SDL2.SDL.SDL_WindowFlags)
-  fullName: tower_blocks.Window.Window(System.String, System.Int32, System.Int32, System.Int32, System.Int32, SDL2.SDL.SDL_WindowFlags)
+  href: api/UI.Window.html#UI_Window__ctor_System_String_System_Int32_System_Int32_System_Int32_System_Int32_SDL2_SDL_SDL_WindowFlags_
+  commentId: M:UI.Window.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,SDL2.SDL.SDL_WindowFlags)
+  fullName: UI.Window.Window(System.String, System.Int32, System.Int32, System.Int32, System.Int32, SDL2.SDL.SDL_WindowFlags)
   nameWithType: Window.Window(String, Int32, Int32, Int32, Int32, SDL.SDL_WindowFlags)
-- uid: tower_blocks.Window.#ctor*
+- uid: UI.Window.#ctor*
   name: Window
-  href: api/tower_blocks.Window.html#tower_blocks_Window__ctor_
-  commentId: Overload:tower_blocks.Window.#ctor
+  href: api/UI.Window.html#UI_Window__ctor_
+  commentId: Overload:UI.Window.#ctor
   isSpec: "True"
-  fullName: tower_blocks.Window.Window
+  fullName: UI.Window.Window
   nameWithType: Window.Window
-- uid: tower_blocks.Window.Destroy
+- uid: UI.Window.Destroy
   name: Destroy()
-  href: api/tower_blocks.Window.html#tower_blocks_Window_Destroy
-  commentId: M:tower_blocks.Window.Destroy
-  fullName: tower_blocks.Window.Destroy()
+  href: api/UI.Window.html#UI_Window_Destroy
+  commentId: M:UI.Window.Destroy
+  fullName: UI.Window.Destroy()
   nameWithType: Window.Destroy()
-- uid: tower_blocks.Window.Destroy*
+- uid: UI.Window.Destroy*
   name: Destroy
-  href: api/tower_blocks.Window.html#tower_blocks_Window_Destroy_
-  commentId: Overload:tower_blocks.Window.Destroy
+  href: api/UI.Window.html#UI_Window_Destroy_
+  commentId: Overload:UI.Window.Destroy
   isSpec: "True"
-  fullName: tower_blocks.Window.Destroy
+  fullName: UI.Window.Destroy
   nameWithType: Window.Destroy
-- uid: tower_blocks.Window.HandleEvent(SDL2.SDL.SDL_Event)
+- uid: UI.Window.HandleEvent(SDL2.SDL.SDL_Event)
   name: HandleEvent(SDL.SDL_Event)
-  href: api/tower_blocks.Window.html#tower_blocks_Window_HandleEvent_SDL2_SDL_SDL_Event_
-  commentId: M:tower_blocks.Window.HandleEvent(SDL2.SDL.SDL_Event)
-  fullName: tower_blocks.Window.HandleEvent(SDL2.SDL.SDL_Event)
+  href: api/UI.Window.html#UI_Window_HandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:UI.Window.HandleEvent(SDL2.SDL.SDL_Event)
+  fullName: UI.Window.HandleEvent(SDL2.SDL.SDL_Event)
   nameWithType: Window.HandleEvent(SDL.SDL_Event)
-- uid: tower_blocks.Window.HandleEvent*
+- uid: UI.Window.HandleEvent*
   name: HandleEvent
-  href: api/tower_blocks.Window.html#tower_blocks_Window_HandleEvent_
-  commentId: Overload:tower_blocks.Window.HandleEvent
+  href: api/UI.Window.html#UI_Window_HandleEvent_
+  commentId: Overload:UI.Window.HandleEvent
   isSpec: "True"
-  fullName: tower_blocks.Window.HandleEvent
+  fullName: UI.Window.HandleEvent
   nameWithType: Window.HandleEvent
-- uid: tower_blocks.Window.renderer
+- uid: UI.Window.renderer
   name: renderer
-  href: api/tower_blocks.Window.html#tower_blocks_Window_renderer
-  commentId: P:tower_blocks.Window.renderer
-  fullName: tower_blocks.Window.renderer
+  href: api/UI.Window.html#UI_Window_renderer
+  commentId: P:UI.Window.renderer
+  fullName: UI.Window.renderer
   nameWithType: Window.renderer
-- uid: tower_blocks.Window.renderer*
+- uid: UI.Window.renderer*
   name: renderer
-  href: api/tower_blocks.Window.html#tower_blocks_Window_renderer_
-  commentId: Overload:tower_blocks.Window.renderer
+  href: api/UI.Window.html#UI_Window_renderer_
+  commentId: Overload:UI.Window.renderer
   isSpec: "True"
-  fullName: tower_blocks.Window.renderer
+  fullName: UI.Window.renderer
   nameWithType: Window.renderer
-- uid: tower_blocks.Window.scene
+- uid: UI.Window.scene
   name: scene
-  href: api/tower_blocks.Window.html#tower_blocks_Window_scene
-  commentId: P:tower_blocks.Window.scene
-  fullName: tower_blocks.Window.scene
+  href: api/UI.Window.html#UI_Window_scene
+  commentId: P:UI.Window.scene
+  fullName: UI.Window.scene
   nameWithType: Window.scene
-- uid: tower_blocks.Window.scene*
+- uid: UI.Window.scene*
   name: scene
-  href: api/tower_blocks.Window.html#tower_blocks_Window_scene_
-  commentId: Overload:tower_blocks.Window.scene
+  href: api/UI.Window.html#UI_Window_scene_
+  commentId: Overload:UI.Window.scene
   isSpec: "True"
-  fullName: tower_blocks.Window.scene
+  fullName: UI.Window.scene
   nameWithType: Window.scene
-- uid: tower_blocks.Window.windowPtr
+- uid: UI.Window.windowPtr
   name: windowPtr
-  href: api/tower_blocks.Window.html#tower_blocks_Window_windowPtr
-  commentId: P:tower_blocks.Window.windowPtr
-  fullName: tower_blocks.Window.windowPtr
+  href: api/UI.Window.html#UI_Window_windowPtr
+  commentId: P:UI.Window.windowPtr
+  fullName: UI.Window.windowPtr
   nameWithType: Window.windowPtr
-- uid: tower_blocks.Window.windowPtr*
+- uid: UI.Window.windowPtr*
   name: windowPtr
-  href: api/tower_blocks.Window.html#tower_blocks_Window_windowPtr_
-  commentId: Overload:tower_blocks.Window.windowPtr
+  href: api/UI.Window.html#UI_Window_windowPtr_
+  commentId: Overload:UI.Window.windowPtr
   isSpec: "True"
-  fullName: tower_blocks.Window.windowPtr
+  fullName: UI.Window.windowPtr
   nameWithType: Window.windowPtr

@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SDL2;
-using Scenes;
-
+﻿using Scenes;
+using UI;
 
 namespace tower_blocks
 {
@@ -28,7 +22,6 @@ namespace tower_blocks
 
             while (!sdl_handler.quit)
             {
-                sdl_handler.DrawScene(current_scene);
                 sdl_handler.Update();
             }
         }

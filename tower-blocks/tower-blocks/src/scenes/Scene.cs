@@ -1,10 +1,6 @@
 ﻿using SDL2;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using tower_blocks;
+using UI;
 
 namespace Scenes
 {
@@ -48,8 +44,13 @@ namespace Scenes
         /// </summary>
         public void UpdateScene()
         {
+            foreach (SceneElement element in element_list)
+            {
+                element.Update();
+            }
+
             HandleScene();
-            DrawScene();
+            //DrawScene();
         }
 
         /// <summary>
