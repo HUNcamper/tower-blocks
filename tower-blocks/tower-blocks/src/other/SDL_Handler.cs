@@ -68,7 +68,6 @@ namespace tower_blocks
             if (delta > 1000 / maxfps)
             {
                 fps = 1000 / delta;
-                System.Console.WriteLine("FPS: {0}", fps);
 
                 SDL.SDL_Event e;
                 if (SDL.SDL_PollEvent(out e) != 0)
