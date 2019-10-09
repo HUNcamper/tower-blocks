@@ -90,6 +90,8 @@ namespace tower_blocks
 
                 ticks_last = ticks_now;
             }
+
+            SDL.SDL_Delay(1);
         }
 
         /// <summary>

@@ -7,64 +7,70 @@ references:
   commentId: N:Scenes
   fullName: Scenes
   nameWithType: Scenes
-- uid: Scenes.Element_Block
-  name: Element_Block
-  href: api/Scenes.Element_Block.html
-  commentId: T:Scenes.Element_Block
-  fullName: Scenes.Element_Block
-  nameWithType: Element_Block
-- uid: Scenes.Element_Block.#ctor(Scenes.Scene)
-  name: Element_Block(Scene)
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block__ctor_Scenes_Scene_
-  commentId: M:Scenes.Element_Block.#ctor(Scenes.Scene)
-  fullName: Scenes.Element_Block.Element_Block(Scenes.Scene)
-  nameWithType: Element_Block.Element_Block(Scene)
-- uid: Scenes.Element_Block.#ctor*
-  name: Element_Block
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block__ctor_
-  commentId: Overload:Scenes.Element_Block.#ctor
+- uid: Scenes.Element_Tower_Moving
+  name: Element_Tower_Moving
+  href: api/Scenes.Element_Tower_Moving.html
+  commentId: T:Scenes.Element_Tower_Moving
+  fullName: Scenes.Element_Tower_Moving
+  nameWithType: Element_Tower_Moving
+- uid: Scenes.Element_Tower_Moving.#ctor(Scenes.Scene)
+  name: Element_Tower_Moving(Scene)
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving__ctor_Scenes_Scene_
+  commentId: M:Scenes.Element_Tower_Moving.#ctor(Scenes.Scene)
+  fullName: Scenes.Element_Tower_Moving.Element_Tower_Moving(Scenes.Scene)
+  nameWithType: Element_Tower_Moving.Element_Tower_Moving(Scene)
+- uid: Scenes.Element_Tower_Moving.#ctor*
+  name: Element_Tower_Moving
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving__ctor_
+  commentId: Overload:Scenes.Element_Tower_Moving.#ctor
   isSpec: "True"
-  fullName: Scenes.Element_Block.Element_Block
-  nameWithType: Element_Block.Element_Block
-- uid: Scenes.Element_Block.Draw
+  fullName: Scenes.Element_Tower_Moving.Element_Tower_Moving
+  nameWithType: Element_Tower_Moving.Element_Tower_Moving
+- uid: Scenes.Element_Tower_Moving.Draw
   name: Draw()
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block_Draw
-  commentId: M:Scenes.Element_Block.Draw
-  fullName: Scenes.Element_Block.Draw()
-  nameWithType: Element_Block.Draw()
-- uid: Scenes.Element_Block.Draw*
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_Draw
+  commentId: M:Scenes.Element_Tower_Moving.Draw
+  fullName: Scenes.Element_Tower_Moving.Draw()
+  nameWithType: Element_Tower_Moving.Draw()
+- uid: Scenes.Element_Tower_Moving.Draw*
   name: Draw
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block_Draw_
-  commentId: Overload:Scenes.Element_Block.Draw
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_Draw_
+  commentId: Overload:Scenes.Element_Tower_Moving.Draw
   isSpec: "True"
-  fullName: Scenes.Element_Block.Draw
-  nameWithType: Element_Block.Draw
-- uid: Scenes.Element_Block.OnRelease(SDL2.SDL.SDL_Event)
-  name: OnRelease(SDL.SDL_Event)
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block_OnRelease_SDL2_SDL_SDL_Event_
-  commentId: M:Scenes.Element_Block.OnRelease(SDL2.SDL.SDL_Event)
-  fullName: Scenes.Element_Block.OnRelease(SDL2.SDL.SDL_Event)
-  nameWithType: Element_Block.OnRelease(SDL.SDL_Event)
-- uid: Scenes.Element_Block.OnRelease*
-  name: OnRelease
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block_OnRelease_
-  commentId: Overload:Scenes.Element_Block.OnRelease
+  fullName: Scenes.Element_Tower_Moving.Draw
+  nameWithType: Element_Tower_Moving.Draw
+- uid: Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)
+  name: OnClick(SDL.SDL_Event)
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_OnClick_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)
+  fullName: Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)
+  nameWithType: Element_Tower_Moving.OnClick(SDL.SDL_Event)
+- uid: Scenes.Element_Tower_Moving.OnClick*
+  name: OnClick
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_OnClick_
+  commentId: Overload:Scenes.Element_Tower_Moving.OnClick
   isSpec: "True"
-  fullName: Scenes.Element_Block.OnRelease
-  nameWithType: Element_Block.OnRelease
-- uid: Scenes.Element_Block.Update
+  fullName: Scenes.Element_Tower_Moving.OnClick
+  nameWithType: Element_Tower_Moving.OnClick
+- uid: Scenes.Element_Tower_Moving.speed
+  name: speed
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_speed
+  commentId: F:Scenes.Element_Tower_Moving.speed
+  fullName: Scenes.Element_Tower_Moving.speed
+  nameWithType: Element_Tower_Moving.speed
+- uid: Scenes.Element_Tower_Moving.Update
   name: Update()
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block_Update
-  commentId: M:Scenes.Element_Block.Update
-  fullName: Scenes.Element_Block.Update()
-  nameWithType: Element_Block.Update()
-- uid: Scenes.Element_Block.Update*
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_Update
+  commentId: M:Scenes.Element_Tower_Moving.Update
+  fullName: Scenes.Element_Tower_Moving.Update()
+  nameWithType: Element_Tower_Moving.Update()
+- uid: Scenes.Element_Tower_Moving.Update*
   name: Update
-  href: api/Scenes.Element_Block.html#Scenes_Element_Block_Update_
-  commentId: Overload:Scenes.Element_Block.Update
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_Update_
+  commentId: Overload:Scenes.Element_Tower_Moving.Update
   isSpec: "True"
-  fullName: Scenes.Element_Block.Update
-  nameWithType: Element_Block.Update
+  fullName: Scenes.Element_Tower_Moving.Update
+  nameWithType: Element_Tower_Moving.Update
 - uid: Scenes.Scene
   name: Scene
   href: api/Scenes.Scene.html
@@ -290,6 +296,19 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene_Game.Scene_Game
   nameWithType: Scene_Game.Scene_Game
+- uid: Scenes.Scene_Game.Current_Tower_Width
+  name: Current_Tower_Width
+  href: api/Scenes.Scene_Game.html#Scenes_Scene_Game_Current_Tower_Width
+  commentId: P:Scenes.Scene_Game.Current_Tower_Width
+  fullName: Scenes.Scene_Game.Current_Tower_Width
+  nameWithType: Scene_Game.Current_Tower_Width
+- uid: Scenes.Scene_Game.Current_Tower_Width*
+  name: Current_Tower_Width
+  href: api/Scenes.Scene_Game.html#Scenes_Scene_Game_Current_Tower_Width_
+  commentId: Overload:Scenes.Scene_Game.Current_Tower_Width
+  isSpec: "True"
+  fullName: Scenes.Scene_Game.Current_Tower_Width
+  nameWithType: Scene_Game.Current_Tower_Width
 - uid: Scenes.Scene_Game.DrawScene
   name: DrawScene()
   href: api/Scenes.Scene_Game.html#Scenes_Scene_Game_DrawScene
@@ -316,6 +335,12 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene_Game.HandleScene
   nameWithType: Scene_Game.HandleScene
+- uid: Scenes.Scene_Game.moving_tower_block
+  name: moving_tower_block
+  href: api/Scenes.Scene_Game.html#Scenes_Scene_Game_moving_tower_block
+  commentId: F:Scenes.Scene_Game.moving_tower_block
+  fullName: Scenes.Scene_Game.moving_tower_block
+  nameWithType: Scene_Game.moving_tower_block
 - uid: Scenes.Scene_Game.OnHandleEvent(SDL2.SDL.SDL_Event)
   name: OnHandleEvent(SDL.SDL_Event)
   href: api/Scenes.Scene_Game.html#Scenes_Scene_Game_OnHandleEvent_SDL2_SDL_SDL_Event_
@@ -329,6 +354,12 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene_Game.OnHandleEvent
   nameWithType: Scene_Game.OnHandleEvent
+- uid: Scenes.Scene_Game.start_tower_width
+  name: start_tower_width
+  href: api/Scenes.Scene_Game.html#Scenes_Scene_Game_start_tower_width
+  commentId: F:Scenes.Scene_Game.start_tower_width
+  fullName: Scenes.Scene_Game.start_tower_width
+  nameWithType: Scene_Game.start_tower_width
 - uid: Scenes.Scene_MainMenu
   name: Scene_MainMenu
   href: api/Scenes.Scene_MainMenu.html
@@ -771,6 +802,38 @@ references:
   commentId: N:UI
   fullName: UI
   nameWithType: UI
+- uid: UI.Button_DifficultySelect
+  name: Button_DifficultySelect
+  href: api/UI.Button_DifficultySelect.html
+  commentId: T:UI.Button_DifficultySelect
+  fullName: UI.Button_DifficultySelect
+  nameWithType: Button_DifficultySelect
+- uid: UI.Button_DifficultySelect.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: Button_DifficultySelect(Scene, String, Int32, Int32, Int32, Int32)
+  href: api/UI.Button_DifficultySelect.html#UI_Button_DifficultySelect__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UI.Button_DifficultySelect.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: UI.Button_DifficultySelect.Button_DifficultySelect(Scenes.Scene, System.String, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: Button_DifficultySelect.Button_DifficultySelect(Scene, String, Int32, Int32, Int32, Int32)
+- uid: UI.Button_DifficultySelect.#ctor*
+  name: Button_DifficultySelect
+  href: api/UI.Button_DifficultySelect.html#UI_Button_DifficultySelect__ctor_
+  commentId: Overload:UI.Button_DifficultySelect.#ctor
+  isSpec: "True"
+  fullName: UI.Button_DifficultySelect.Button_DifficultySelect
+  nameWithType: Button_DifficultySelect.Button_DifficultySelect
+- uid: UI.Button_DifficultySelect.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  name: OnReleaseAbove(SDL.SDL_Event)
+  href: api/UI.Button_DifficultySelect.html#UI_Button_DifficultySelect_OnReleaseAbove_SDL2_SDL_SDL_Event_
+  commentId: M:UI.Button_DifficultySelect.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  fullName: UI.Button_DifficultySelect.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  nameWithType: Button_DifficultySelect.OnReleaseAbove(SDL.SDL_Event)
+- uid: UI.Button_DifficultySelect.OnReleaseAbove*
+  name: OnReleaseAbove
+  href: api/UI.Button_DifficultySelect.html#UI_Button_DifficultySelect_OnReleaseAbove_
+  commentId: Overload:UI.Button_DifficultySelect.OnReleaseAbove
+  isSpec: "True"
+  fullName: UI.Button_DifficultySelect.OnReleaseAbove
+  nameWithType: Button_DifficultySelect.OnReleaseAbove
 - uid: UI.Button_StartGame
   name: Button_StartGame
   href: api/UI.Button_StartGame.html

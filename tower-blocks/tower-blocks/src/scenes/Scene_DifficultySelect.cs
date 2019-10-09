@@ -33,17 +33,17 @@ namespace Scenes
             menu_description.x = center_x - (menu_description.width / 2);
             menu_description.y = center_y - (menu_description.height / 2) - 150;
 
-            MenuButton b_easy = new Button_StartGame(this, "Easy", 0, 0, 300);
+            MenuButton b_easy = new Button_DifficultySelect(this, "Easy", 0, 0, 300);
 
             b_easy.x = center_x - (b_easy.width / 2);
             b_easy.y = center_y - (b_easy.height / 2) - 50;
 
-            MenuButton b_medium = new MenuButton(this, "Medium", 0, 0, 300);
+            MenuButton b_medium = new Button_DifficultySelect(this, "Medium", 0, 0, 300);
 
             b_medium.x = center_x - (b_medium.width / 2);
             b_medium.y = center_y - (b_medium.height / 2) + 50;
 
-            MenuButton b_hard = new MenuButton(this, "Hard", 0, 0, 300);
+            MenuButton b_hard = new Button_DifficultySelect(this, "Hard", 0, 0, 300);
 
             b_hard.x = center_x - (b_hard.width / 2);
             b_hard.y = center_y - (b_hard.height / 2) + 150;

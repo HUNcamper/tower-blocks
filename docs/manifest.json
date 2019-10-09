@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Scenes.Element_Block.yml",
+      "source_relative_path": "obj/api/Scenes.Element_Tower_Moving.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Scenes.Element_Block.html",
-          "hash": "Mch7LaHCpe5ofKdqL87i0A=="
+          "relative_path": "api/Scenes.Element_Tower_Moving.html",
+          "hash": "3fjIGzThUgWDoSsEfbB7Nw=="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.SceneElement.html",
-          "hash": "/WzCBTREZ/mq/mSD6XPPWA=="
+          "hash": "2ZFuLbn/2YdvH9abviLnRA=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_Game.html",
-          "hash": "xv6FIDEwCgdy314YQt2ELg=="
+          "hash": "xy3Q+4r2dNkrpNDFLw68DA=="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.html",
-          "hash": "XHrP5v14HW1MySofA382AA=="
+          "hash": "7pKum9ljRu7WpYxcFVxeKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/UI.Button_DifficultySelect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UI.Button_DifficultySelect.html",
+          "hash": "wCzlF406hOuOSdBdg7zxiw=="
         }
       },
       "is_incremental": true,
@@ -177,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.MenuButton.html",
-          "hash": "nJNokViwWHwSy4NhvjevDA=="
+          "hash": "Jokvu/R2ZLm8qAeewNVuwQ=="
         }
       },
       "is_incremental": true,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.html",
-          "hash": "/DYd3LRp2m/dbpCJHqM3Jg=="
+          "hash": "XLpN5IT8FAY45l8/lQuKpg=="
         }
       },
       "is_incremental": true,
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MPGnrO3AqmJzh3vubTM/EQ=="
+          "hash": "kVqRtd+q8TclGrA/fNJg7g=="
         }
       },
       "is_incremental": false,
@@ -249,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.SDL_Handler.html",
-          "hash": "noEIQ3AzSf04ot8+MWHcGQ=="
+          "hash": "i/oXWJI6PEbziYszNci1QA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -264,7 +276,7 @@
           "hash": "s7D+QY5Oee46YHp3byzh0g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -305,8 +317,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 14
+          "total_file_count": 16,
+          "skipped_file_count": 16
         }
       }
     },

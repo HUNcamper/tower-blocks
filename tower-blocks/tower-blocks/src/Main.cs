@@ -18,6 +18,7 @@ namespace tower_blocks
 
             Window window = sdl_handler.CreateWindow("Hello World", 1024, 800);
 
+            //Scene current_scene = new Scene_MainMenu(window);
             Scene current_scene = new Scene_MainMenu(window);
 
             while (!sdl_handler.quit)

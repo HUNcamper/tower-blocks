@@ -10,15 +10,41 @@ namespace Scenes
     {
         private TextElement fps_counter;
 
+        private int current_tower_width;
+        /// <summary>
+        /// Current tower width
+        /// </summary>
+        public int Current_Tower_Width
+        {
+            get
+            {
+                return current_tower_width;
+            }
+            set
+            {
+                current_tower_width = value;
+                moving_tower_block.width = 50 * value;
+            }
+        }
+
+        /// <summary>
+        /// Starting tower width
+        /// </summary>
+        public int start_tower_width;
+
+        public SceneElement moving_tower_block;
+
         /// <summary>
         /// Creates the main menu on the given window
         /// </summary>
         /// <param name="_window">Window to open the Scene in</param>
         public Scene_Game(Window _window) : base (_window)
         {
-            SceneElement block = new Element_Block(this);
-            block.x = 0;
-            block.y = 100;
+            moving_tower_block = new Element_Tower_Moving(this);
+            moving_tower_block.x = 0;
+            moving_tower_block.y = 500;
+
+            Current_Tower_Width = 10;
 
             fps_counter = new TextElement(this, "FPS:", 0, 0);
         }
