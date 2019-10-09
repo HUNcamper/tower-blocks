@@ -13,6 +13,11 @@ namespace UI
         /// </summary>
         private Text text_handler;
 
+        /// <summary>
+        /// Text to display
+        /// </summary>
+        public string text { get; set; }
+
         private int fontsize;
         /// <summary>
         /// Font size

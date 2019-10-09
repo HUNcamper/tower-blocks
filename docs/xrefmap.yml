@@ -427,19 +427,6 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.scene
   nameWithType: SceneElement.scene
-- uid: Scenes.SceneElement.text
-  name: text
-  href: api/Scenes.SceneElement.html#Scenes_SceneElement_text
-  commentId: P:Scenes.SceneElement.text
-  fullName: Scenes.SceneElement.text
-  nameWithType: SceneElement.text
-- uid: Scenes.SceneElement.text*
-  name: text
-  href: api/Scenes.SceneElement.html#Scenes_SceneElement_text_
-  commentId: Overload:Scenes.SceneElement.text
-  isSpec: "True"
-  fullName: Scenes.SceneElement.text
-  nameWithType: SceneElement.text
 - uid: Scenes.SceneElement.Update
   name: Update()
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_Update
@@ -765,6 +752,19 @@ references:
   isSpec: "True"
   fullName: UI.MenuButton.OnUnHover
   nameWithType: MenuButton.OnUnHover
+- uid: UI.MenuButton.text
+  name: text
+  href: api/UI.MenuButton.html#UI_MenuButton_text
+  commentId: P:UI.MenuButton.text
+  fullName: UI.MenuButton.text
+  nameWithType: MenuButton.text
+- uid: UI.MenuButton.text*
+  name: text
+  href: api/UI.MenuButton.html#UI_MenuButton_text_
+  commentId: Overload:UI.MenuButton.text
+  isSpec: "True"
+  fullName: UI.MenuButton.text
+  nameWithType: MenuButton.text
 - uid: UI.MenuButton.Update
   name: Update()
   href: api/UI.MenuButton.html#UI_MenuButton_Update

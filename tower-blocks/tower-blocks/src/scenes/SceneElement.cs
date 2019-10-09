@@ -33,11 +33,6 @@ namespace Scenes
         public int height { get; set; }
 
         /// <summary>
-        /// Text on the button
-        /// </summary>
-        public string text { get; set; }
-
-        /// <summary>
         /// Is the element hovered by the mouse
         /// </summary>
         public bool hovered { get; set; }

@@ -15,6 +15,11 @@ namespace UI
         private Text text_handler;
 
         /// <summary>
+        /// Text on the button
+        /// </summary>
+        public string text { get; set; }
+
+        /// <summary>
         /// Creates a menu button
         /// </summary>
         /// <param name="_scene">Scene to create the button in</param>
