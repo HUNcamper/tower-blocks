@@ -13,10 +13,11 @@ namespace UI
         /// </summary>
         private Text text_handler;
 
+        private int fontsize;
         /// <summary>
         /// Font size
         /// </summary>
-        public int fontsize
+        public int FontSize
         {
             get { return fontsize; }
             set
@@ -26,6 +27,29 @@ namespace UI
                 // Updating the font size will change the
                 // element size so update the width and height
                 Draw();
+
+                this.width = text_handler.width;
+                this.height = text_handler.height;
+
+                fontsize = value;
+            }
+        }
+
+        private string fontname;
+
+        /// <summary>
+        /// Font name
+        /// </summary>
+        public string FontName
+        {
+            get { return fontname; }
+            set
+            {
+                fontname = value;
+                text_handler.fontname = value;
+
+                // Update the width and height
+                text_handler.Draw();
 
                 this.width = text_handler.width;
                 this.height = text_handler.height;

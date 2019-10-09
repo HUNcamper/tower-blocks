@@ -20,11 +20,12 @@ namespace Scenes
             int center_x = (w / 2);
             int center_y = (h / 2);
 
-            TextElement menu_text = new TextElement(this, "Tower Blocks", 0, 0);
-            menu_text.fontsize = 64;
+            TextElement menu_text = new TextElement(this, "TOWER BLOCKS", 0, 0);
+            menu_text.FontSize = 64;
+            menu_text.FontName = "VCR_OSD_MONO_1.001.ttf";
 
             menu_text.x = center_x - (menu_text.width / 2);
-            menu_text.y = center_y - (menu_text.height / 2) - 150;
+            menu_text.y = center_y - (menu_text.height / 2) - 200;
 
             MenuButton b_startgame = new Button_StartGame(this, "Start New Game", 0, 0, 300);
 

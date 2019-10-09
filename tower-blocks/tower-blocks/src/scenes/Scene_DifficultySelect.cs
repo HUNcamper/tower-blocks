@@ -20,17 +20,18 @@ namespace Scenes
             int center_x = (w / 2);
             int center_y = (h / 2);
 
-            TextElement menu_text = new TextElement(this, "Tower Blocks", 0, 0);
-            menu_text.fontsize = 64;
-
-            TextElement menu_description = new TextElement(this, "Select a difficulty", 0, 0);
-            menu_description.fontsize = 32;
+            TextElement menu_text = new TextElement(this, "TOWER BLOCKS", 0, 0);
+            menu_text.FontSize = 64;
+            menu_text.FontName = "VCR_OSD_MONO_1.001.ttf";
 
             menu_text.x = center_x - (menu_text.width / 2);
-            menu_text.y = center_y - (menu_text.height / 2) - 150;
+            menu_text.y = center_y - (menu_text.height / 2) - 200;
+
+            TextElement menu_description = new TextElement(this, "Select a difficulty", 0, 0);
+            menu_description.FontSize = 32;
 
             menu_description.x = center_x - (menu_description.width / 2);
-            menu_description.y = center_y - (menu_description.height / 2) - 100;
+            menu_description.y = center_y - (menu_description.height / 2) - 150;
 
             MenuButton b_easy = new Button_StartGame(this, "Easy", 0, 0, 300);
 
