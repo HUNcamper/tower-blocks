@@ -110,6 +110,19 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene.SubscribeToEventHandler
   nameWithType: Scene.SubscribeToEventHandler
+- uid: Scenes.Scene.Unload
+  name: Unload()
+  href: api/Scenes.Scene.html#Scenes_Scene_Unload
+  commentId: M:Scenes.Scene.Unload
+  fullName: Scenes.Scene.Unload()
+  nameWithType: Scene.Unload()
+- uid: Scenes.Scene.Unload*
+  name: Unload
+  href: api/Scenes.Scene.html#Scenes_Scene_Unload_
+  commentId: Overload:Scenes.Scene.Unload
+  isSpec: "True"
+  fullName: Scenes.Scene.Unload
+  nameWithType: Scene.Unload
 - uid: Scenes.Scene.UpdateScene
   name: UpdateScene()
   href: api/Scenes.Scene.html#Scenes_Scene_UpdateScene
@@ -136,6 +149,64 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene.window
   nameWithType: Scene.window
+- uid: Scenes.Scene_DifficultySelect
+  name: Scene_DifficultySelect
+  href: api/Scenes.Scene_DifficultySelect.html
+  commentId: T:Scenes.Scene_DifficultySelect
+  fullName: Scenes.Scene_DifficultySelect
+  nameWithType: Scene_DifficultySelect
+- uid: Scenes.Scene_DifficultySelect.#ctor(UI.Window)
+  name: Scene_DifficultySelect(Window)
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect__ctor_UI_Window_
+  commentId: M:Scenes.Scene_DifficultySelect.#ctor(UI.Window)
+  fullName: Scenes.Scene_DifficultySelect.Scene_DifficultySelect(UI.Window)
+  nameWithType: Scene_DifficultySelect.Scene_DifficultySelect(Window)
+- uid: Scenes.Scene_DifficultySelect.#ctor*
+  name: Scene_DifficultySelect
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect__ctor_
+  commentId: Overload:Scenes.Scene_DifficultySelect.#ctor
+  isSpec: "True"
+  fullName: Scenes.Scene_DifficultySelect.Scene_DifficultySelect
+  nameWithType: Scene_DifficultySelect.Scene_DifficultySelect
+- uid: Scenes.Scene_DifficultySelect.DrawScene
+  name: DrawScene()
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect_DrawScene
+  commentId: M:Scenes.Scene_DifficultySelect.DrawScene
+  fullName: Scenes.Scene_DifficultySelect.DrawScene()
+  nameWithType: Scene_DifficultySelect.DrawScene()
+- uid: Scenes.Scene_DifficultySelect.DrawScene*
+  name: DrawScene
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect_DrawScene_
+  commentId: Overload:Scenes.Scene_DifficultySelect.DrawScene
+  isSpec: "True"
+  fullName: Scenes.Scene_DifficultySelect.DrawScene
+  nameWithType: Scene_DifficultySelect.DrawScene
+- uid: Scenes.Scene_DifficultySelect.HandleScene
+  name: HandleScene()
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect_HandleScene
+  commentId: M:Scenes.Scene_DifficultySelect.HandleScene
+  fullName: Scenes.Scene_DifficultySelect.HandleScene()
+  nameWithType: Scene_DifficultySelect.HandleScene()
+- uid: Scenes.Scene_DifficultySelect.HandleScene*
+  name: HandleScene
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect_HandleScene_
+  commentId: Overload:Scenes.Scene_DifficultySelect.HandleScene
+  isSpec: "True"
+  fullName: Scenes.Scene_DifficultySelect.HandleScene
+  nameWithType: Scene_DifficultySelect.HandleScene
+- uid: Scenes.Scene_DifficultySelect.OnHandleEvent(SDL2.SDL.SDL_Event)
+  name: OnHandleEvent(SDL.SDL_Event)
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect_OnHandleEvent_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.Scene_DifficultySelect.OnHandleEvent(SDL2.SDL.SDL_Event)
+  fullName: Scenes.Scene_DifficultySelect.OnHandleEvent(SDL2.SDL.SDL_Event)
+  nameWithType: Scene_DifficultySelect.OnHandleEvent(SDL.SDL_Event)
+- uid: Scenes.Scene_DifficultySelect.OnHandleEvent*
+  name: OnHandleEvent
+  href: api/Scenes.Scene_DifficultySelect.html#Scenes_Scene_DifficultySelect_OnHandleEvent_
+  commentId: Overload:Scenes.Scene_DifficultySelect.OnHandleEvent
+  isSpec: "True"
+  fullName: Scenes.Scene_DifficultySelect.OnHandleEvent
+  nameWithType: Scene_DifficultySelect.OnHandleEvent
 - uid: Scenes.Scene_MainMenu
   name: Scene_MainMenu
   href: api/Scenes.Scene_MainMenu.html
@@ -200,6 +271,32 @@ references:
   commentId: T:Scenes.SceneElement
   fullName: Scenes.SceneElement
   nameWithType: SceneElement
+- uid: Scenes.SceneElement.#ctor(Scenes.Scene)
+  name: SceneElement(Scene)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement__ctor_Scenes_Scene_
+  commentId: M:Scenes.SceneElement.#ctor(Scenes.Scene)
+  fullName: Scenes.SceneElement.SceneElement(Scenes.Scene)
+  nameWithType: SceneElement.SceneElement(Scene)
+- uid: Scenes.SceneElement.#ctor*
+  name: SceneElement
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement__ctor_
+  commentId: Overload:Scenes.SceneElement.#ctor
+  isSpec: "True"
+  fullName: Scenes.SceneElement.SceneElement
+  nameWithType: SceneElement.SceneElement
+- uid: Scenes.SceneElement.clicked
+  name: clicked
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_clicked
+  commentId: P:Scenes.SceneElement.clicked
+  fullName: Scenes.SceneElement.clicked
+  nameWithType: SceneElement.clicked
+- uid: Scenes.SceneElement.clicked*
+  name: clicked
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_clicked_
+  commentId: Overload:Scenes.SceneElement.clicked
+  isSpec: "True"
+  fullName: Scenes.SceneElement.clicked
+  nameWithType: SceneElement.clicked
 - uid: Scenes.SceneElement.Draw
   name: Draw()
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_Draw
@@ -278,6 +375,45 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.OnHover
   nameWithType: SceneElement.OnHover
+- uid: Scenes.SceneElement.OnRelease(SDL2.SDL.SDL_Event)
+  name: OnRelease(SDL.SDL_Event)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnRelease_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.SceneElement.OnRelease(SDL2.SDL.SDL_Event)
+  fullName: Scenes.SceneElement.OnRelease(SDL2.SDL.SDL_Event)
+  nameWithType: SceneElement.OnRelease(SDL.SDL_Event)
+- uid: Scenes.SceneElement.OnRelease*
+  name: OnRelease
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnRelease_
+  commentId: Overload:Scenes.SceneElement.OnRelease
+  isSpec: "True"
+  fullName: Scenes.SceneElement.OnRelease
+  nameWithType: SceneElement.OnRelease
+- uid: Scenes.SceneElement.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  name: OnReleaseAbove(SDL.SDL_Event)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnReleaseAbove_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.SceneElement.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  fullName: Scenes.SceneElement.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  nameWithType: SceneElement.OnReleaseAbove(SDL.SDL_Event)
+- uid: Scenes.SceneElement.OnReleaseAbove*
+  name: OnReleaseAbove
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnReleaseAbove_
+  commentId: Overload:Scenes.SceneElement.OnReleaseAbove
+  isSpec: "True"
+  fullName: Scenes.SceneElement.OnReleaseAbove
+  nameWithType: SceneElement.OnReleaseAbove
+- uid: Scenes.SceneElement.OnUnHover(SDL2.SDL.SDL_Event)
+  name: OnUnHover(SDL.SDL_Event)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnUnHover_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.SceneElement.OnUnHover(SDL2.SDL.SDL_Event)
+  fullName: Scenes.SceneElement.OnUnHover(SDL2.SDL.SDL_Event)
+  nameWithType: SceneElement.OnUnHover(SDL.SDL_Event)
+- uid: Scenes.SceneElement.OnUnHover*
+  name: OnUnHover
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnUnHover_
+  commentId: Overload:Scenes.SceneElement.OnUnHover
+  isSpec: "True"
+  fullName: Scenes.SceneElement.OnUnHover
+  nameWithType: SceneElement.OnUnHover
 - uid: Scenes.SceneElement.scene
   name: scene
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_scene
@@ -519,12 +655,12 @@ references:
   commentId: T:UI.Button_StartGame
   fullName: UI.Button_StartGame
   nameWithType: Button_StartGame
-- uid: UI.Button_StartGame.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
-  name: Button_StartGame(Scene, String, Int32, Int32)
-  href: api/UI.Button_StartGame.html#UI_Button_StartGame__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_
-  commentId: M:UI.Button_StartGame.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
-  fullName: UI.Button_StartGame.Button_StartGame(Scenes.Scene, System.String, System.Int32, System.Int32)
-  nameWithType: Button_StartGame.Button_StartGame(Scene, String, Int32, Int32)
+- uid: UI.Button_StartGame.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: Button_StartGame(Scene, String, Int32, Int32, Int32, Int32)
+  href: api/UI.Button_StartGame.html#UI_Button_StartGame__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UI.Button_StartGame.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: UI.Button_StartGame.Button_StartGame(Scenes.Scene, System.String, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: Button_StartGame.Button_StartGame(Scene, String, Int32, Int32, Int32, Int32)
 - uid: UI.Button_StartGame.#ctor*
   name: Button_StartGame
   href: api/UI.Button_StartGame.html#UI_Button_StartGame__ctor_
@@ -532,18 +668,31 @@ references:
   isSpec: "True"
   fullName: UI.Button_StartGame.Button_StartGame
   nameWithType: Button_StartGame.Button_StartGame
+- uid: UI.Button_StartGame.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  name: OnReleaseAbove(SDL.SDL_Event)
+  href: api/UI.Button_StartGame.html#UI_Button_StartGame_OnReleaseAbove_SDL2_SDL_SDL_Event_
+  commentId: M:UI.Button_StartGame.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  fullName: UI.Button_StartGame.OnReleaseAbove(SDL2.SDL.SDL_Event)
+  nameWithType: Button_StartGame.OnReleaseAbove(SDL.SDL_Event)
+- uid: UI.Button_StartGame.OnReleaseAbove*
+  name: OnReleaseAbove
+  href: api/UI.Button_StartGame.html#UI_Button_StartGame_OnReleaseAbove_
+  commentId: Overload:UI.Button_StartGame.OnReleaseAbove
+  isSpec: "True"
+  fullName: UI.Button_StartGame.OnReleaseAbove
+  nameWithType: Button_StartGame.OnReleaseAbove
 - uid: UI.MenuButton
   name: MenuButton
   href: api/UI.MenuButton.html
   commentId: T:UI.MenuButton
   fullName: UI.MenuButton
   nameWithType: MenuButton
-- uid: UI.MenuButton.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
-  name: MenuButton(Scene, String, Int32, Int32)
-  href: api/UI.MenuButton.html#UI_MenuButton__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_
-  commentId: M:UI.MenuButton.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32)
-  fullName: UI.MenuButton.MenuButton(Scenes.Scene, System.String, System.Int32, System.Int32)
-  nameWithType: MenuButton.MenuButton(Scene, String, Int32, Int32)
+- uid: UI.MenuButton.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: MenuButton(Scene, String, Int32, Int32, Int32, Int32)
+  href: api/UI.MenuButton.html#UI_MenuButton__ctor_Scenes_Scene_System_String_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UI.MenuButton.#ctor(Scenes.Scene,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: UI.MenuButton.MenuButton(Scenes.Scene, System.String, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: MenuButton.MenuButton(Scene, String, Int32, Int32, Int32, Int32)
 - uid: UI.MenuButton.#ctor*
   name: MenuButton
   href: api/UI.MenuButton.html#UI_MenuButton__ctor_
@@ -577,6 +726,45 @@ references:
   isSpec: "True"
   fullName: UI.MenuButton.OnClick
   nameWithType: MenuButton.OnClick
+- uid: UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  name: OnHover(SDL.SDL_Event)
+  href: api/UI.MenuButton.html#UI_MenuButton_OnHover_SDL2_SDL_SDL_Event_
+  commentId: M:UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  fullName: UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
+  nameWithType: MenuButton.OnHover(SDL.SDL_Event)
+- uid: UI.MenuButton.OnHover*
+  name: OnHover
+  href: api/UI.MenuButton.html#UI_MenuButton_OnHover_
+  commentId: Overload:UI.MenuButton.OnHover
+  isSpec: "True"
+  fullName: UI.MenuButton.OnHover
+  nameWithType: MenuButton.OnHover
+- uid: UI.MenuButton.OnRelease(SDL2.SDL.SDL_Event)
+  name: OnRelease(SDL.SDL_Event)
+  href: api/UI.MenuButton.html#UI_MenuButton_OnRelease_SDL2_SDL_SDL_Event_
+  commentId: M:UI.MenuButton.OnRelease(SDL2.SDL.SDL_Event)
+  fullName: UI.MenuButton.OnRelease(SDL2.SDL.SDL_Event)
+  nameWithType: MenuButton.OnRelease(SDL.SDL_Event)
+- uid: UI.MenuButton.OnRelease*
+  name: OnRelease
+  href: api/UI.MenuButton.html#UI_MenuButton_OnRelease_
+  commentId: Overload:UI.MenuButton.OnRelease
+  isSpec: "True"
+  fullName: UI.MenuButton.OnRelease
+  nameWithType: MenuButton.OnRelease
+- uid: UI.MenuButton.OnUnHover(SDL2.SDL.SDL_Event)
+  name: OnUnHover(SDL.SDL_Event)
+  href: api/UI.MenuButton.html#UI_MenuButton_OnUnHover_SDL2_SDL_SDL_Event_
+  commentId: M:UI.MenuButton.OnUnHover(SDL2.SDL.SDL_Event)
+  fullName: UI.MenuButton.OnUnHover(SDL2.SDL.SDL_Event)
+  nameWithType: MenuButton.OnUnHover(SDL.SDL_Event)
+- uid: UI.MenuButton.OnUnHover*
+  name: OnUnHover
+  href: api/UI.MenuButton.html#UI_MenuButton_OnUnHover_
+  commentId: Overload:UI.MenuButton.OnUnHover
+  isSpec: "True"
+  fullName: UI.MenuButton.OnUnHover
+  nameWithType: MenuButton.OnUnHover
 - uid: UI.MenuButton.Update
   name: Update()
   href: api/UI.MenuButton.html#UI_MenuButton_Update

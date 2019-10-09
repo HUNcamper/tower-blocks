@@ -24,21 +24,17 @@ namespace Scenes
             menu_text.fontsize = 64;
 
             menu_text.x = center_x - (menu_text.width / 2);
-            menu_text.y = center_y - (menu_text.height / 2) - 125;
+            menu_text.y = center_y - (menu_text.height / 2) - 150;
 
-            MenuButton b_startgame = new Button_StartGame(this, "Start New Game", 0, 0);
+            MenuButton b_startgame = new Button_StartGame(this, "Start New Game", 0, 0, 300);
 
             b_startgame.x = center_x - (b_startgame.width / 2);
             b_startgame.y = center_y - (b_startgame.height / 2) - 50;
 
-            MenuButton b_quitgame = new MenuButton(this, "Quit Game", 0, 0);
+            MenuButton b_quitgame = new MenuButton(this, "Quit Game", 0, 0, 300);
 
             b_quitgame.x = center_x - (b_quitgame.width / 2);
             b_quitgame.y = center_y - (b_quitgame.height / 2) + 50;
-
-            element_list.Add(b_startgame);
-            element_list.Add(b_quitgame);
-            element_list.Add(menu_text);
         }
 
         /// <summary>

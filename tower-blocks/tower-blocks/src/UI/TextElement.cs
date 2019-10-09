@@ -23,7 +23,8 @@ namespace UI
             {
                 text_handler.fontsize = value;
 
-                // Update the width and height
+                // Updating the font size will change the
+                // element size so update the width and height
                 Draw();
 
                 this.width = text_handler.width;
@@ -38,7 +39,7 @@ namespace UI
         /// <param name="_text">Text to display</param>
         /// <param name="_x">X position of the element</param>
         /// <param name="_y">Y position of the element</param>
-        public TextElement(Scene _scene, string _text, int _x, int _y)
+        public TextElement(Scene _scene, string _text, int _x, int _y) : base (_scene)
         {
             scene = _scene;
             text = _text;

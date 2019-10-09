@@ -43,6 +43,11 @@ namespace Scenes
         public bool hovered { get; set; }
 
         /// <summary>
+        /// Is the element currently being clicked
+        /// </summary>
+        public bool clicked { get; set; }
+
+        /// <summary>
         /// Called every frame
         /// </summary>
         public abstract void Update();
@@ -53,45 +58,69 @@ namespace Scenes
         public abstract void Draw();
 
         /// <summary>
+        /// Creates a Scene Element
+        /// </summary>
+        /// <param name="scene">Scene to create in</param>
+        public SceneElement(Scene scene)
+        {
+            scene.element_list.Add(this);
+        }
+
+        /// <summary>
         /// Handles events
         /// </summary>
         public void HandleEvent(SDL.SDL_Event e)
         {
-            int m_x = 0; // Mouse X
-            int m_y = 0; // Mouse Y
+            int m_x = e.motion.x; // Mouse X
+            int m_y = e.motion.y; // Mouse Y
 
             switch (e.type)
             {
                 case SDL.SDL_EventType.SDL_MOUSEMOTION:
                     // Check for mouse hover
-                    m_x = e.motion.x;
-                    m_y = e.motion.y;
 
                     if (!(m_x < this.x || m_x > this.x + this.width ||
                         m_y < this.y || m_y > this.y + this.height))
                     {
                         if (!hovered)
                         {
-                            OnHover(e);
                             hovered = true;
+                            OnHover(e);
                         }
                     }
                     else if (hovered)
+                    {
                         hovered = false;
+                        OnUnHover(e);
+                    }
 
                     break;
 
                 case SDL.SDL_EventType.SDL_MOUSEBUTTONDOWN:
                     // Check for mouse click
-                    m_x = e.motion.x;
-                    m_y = e.motion.y;
 
                     if (!(m_x < this.x || m_x > this.x + this.width ||
                         m_y < this.y || m_y > this.y + this.height))
                     {
+                        clicked = true;
                         OnClick(e);
                     }
 
+                    break;
+
+                case SDL.SDL_EventType.SDL_MOUSEBUTTONUP:
+                    // Check for mouse release
+                    if (clicked)
+                    {
+                        clicked = false;
+                        OnRelease(e);
+
+                        if (!(m_x < this.x || m_x > this.x + this.width ||
+                            m_y < this.y || m_y > this.y + this.height))
+                        {
+                            OnReleaseAbove(e);
+                        }
+                    }
                     break;
             }
         }
@@ -99,10 +128,19 @@ namespace Scenes
         #region Events
 
         /// <summary>
-        /// Called when mouse hovered over
+        /// Called when mouse hovered over the element
         /// </summary>
         /// <param name="e">Event data</param>
         protected virtual void OnHover(SDL.SDL_Event e)
+        {
+
+        }
+
+        /// <summary>
+        /// Called when mouse stopped hovering over the element
+        /// </summary>
+        /// <param name="e">Event data</param>
+        protected virtual void OnUnHover(SDL.SDL_Event e)
         {
 
         }
@@ -112,6 +150,24 @@ namespace Scenes
         /// </summary>
         /// <param name="e">Event data</param>
         protected virtual void OnClick(SDL.SDL_Event e)
+        {
+
+        }
+
+        /// <summary>
+        /// Called when the elements stops being clicked
+        /// </summary>
+        /// <param name="e">Event data</param>
+        protected virtual void OnRelease(SDL.SDL_Event e)
+        {
+
+        }
+
+        /// <summary>
+        /// Called when the elements stops being clicked and the mouse is above the element
+        /// </summary>
+        /// <param name="e">Event data</param>
+        protected virtual void OnReleaseAbove(SDL.SDL_Event e)
         {
 
         }

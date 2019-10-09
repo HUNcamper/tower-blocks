@@ -1,4 +1,5 @@
 ﻿using Scenes;
+using SDL2;
 
 namespace UI
 {
@@ -14,9 +15,20 @@ namespace UI
         /// <param name="_text">Text to display</param>
         /// <param name="_x">X position of the element</param>
         /// <param name="_y">Y position of the element</param>
-        public Button_StartGame(Scene _scene, string _text, int _x, int _y) : base (_scene, _text, _x, _y)
+        /// <param name="_width">Width of the element (leave on 0 for auto)</param>
+        /// <param name="_height">Height of the element (leave on 0 for auto)</param>
+        public Button_StartGame(Scene _scene, string _text, int _x, int _y, int _width = 0, int _height = 0) : base (_scene, _text, _x, _y, _width, _height)
         {
             
+        }
+
+        /// <summary>
+        /// Called when the element got clicked
+        /// </summary>
+        /// <param name="e">Event data</param>
+        protected override void OnReleaseAbove(SDL.SDL_Event e)
+        {
+            scene = new Scene_DifficultySelect(scene.window);
         }
     }
 }

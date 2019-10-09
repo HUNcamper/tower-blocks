@@ -46,6 +46,16 @@ namespace Scenes
         }
 
         /// <summary>
+        /// Unload the scene
+        /// </summary>
+        public void Unload()
+        {
+            element_list.Clear();
+            subscribed_elements.Clear();
+            window.scene = null;
+        }
+
+        /// <summary>
         /// Updates the scene
         /// </summary>
         public void UpdateScene()
