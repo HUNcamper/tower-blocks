@@ -27,6 +27,12 @@ namespace Scenes
             menu_text.x = center_x - (menu_text.width / 2);
             menu_text.y = center_y - (menu_text.height / 2) - 200;
 
+            TextElement menu_description = new TextElement(this, "V 0.1", 0, 0);
+            menu_description.FontSize = 32;
+
+            menu_description.x = center_x - (menu_description.width / 2);
+            menu_description.y = center_y - (menu_description.height / 2) - 150;
+
             MenuButton b_startgame = new Button_StartGame(this, "Start New Game", 0, 0, 300);
 
             b_startgame.x = center_x - (b_startgame.width / 2);

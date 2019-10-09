@@ -77,14 +77,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Scenes.Element_Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenes.Element_Block.html",
+          "hash": "Mch7LaHCpe5ofKdqL87i0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Scenes.Scene.yml",
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene.html",
-          "hash": "inDTO68Jy1guMRqO2+hkKA=="
+          "hash": "oQC+h6FOLfx881Q9Kbm0pw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.SceneElement.html",
-          "hash": "wcI6weqlORc5yPOoa46MoQ=="
+          "hash": "/WzCBTREZ/mq/mSD6XPPWA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +117,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_DifficultySelect.html",
-          "hash": "DYbSrYolO8bBXSOAnimIIQ=="
+          "hash": "Ypb+72YX36ARLONYQOwNfg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Scenes.Scene_Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scenes.Scene_Game.html",
+          "hash": "xv6FIDEwCgdy314YQt2ELg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_MainMenu.html",
-          "hash": "KWuJ2DHQDi2FpZBYGEJtIw=="
+          "hash": "kVcDu7z0R5uTt1e64gTZdA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.html",
-          "hash": "jl1V7YIbETbRdl0qgtP40A=="
+          "hash": "XHrP5v14HW1MySofA382AA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.Button_StartGame.html",
-          "hash": "RMltzEWy6HYgdf7OIeFPlA=="
+          "hash": "tZjIN0P954ZS52ULkBlDIA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.MenuButton.html",
-          "hash": "it6UAmNiE38gSWNyWd/GEw=="
+          "hash": "nJNokViwWHwSy4NhvjevDA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +192,7 @@
           "hash": "61h6jR+dv2Fz1YW+cOh0kw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +216,7 @@
           "hash": "/DYd3LRp2m/dbpCJHqM3Jg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zKVftsAdvvBTQjuhc4tgww=="
+          "hash": "MPGnrO3AqmJzh3vubTM/EQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/tower_blocks.SDL_Handler.html",
-          "hash": "eGvkEYTmDxHjxJ63uOz2Iw=="
+          "hash": "+VLe+AUdkRiUawxlFOT26Q=="
         }
       },
       "is_incremental": true,
@@ -281,8 +305,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 10
+          "total_file_count": 15,
+          "skipped_file_count": 15
         }
       }
     },

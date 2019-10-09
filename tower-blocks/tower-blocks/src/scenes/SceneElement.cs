@@ -55,10 +55,11 @@ namespace Scenes
         /// <summary>
         /// Creates a Scene Element
         /// </summary>
-        /// <param name="scene">Scene to create in</param>
-        public SceneElement(Scene scene)
+        /// <param name="_scene">Scene to create in</param>
+        public SceneElement(Scene _scene)
         {
-            scene.element_list.Add(this);
+            scene = _scene;
+            _scene.element_list.Add(this);
         }
 
         /// <summary>

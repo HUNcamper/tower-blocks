@@ -28,6 +28,11 @@ namespace Scenes
         }
 
         /// <summary>
+        /// Current framerate set by the SDL_Handler
+        /// </summary>
+        public uint fps;
+
+        /// <summary>
         /// List of elements which are subscribed to the event handler
         /// </summary>
         public List<SceneElement> subscribed_elements;

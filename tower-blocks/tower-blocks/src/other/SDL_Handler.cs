@@ -21,6 +21,26 @@ namespace tower_blocks
         public bool quit { get; set; }
 
         /// <summary>
+        /// Max framerate
+        /// </summary>
+        public int maxfps { get; set; }
+
+        /// <summary>
+        /// Time passed since game start
+        /// </summary>
+
+        /// <summary>
+        /// Delta
+        /// </summary>
+        private uint delta;
+
+        private uint ticks_now;
+
+        private uint ticks_last;
+
+        private uint fps;
+
+        /// <summary>
         /// Initialize the SDL Handler
         /// </summary>
         public SDL_Handler()
@@ -31,6 +51,9 @@ namespace tower_blocks
             // Initialize SDL_ttf
             SDL_ttf.TTF_Init();
 
+            // Default max framerate is 60
+            maxfps = 60;
+
             quit = false;
         }
 
@@ -39,22 +62,34 @@ namespace tower_blocks
         /// </summary>
         public void Update()
         {
-            SDL.SDL_Event e;
-            if (SDL.SDL_PollEvent(out e) != 0)
+            ticks_now = SDL.SDL_GetTicks();
+            delta = ticks_now - ticks_last;
+
+            if (delta > 1000 / maxfps)
             {
-                HandleEvents(e);
-                HandleWindowEvents(e);
+                fps = 1000 / delta;
+                System.Console.WriteLine("FPS: {0}", fps);
+
+                SDL.SDL_Event e;
+                if (SDL.SDL_PollEvent(out e) != 0)
+                {
+                    HandleEvents(e);
+                    HandleWindowEvents(e);
+
+                    foreach (Window window in window_list)
+                    {
+                        window.scene.HandleEvent(e);
+                    }
+                }
 
                 foreach (Window window in window_list)
                 {
-                    window.scene.HandleEvent(e);
+                    window.scene.UpdateScene();
+                    window.scene.fps = fps;
+                    DrawScene(window.scene);
                 }
-            }
 
-            foreach (Window window in window_list)
-            {
-                window.scene.UpdateScene();
-                DrawScene(window.scene);
+                ticks_last = ticks_now;
             }
         }
 
