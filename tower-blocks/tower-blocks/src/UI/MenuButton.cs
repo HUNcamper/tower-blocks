@@ -32,6 +32,9 @@ namespace UI
 
             this.width = text_handler.width;
             this.height = text_handler.height;
+
+            // Subscribe to the event handler
+            scene.SubscribeToEventHandler(this);
         }
 
         /// <summary>
@@ -59,9 +62,9 @@ namespace UI
         /// Called when mouse hovered over
         /// </summary>
         /// <param name="e">Event data</param>
-        public override void OnHover(SDL.SDL_Event e)
+        protected override void OnClick(SDL.SDL_Event e)
         {
-
+            System.Console.WriteLine("Clicked: {0}", this.text);
         }
         
         /// <summary>

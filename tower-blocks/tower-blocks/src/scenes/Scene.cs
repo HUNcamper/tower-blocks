@@ -28,6 +28,11 @@ namespace Scenes
         }
 
         /// <summary>
+        /// List of elements which are subscribed to the event handler
+        /// </summary>
+        public List<SceneElement> subscribed_elements;
+
+        /// <summary>
         /// Creates a scene
         /// </summary>
         /// <param name="_window">Window to open the Scene in</param>
@@ -37,6 +42,7 @@ namespace Scenes
             window.scene = this;
 
             element_list = new List<SceneElement>();
+            subscribed_elements = new List<SceneElement>();
         }
 
         /// <summary>
@@ -50,7 +56,7 @@ namespace Scenes
             }
 
             HandleScene();
-            //DrawScene();
+            //DrawScene(); // this is handled by SDL_Handler
         }
 
         /// <summary>
@@ -69,12 +75,22 @@ namespace Scenes
         /// <param name="e">Event data</param>
         public void HandleEvent(SDL.SDL_Event e)
         {
-            foreach (SceneElement element in element_list)
+            // Send event data only to subscribed elements
+            foreach (SceneElement element in subscribed_elements)
             {
                 element.HandleEvent(e);
             }
 
             OnHandleEvent(e);
+        }
+
+        /// <summary>
+        /// Subscribe an element to the event handler
+        /// </summary>
+        /// <param name="element">Element to subscribe</param>
+        public void SubscribeToEventHandler(SceneElement element)
+        {
+            subscribed_elements.Add(element);
         }
 
         /// <summary>

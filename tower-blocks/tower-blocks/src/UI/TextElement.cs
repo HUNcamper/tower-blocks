@@ -61,15 +61,6 @@ namespace UI
         }
 
         /// <summary>
-        /// Called when mouse hovered over
-        /// </summary>
-        /// <param name="e">Event data</param>
-        public override void OnHover(SDL.SDL_Event e)
-        {
-
-        }
-
-        /// <summary>
         /// Called every frame
         /// </summary>
         public override void Update()

@@ -91,6 +91,25 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene.OnHandleEvent
   nameWithType: Scene.OnHandleEvent
+- uid: Scenes.Scene.subscribed_elements
+  name: subscribed_elements
+  href: api/Scenes.Scene.html#Scenes_Scene_subscribed_elements
+  commentId: F:Scenes.Scene.subscribed_elements
+  fullName: Scenes.Scene.subscribed_elements
+  nameWithType: Scene.subscribed_elements
+- uid: Scenes.Scene.SubscribeToEventHandler(Scenes.SceneElement)
+  name: SubscribeToEventHandler(SceneElement)
+  href: api/Scenes.Scene.html#Scenes_Scene_SubscribeToEventHandler_Scenes_SceneElement_
+  commentId: M:Scenes.Scene.SubscribeToEventHandler(Scenes.SceneElement)
+  fullName: Scenes.Scene.SubscribeToEventHandler(Scenes.SceneElement)
+  nameWithType: Scene.SubscribeToEventHandler(SceneElement)
+- uid: Scenes.Scene.SubscribeToEventHandler*
+  name: SubscribeToEventHandler
+  href: api/Scenes.Scene.html#Scenes_Scene_SubscribeToEventHandler_
+  commentId: Overload:Scenes.Scene.SubscribeToEventHandler
+  isSpec: "True"
+  fullName: Scenes.Scene.SubscribeToEventHandler
+  nameWithType: Scene.SubscribeToEventHandler
 - uid: Scenes.Scene.UpdateScene
   name: UpdateScene()
   href: api/Scenes.Scene.html#Scenes_Scene_UpdateScene
@@ -233,6 +252,19 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.hovered
   nameWithType: SceneElement.hovered
+- uid: Scenes.SceneElement.OnClick(SDL2.SDL.SDL_Event)
+  name: OnClick(SDL.SDL_Event)
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnClick_SDL2_SDL_SDL_Event_
+  commentId: M:Scenes.SceneElement.OnClick(SDL2.SDL.SDL_Event)
+  fullName: Scenes.SceneElement.OnClick(SDL2.SDL.SDL_Event)
+  nameWithType: SceneElement.OnClick(SDL.SDL_Event)
+- uid: Scenes.SceneElement.OnClick*
+  name: OnClick
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnClick_
+  commentId: Overload:Scenes.SceneElement.OnClick
+  isSpec: "True"
+  fullName: Scenes.SceneElement.OnClick
+  nameWithType: SceneElement.OnClick
 - uid: Scenes.SceneElement.OnHover(SDL2.SDL.SDL_Event)
   name: OnHover(SDL.SDL_Event)
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnHover_SDL2_SDL_SDL_Event_
@@ -532,19 +564,19 @@ references:
   isSpec: "True"
   fullName: UI.MenuButton.Draw
   nameWithType: MenuButton.Draw
-- uid: UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
-  name: OnHover(SDL.SDL_Event)
-  href: api/UI.MenuButton.html#UI_MenuButton_OnHover_SDL2_SDL_SDL_Event_
-  commentId: M:UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
-  fullName: UI.MenuButton.OnHover(SDL2.SDL.SDL_Event)
-  nameWithType: MenuButton.OnHover(SDL.SDL_Event)
-- uid: UI.MenuButton.OnHover*
-  name: OnHover
-  href: api/UI.MenuButton.html#UI_MenuButton_OnHover_
-  commentId: Overload:UI.MenuButton.OnHover
+- uid: UI.MenuButton.OnClick(SDL2.SDL.SDL_Event)
+  name: OnClick(SDL.SDL_Event)
+  href: api/UI.MenuButton.html#UI_MenuButton_OnClick_SDL2_SDL_SDL_Event_
+  commentId: M:UI.MenuButton.OnClick(SDL2.SDL.SDL_Event)
+  fullName: UI.MenuButton.OnClick(SDL2.SDL.SDL_Event)
+  nameWithType: MenuButton.OnClick(SDL.SDL_Event)
+- uid: UI.MenuButton.OnClick*
+  name: OnClick
+  href: api/UI.MenuButton.html#UI_MenuButton_OnClick_
+  commentId: Overload:UI.MenuButton.OnClick
   isSpec: "True"
-  fullName: UI.MenuButton.OnHover
-  nameWithType: MenuButton.OnHover
+  fullName: UI.MenuButton.OnClick
+  nameWithType: MenuButton.OnClick
 - uid: UI.MenuButton.Update
   name: Update()
   href: api/UI.MenuButton.html#UI_MenuButton_Update
