@@ -63,6 +63,11 @@ namespace Scenes
         }
 
         /// <summary>
+        /// Called when the Scene gets unloaded
+        /// </summary>
+        //public abstract void Unload();
+
+        /// <summary>
         /// Handles events
         /// </summary>
         public void HandleEvent(SDL.SDL_Event e)

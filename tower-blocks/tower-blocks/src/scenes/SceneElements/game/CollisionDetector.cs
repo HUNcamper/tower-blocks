@@ -38,43 +38,36 @@ namespace tower_blocks
             int v_top;
             int v_bottom;
 
+            bool vertical = false;
+            bool horizontal = false;
+
             foreach (SceneElement elem in scene.element_list)
             {
                 // Horizontal
 
                 h_left =   elem.x - c_x;
                 h_right = (elem.x - c_x) + elem.width;
-
-                // One side touches 0
-                if (h_left == 0 || h_right == 0)
-                {
-                    return true;
-                }
+                
                 // One side is negative, the other is positive => 0 is inbetween both sides
-                if ((h_left > 0 && h_right < 0) || (h_right > 0 && h_left < 0))
+                if ((h_left >= 0 && h_right <= 0) || (h_right >= 0 && h_left <= 0))
                 {
-                    return true;
+                    horizontal = true;
                 }
-
+                
                 // Vertical
 
                 v_top =     elem.y - c_y;
                 v_bottom = (elem.y - c_y) + elem.height;
 
-                // One side touches 0
-                if (v_top == 0 || v_bottom == 0)
-                {
-                    return true;
-                }
                 // One side is negative, the other is positive => 0 is inbetween both sides
-                if ((v_top > 0 && v_bottom < 0) || (v_bottom > 0 && v_top < 0))
+                if ((v_top >= 0 && v_bottom <= 0) || (v_bottom >= 0 && v_top <= 0))
                 {
-                    return true;
+                    vertical = true;
                 }
             }
-
-            // None of the above matched
-            return false;
+            
+            // Return true if both horizontal and vertical match
+            return horizontal && vertical;
         }
     }
 }

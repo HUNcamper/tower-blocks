@@ -1,6 +1,7 @@
 ﻿using SDL2;
 using tower_blocks;
 using UI;
+using System;
 
 namespace Scenes
 {
@@ -10,8 +11,12 @@ namespace Scenes
     public class Scene_Game : Scene
     {
         private TextElement fps_counter;
+        private TextElement collision;
 
         private CollisionDetector collision_detector;
+
+        private int mx;
+        private int my;
 
         private int current_tower_width;
         /// <summary>
@@ -50,6 +55,7 @@ namespace Scenes
             Current_Tower_Width = 10;
 
             fps_counter = new TextElement(this, "FPS:", 0, 0);
+            collision = new TextElement(this, "Collision:", 0, 40);
 
             collision_detector = new CollisionDetector(this);
         }
@@ -60,6 +66,10 @@ namespace Scenes
         public override void HandleScene()
         {
             fps_counter.Text = "FPS: " + this.fps.ToString();
+
+            bool collide = collision_detector.CheckPoint(mx, my);
+
+            collision.Text = "Collision: " + collide.ToString();
         }
 
         /// <summary>
@@ -81,7 +91,8 @@ namespace Scenes
         /// <param name="e">Event data</param>
         protected override void OnHandleEvent(SDL.SDL_Event e)
         {
-
+            mx = e.motion.x;
+            my = e.motion.y;
         }
     }
 }
