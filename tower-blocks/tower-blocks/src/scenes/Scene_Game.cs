@@ -1,4 +1,5 @@
 ﻿using SDL2;
+using tower_blocks;
 using UI;
 
 namespace Scenes
@@ -9,6 +10,8 @@ namespace Scenes
     public class Scene_Game : Scene
     {
         private TextElement fps_counter;
+
+        private CollisionDetector collision_detector;
 
         private int current_tower_width;
         /// <summary>
@@ -47,6 +50,8 @@ namespace Scenes
             Current_Tower_Width = 10;
 
             fps_counter = new TextElement(this, "FPS:", 0, 0);
+
+            collision_detector = new CollisionDetector(this);
         }
 
         /// <summary>
