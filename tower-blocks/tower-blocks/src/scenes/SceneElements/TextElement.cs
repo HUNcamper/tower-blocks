@@ -105,7 +105,7 @@ namespace UI
         /// <summary>
         /// Called every frame
         /// </summary>
-        public override void Update()
+        protected override void OnUpdate()
         {
             text_handler.x = x;
             text_handler.y = y;

@@ -45,7 +45,15 @@ namespace Scenes
         /// <summary>
         /// Called every frame
         /// </summary>
-        public abstract void Update();
+        public void Update()
+        {
+            OnUpdate();
+        }
+
+        protected virtual void OnUpdate()
+        {
+
+        }
 
         /// <summary>
         /// Draws the element on the scene it's on

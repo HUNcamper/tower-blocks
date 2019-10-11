@@ -113,7 +113,7 @@ namespace UI
         /// <summary>
         /// Called every frame
         /// </summary>
-        public override void Update()
+        protected override void OnUpdate()
         {
             // Center the text
 

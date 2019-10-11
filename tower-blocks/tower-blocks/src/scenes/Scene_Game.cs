@@ -40,7 +40,7 @@ namespace Scenes
         /// </summary>
         public int start_tower_width;
 
-        public SceneElement moving_tower_block;
+        public Element_Tower_Moving moving_tower_block;
 
         /// <summary>
         /// Creates the main menu on the given window
@@ -48,9 +48,12 @@ namespace Scenes
         /// <param name="_window">Window to open the Scene in</param>
         public Scene_Game(Window _window) : base (_window)
         {
+            int w_width, w_height;
+            SDL.SDL_GetWindowSize(this.window.windowPtr, out w_width, out w_height);
+
             moving_tower_block = new Element_Tower_Moving(this);
             moving_tower_block.x = 0;
-            moving_tower_block.y = 500;
+            moving_tower_block.y = w_height-moving_tower_block.height;
 
             Current_Tower_Width = 10;
 
@@ -93,6 +96,11 @@ namespace Scenes
         {
             mx = e.motion.x;
             my = e.motion.y;
+
+            if (e.type == SDL.SDL_EventType.SDL_MOUSEBUTTONDOWN)
+            {
+                moving_tower_block.SceneClicked();
+            }
         }
     }
 }

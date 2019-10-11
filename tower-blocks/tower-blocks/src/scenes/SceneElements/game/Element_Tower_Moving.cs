@@ -1,23 +1,34 @@
 ﻿using SDL2;
+using System;
+using System.Collections.Generic;
+using tower_blocks;
 
 namespace Scenes
 {
     /// <summary>
-    /// Defines a scene element
+    /// Defines the moving tower block
     /// </summary>
     public class Element_Tower_Moving : SceneElement
     {
+        /// <summary>
+        /// Should the block move left or right
+        /// </summary>
         private bool left;
 
         /// <summary>
-        /// Speed of movement (left - right)
+        /// Last dropped tower block
+        /// </summary>
+        private Stack<Element_Tower_Dropped> dropped_stack;
+
+        /// <summary>
+        /// Speed of movement
         /// </summary>
         public int speed;
 
         /// <summary>
         /// Called every frame
         /// </summary>
-        public override void Update()
+        protected override void OnUpdate()
         {
             // Move left and right
             int w_width, w_height;
@@ -53,17 +64,17 @@ namespace Scenes
         /// </summary>
         public override void Draw()
         {
-            // Téglalap
+            // Rectangle
             SDL.SDL_Rect rect;
             rect.x = x;
             rect.y = y;
             rect.w = width;
             rect.h = height;
 
-            // Szín
+            // Color
             SDL.SDL_SetRenderDrawColor(scene.window.renderer, 0, 255, 0, 255);
 
-            // Téglalap kirajzolása
+            // Drawing the rectangle
             SDL.SDL_RenderFillRect(scene.window.renderer, ref rect);
         }
 
@@ -73,6 +84,8 @@ namespace Scenes
         /// <param name="_scene">Scene to create in</param>
         public Element_Tower_Moving(Scene _scene) : base (_scene)
         {
+            dropped_stack = new Stack<Element_Tower_Dropped>();
+
             scene.SubscribeToEventHandler(this);
             left = false;
 
@@ -82,16 +95,55 @@ namespace Scenes
             speed = 10;
         }
 
-        #region Events
-
         /// <summary>
-        /// Called when the element is clicked
+        /// Called by the scene when it's clicked
         /// </summary>
-        /// <param name="e">Event data</param>
-        protected override void OnClick(SDL.SDL_Event e)
+        public void SceneClicked()
         {
-            ((Scene_Game)scene).Current_Tower_Width--;
+            int new_x = x;
+            int new_width = width;
+            
+            if (dropped_stack.Count != 0)
+            {
+                Element_Tower_Dropped last_dropped = dropped_stack.Peek();
+
+                if (last_dropped.x != x)
+                {
+                    int difference = Math.Abs(last_dropped.x - x);
+                    Console.WriteLine("Difference: {0}", difference);
+                    // Remove the fallen off parts
+                    new_width -= difference;
+
+                    if (last_dropped.x > x)
+                    {
+                        new_x += difference;
+                    }
+                    else
+                    {
+                        new_x = x;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Perfect!");
+                }
+            }
+
+            width = new_width;
+
+            Console.WriteLine("Tower Placed");
+            Element_Tower_Dropped new_dropped = new Element_Tower_Dropped(scene);
+            new_dropped.x = new_x;
+            new_dropped.y = y;
+            new_dropped.width = width;
+            new_dropped.height = height;
+
+            dropped_stack.Push(new_dropped);
+
+            y -= height;
         }
+
+        #region Events
 
         #endregion
     }

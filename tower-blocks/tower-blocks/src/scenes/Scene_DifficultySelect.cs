@@ -49,13 +49,13 @@ namespace Scenes
             b_hard.x = center_x - (b_hard.width / 2);
             b_hard.y = center_y - (b_hard.height / 2) + 150;
 
-            Element_Image gabe = new Element_Image(this, "gabe.jpg");
+            /*Element_Image gabe = new Element_Image(this, "gabe.jpg");
 
             gabe.width = 360;
             gabe.height = 202;
 
             gabe.x = center_x - (gabe.width / 2);
-            gabe.y = center_y - (gabe.height / 2) + 300;
+            gabe.y = center_y - (gabe.height / 2) + 300;*/
         }
 
         /// <summary>

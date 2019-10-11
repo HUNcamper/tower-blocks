@@ -37,10 +37,5 @@ namespace UI
 
             SDL.SDL_RenderCopy(scene.window.renderer, image_texture, IntPtr.Zero, ref tRect);
         }
-
-        public override void Update()
-        {
-            
-        }
     }
 }
