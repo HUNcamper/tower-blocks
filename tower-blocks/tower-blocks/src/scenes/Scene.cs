@@ -28,6 +28,15 @@ namespace Scenes
         }
 
         /// <summary>
+        /// Viewport of the scene
+        /// </summary>
+        public Element_SceneCamera viewport
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
         /// Current framerate set by the SDL_Handler
         /// </summary>
         public uint fps;
@@ -46,8 +55,13 @@ namespace Scenes
             window = _window;
             window.scene = this;
 
+            // Get window size
+            int w_width, w_height;
+            SDL.SDL_GetWindowSize(this.window.windowPtr, out w_width, out w_height);
+
             element_list = new List<SceneElement>();
             subscribed_elements = new List<SceneElement>();
+            viewport = new Element_SceneCamera(this, 0, 0, w_width, w_height);
         }
 
         /// <summary>

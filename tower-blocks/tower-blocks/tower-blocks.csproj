@@ -72,6 +72,7 @@
     <Compile Include="src\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\scenes\SceneElements\Button_DifficultySelect.cs" />
+    <Compile Include="src\scenes\SceneElements\Element_SceneCamera.cs" />
     <Compile Include="src\scenes\SceneElements\Element_Image.cs" />
     <Compile Include="src\scenes\SceneElements\game\CollisionDetector.cs" />
     <Compile Include="src\scenes\SceneElements\game\Element_Tower_Dropped.cs" />

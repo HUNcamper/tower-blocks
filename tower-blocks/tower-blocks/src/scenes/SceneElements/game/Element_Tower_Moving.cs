@@ -141,6 +141,11 @@ namespace Scenes
             dropped_stack.Push(new_dropped);
 
             y -= height;
+
+            if (dropped_stack.Count > 5)
+            {
+                scene.viewport.y += height;
+            }
         }
 
         #region Events
