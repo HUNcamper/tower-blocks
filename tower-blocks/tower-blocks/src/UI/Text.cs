@@ -55,6 +55,16 @@ namespace UI
         public int height { get; set; }
 
         /// <summary>
+        /// X can change depending on camera position
+        /// </summary>
+        public int drawx { get; set; }
+
+        /// <summary>
+        /// Y can change depending on camera position
+        /// </summary>
+        public int drawy { get; set; }
+
+        /// <summary>
         /// Creates a text handler
         /// </summary>
         /// <param name="_element">Parent element</param>
@@ -87,6 +97,10 @@ namespace UI
         /// </summary>
         public void Draw()
         {
+            // Update relative position to scene camera
+            drawx = x + this.element.scene.camera.x;
+            drawy = y + this.element.scene.camera.y;
+
             IntPtr font = SDL_ttf.TTF_OpenFont(fontname, fontsize);
             IntPtr text_surface = SDL_ttf.TTF_RenderText_Blended(font, text, fontcolor);
             IntPtr text_texture = SDL.SDL_CreateTextureFromSurface(element.scene.window.renderer, text_surface);
@@ -100,7 +114,7 @@ namespace UI
 
             SDL.SDL_QueryTexture(text_texture, out uint_null, out int_null, out new_width, out new_height);
 
-            SDL.SDL_Rect desRect = new SDL.SDL_Rect() { x = x, y = y, w = new_width, h = new_height };
+            SDL.SDL_Rect desRect = new SDL.SDL_Rect() { x = drawx, y = drawy, w = new_width, h = new_height };
 
             SDL.SDL_RenderCopy(element.scene.window.renderer, text_texture, IntPtr.Zero, ref desRect);
 

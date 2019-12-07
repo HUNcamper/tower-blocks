@@ -24,8 +24,8 @@ namespace UI
         public override void Draw()
         {
             SDL.SDL_Rect tRect;
-            tRect.x = x;
-            tRect.y = y;
+            tRect.x = drawx;
+            tRect.y = drawy;
             tRect.w = width;
             tRect.h = height;
 

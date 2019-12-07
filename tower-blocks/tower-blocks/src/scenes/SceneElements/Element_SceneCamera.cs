@@ -25,6 +25,7 @@ namespace UI
 
         public override void Draw()
         {
+            /*
             viewport = new SDL2.SDL.SDL_Rect();
 
             viewport.x = x;
@@ -33,6 +34,7 @@ namespace UI
             viewport.w = width;
 
             SDL2.SDL.SDL_RenderSetViewport(scene.window.renderer, ref viewport);
+            */
         }
     }
 }

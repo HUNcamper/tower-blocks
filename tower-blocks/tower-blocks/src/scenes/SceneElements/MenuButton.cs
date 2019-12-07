@@ -57,8 +57,8 @@ namespace UI
             text_handler.Draw();
 
             SDL.SDL_Rect rect;
-            rect.x = x;
-            rect.y = y;
+            rect.x = drawx;
+            rect.y = drawy;
             rect.w = width;
             rect.h = height;
             

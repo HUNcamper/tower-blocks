@@ -73,7 +73,7 @@
   
   <h1 id="Scenes_Element_Tower_Moving" data-uid="Scenes.Element_Tower_Moving" class="text-break">Class Element_Tower_Moving
   </h1>
-  <div class="markdown level0 summary"><p>Defines a scene element</p>
+  <div class="markdown level0 summary"><p>Defines the moving tower block</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,6 +94,12 @@
       <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_y">SceneElement.y</a>
     </div>
     <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_drawx">SceneElement.drawx</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_drawy">SceneElement.drawy</a>
+    </div>
+    <div>
       <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_width">SceneElement.width</a>
     </div>
     <div>
@@ -106,6 +112,9 @@
       <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_clicked">SceneElement.clicked</a>
     </div>
     <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_Update">SceneElement.Update()</a>
+    </div>
+    <div>
       <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_HandleEvent_SDL2_SDL_SDL_Event_">SceneElement.HandleEvent(SDL.SDL_Event)</a>
     </div>
     <div>
@@ -113,6 +122,9 @@
     </div>
     <div>
       <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_OnUnHover_SDL2_SDL_SDL_Event_">SceneElement.OnUnHover(SDL.SDL_Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_OnClick_SDL2_SDL_SDL_Event_">SceneElement.OnClick(SDL.SDL_Event)</a>
     </div>
     <div>
       <a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_OnRelease_SDL2_SDL_SDL_Event_">SceneElement.OnRelease(SDL.SDL_Event)</a>
@@ -155,7 +167,7 @@
     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving__ctor_Scenes_Scene_.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.%23ctor(Scenes.Scene)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L74">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L85">View Source</a>
   </span>
   <a id="Scenes_Element_Tower_Moving__ctor_" data-uid="Scenes.Element_Tower_Moving.#ctor*"></a>
   <h4 id="Scenes_Element_Tower_Moving__ctor_Scenes_Scene_" data-uid="Scenes.Element_Tower_Moving.#ctor(Scenes.Scene)">Element_Tower_Moving(Scene)</h4>
@@ -191,10 +203,10 @@
     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving_speed.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.speed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L15">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L26">View Source</a>
   </span>
   <h4 id="Scenes_Element_Tower_Moving_speed" data-uid="Scenes.Element_Tower_Moving.speed">speed</h4>
-  <div class="markdown level1 summary"><p>Speed of movement (left - right)</p>
+  <div class="markdown level1 summary"><p>Speed of movement</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -223,7 +235,7 @@
     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving_Draw.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.Draw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L54">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L65">View Source</a>
   </span>
   <a id="Scenes_Element_Tower_Moving_Draw_" data-uid="Scenes.Element_Tower_Moving.Draw*"></a>
   <h4 id="Scenes_Element_Tower_Moving_Draw" data-uid="Scenes.Element_Tower_Moving.Draw">Draw()</h4>
@@ -238,58 +250,38 @@
   <div><a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_Draw">SceneElement.Draw()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving_OnClick_SDL2_SDL_SDL_Event_.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving_OnUpdate.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.OnUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L91">View Source</a>
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L31">View Source</a>
   </span>
-  <a id="Scenes_Element_Tower_Moving_OnClick_" data-uid="Scenes.Element_Tower_Moving.OnClick*"></a>
-  <h4 id="Scenes_Element_Tower_Moving_OnClick_SDL2_SDL_SDL_Event_" data-uid="Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)">OnClick(SDL.SDL_Event)</h4>
-  <div class="markdown level1 summary"><p>Called when the element is clicked</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnClick(SDL.SDL_Event e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SDL2.SDL.SDL_Event</span></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_OnClick_SDL2_SDL_SDL_Event_">SceneElement.OnClick(SDL.SDL_Event)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving_Update.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L20">View Source</a>
-  </span>
-  <a id="Scenes_Element_Tower_Moving_Update_" data-uid="Scenes.Element_Tower_Moving.Update*"></a>
-  <h4 id="Scenes_Element_Tower_Moving_Update" data-uid="Scenes.Element_Tower_Moving.Update">Update()</h4>
+  <a id="Scenes_Element_Tower_Moving_OnUpdate_" data-uid="Scenes.Element_Tower_Moving.OnUpdate*"></a>
+  <h4 id="Scenes_Element_Tower_Moving_OnUpdate" data-uid="Scenes.Element_Tower_Moving.OnUpdate">OnUpdate()</h4>
   <div class="markdown level1 summary"><p>Called every frame</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Update()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnUpdate()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_Update">SceneElement.Update()</a></div>
+  <div><a class="xref" href="Scenes.SceneElement.html#Scenes_SceneElement_OnUpdate">SceneElement.OnUpdate()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving_SceneClicked.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving.SceneClicked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L101">View Source</a>
+  </span>
+  <a id="Scenes_Element_Tower_Moving_SceneClicked_" data-uid="Scenes.Element_Tower_Moving.SceneClicked*"></a>
+  <h4 id="Scenes_Element_Tower_Moving_SceneClicked" data-uid="Scenes.Element_Tower_Moving.SceneClicked">SceneClicked()</h4>
+  <div class="markdown level1 summary"><p>Called by the scene when it&apos;s clicked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SceneClicked()</code></pre>
+  </div>
 </article>
           </div>
           
@@ -301,7 +293,7 @@
                     <a href="https://github.com/HUNcamper/tower-blocks/new/master/apiSpec/new?filename=Scenes_Element_Tower_Moving.md&amp;value=---%0Auid%3A%20Scenes.Element_Tower_Moving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/HUNcamper/tower-blocks/blob/master/tower-blocks/tower-blocks/src/scenes/SceneElements/game/Element_Tower_Moving.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

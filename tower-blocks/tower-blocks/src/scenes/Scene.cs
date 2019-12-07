@@ -30,7 +30,7 @@ namespace Scenes
         /// <summary>
         /// Viewport of the scene
         /// </summary>
-        public Element_SceneCamera viewport
+        public Element_SceneCamera camera
         {
             get;
             set;
@@ -61,7 +61,7 @@ namespace Scenes
 
             element_list = new List<SceneElement>();
             subscribed_elements = new List<SceneElement>();
-            viewport = new Element_SceneCamera(this, 0, 0, w_width, w_height);
+            camera = new Element_SceneCamera(this, 0, 0, w_width, w_height);
         }
 
         /// <summary>

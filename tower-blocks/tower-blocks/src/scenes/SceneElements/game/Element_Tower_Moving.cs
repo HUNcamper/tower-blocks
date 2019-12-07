@@ -66,8 +66,8 @@ namespace Scenes
         {
             // Rectangle
             SDL.SDL_Rect rect;
-            rect.x = x;
-            rect.y = y;
+            rect.x = drawx;
+            rect.y = drawy;
             rect.w = width;
             rect.h = height;
 
@@ -144,7 +144,7 @@ namespace Scenes
 
             if (dropped_stack.Count > 5)
             {
-                scene.viewport.y += height;
+                scene.camera.y += height;
             }
         }
 

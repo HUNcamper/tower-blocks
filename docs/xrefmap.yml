@@ -39,38 +39,38 @@ references:
   isSpec: "True"
   fullName: Scenes.Element_Tower_Moving.Draw
   nameWithType: Element_Tower_Moving.Draw
-- uid: Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)
-  name: OnClick(SDL.SDL_Event)
-  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_OnClick_SDL2_SDL_SDL_Event_
-  commentId: M:Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)
-  fullName: Scenes.Element_Tower_Moving.OnClick(SDL2.SDL.SDL_Event)
-  nameWithType: Element_Tower_Moving.OnClick(SDL.SDL_Event)
-- uid: Scenes.Element_Tower_Moving.OnClick*
-  name: OnClick
-  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_OnClick_
-  commentId: Overload:Scenes.Element_Tower_Moving.OnClick
+- uid: Scenes.Element_Tower_Moving.OnUpdate
+  name: OnUpdate()
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_OnUpdate
+  commentId: M:Scenes.Element_Tower_Moving.OnUpdate
+  fullName: Scenes.Element_Tower_Moving.OnUpdate()
+  nameWithType: Element_Tower_Moving.OnUpdate()
+- uid: Scenes.Element_Tower_Moving.OnUpdate*
+  name: OnUpdate
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_OnUpdate_
+  commentId: Overload:Scenes.Element_Tower_Moving.OnUpdate
   isSpec: "True"
-  fullName: Scenes.Element_Tower_Moving.OnClick
-  nameWithType: Element_Tower_Moving.OnClick
+  fullName: Scenes.Element_Tower_Moving.OnUpdate
+  nameWithType: Element_Tower_Moving.OnUpdate
+- uid: Scenes.Element_Tower_Moving.SceneClicked
+  name: SceneClicked()
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_SceneClicked
+  commentId: M:Scenes.Element_Tower_Moving.SceneClicked
+  fullName: Scenes.Element_Tower_Moving.SceneClicked()
+  nameWithType: Element_Tower_Moving.SceneClicked()
+- uid: Scenes.Element_Tower_Moving.SceneClicked*
+  name: SceneClicked
+  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_SceneClicked_
+  commentId: Overload:Scenes.Element_Tower_Moving.SceneClicked
+  isSpec: "True"
+  fullName: Scenes.Element_Tower_Moving.SceneClicked
+  nameWithType: Element_Tower_Moving.SceneClicked
 - uid: Scenes.Element_Tower_Moving.speed
   name: speed
   href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_speed
   commentId: F:Scenes.Element_Tower_Moving.speed
   fullName: Scenes.Element_Tower_Moving.speed
   nameWithType: Element_Tower_Moving.speed
-- uid: Scenes.Element_Tower_Moving.Update
-  name: Update()
-  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_Update
-  commentId: M:Scenes.Element_Tower_Moving.Update
-  fullName: Scenes.Element_Tower_Moving.Update()
-  nameWithType: Element_Tower_Moving.Update()
-- uid: Scenes.Element_Tower_Moving.Update*
-  name: Update
-  href: api/Scenes.Element_Tower_Moving.html#Scenes_Element_Tower_Moving_Update_
-  commentId: Overload:Scenes.Element_Tower_Moving.Update
-  isSpec: "True"
-  fullName: Scenes.Element_Tower_Moving.Update
-  nameWithType: Element_Tower_Moving.Update
 - uid: Scenes.Scene
   name: Scene
   href: api/Scenes.Scene.html
@@ -90,6 +90,19 @@ references:
   isSpec: "True"
   fullName: Scenes.Scene.Scene
   nameWithType: Scene.Scene
+- uid: Scenes.Scene.camera
+  name: camera
+  href: api/Scenes.Scene.html#Scenes_Scene_camera
+  commentId: P:Scenes.Scene.camera
+  fullName: Scenes.Scene.camera
+  nameWithType: Scene.camera
+- uid: Scenes.Scene.camera*
+  name: camera
+  href: api/Scenes.Scene.html#Scenes_Scene_camera_
+  commentId: Overload:Scenes.Scene.camera
+  isSpec: "True"
+  fullName: Scenes.Scene.camera
+  nameWithType: Scene.camera
 - uid: Scenes.Scene.DrawScene
   name: DrawScene()
   href: api/Scenes.Scene.html#Scenes_Scene_DrawScene
@@ -463,6 +476,32 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.Draw
   nameWithType: SceneElement.Draw
+- uid: Scenes.SceneElement.drawx
+  name: drawx
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_drawx
+  commentId: P:Scenes.SceneElement.drawx
+  fullName: Scenes.SceneElement.drawx
+  nameWithType: SceneElement.drawx
+- uid: Scenes.SceneElement.drawx*
+  name: drawx
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_drawx_
+  commentId: Overload:Scenes.SceneElement.drawx
+  isSpec: "True"
+  fullName: Scenes.SceneElement.drawx
+  nameWithType: SceneElement.drawx
+- uid: Scenes.SceneElement.drawy
+  name: drawy
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_drawy
+  commentId: P:Scenes.SceneElement.drawy
+  fullName: Scenes.SceneElement.drawy
+  nameWithType: SceneElement.drawy
+- uid: Scenes.SceneElement.drawy*
+  name: drawy
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_drawy_
+  commentId: Overload:Scenes.SceneElement.drawy
+  isSpec: "True"
+  fullName: Scenes.SceneElement.drawy
+  nameWithType: SceneElement.drawy
 - uid: Scenes.SceneElement.HandleEvent(SDL2.SDL.SDL_Event)
   name: HandleEvent(SDL.SDL_Event)
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_HandleEvent_SDL2_SDL_SDL_Event_
@@ -567,6 +606,19 @@ references:
   isSpec: "True"
   fullName: Scenes.SceneElement.OnUnHover
   nameWithType: SceneElement.OnUnHover
+- uid: Scenes.SceneElement.OnUpdate
+  name: OnUpdate()
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnUpdate
+  commentId: M:Scenes.SceneElement.OnUpdate
+  fullName: Scenes.SceneElement.OnUpdate()
+  nameWithType: SceneElement.OnUpdate()
+- uid: Scenes.SceneElement.OnUpdate*
+  name: OnUpdate
+  href: api/Scenes.SceneElement.html#Scenes_SceneElement_OnUpdate_
+  commentId: Overload:Scenes.SceneElement.OnUpdate
+  isSpec: "True"
+  fullName: Scenes.SceneElement.OnUpdate
+  nameWithType: SceneElement.OnUpdate
 - uid: Scenes.SceneElement.scene
   name: scene
   href: api/Scenes.SceneElement.html#Scenes_SceneElement_scene
@@ -866,6 +918,44 @@ references:
   isSpec: "True"
   fullName: UI.Button_StartGame.OnReleaseAbove
   nameWithType: Button_StartGame.OnReleaseAbove
+- uid: UI.Element_SceneCamera
+  name: Element_SceneCamera
+  href: api/UI.Element_SceneCamera.html
+  commentId: T:UI.Element_SceneCamera
+  fullName: UI.Element_SceneCamera
+  nameWithType: Element_SceneCamera
+- uid: UI.Element_SceneCamera.#ctor(Scenes.Scene,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: Element_SceneCamera(Scene, Int32, Int32, Int32, Int32)
+  href: api/UI.Element_SceneCamera.html#UI_Element_SceneCamera__ctor_Scenes_Scene_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UI.Element_SceneCamera.#ctor(Scenes.Scene,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: UI.Element_SceneCamera.Element_SceneCamera(Scenes.Scene, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: Element_SceneCamera.Element_SceneCamera(Scene, Int32, Int32, Int32, Int32)
+- uid: UI.Element_SceneCamera.#ctor*
+  name: Element_SceneCamera
+  href: api/UI.Element_SceneCamera.html#UI_Element_SceneCamera__ctor_
+  commentId: Overload:UI.Element_SceneCamera.#ctor
+  isSpec: "True"
+  fullName: UI.Element_SceneCamera.Element_SceneCamera
+  nameWithType: Element_SceneCamera.Element_SceneCamera
+- uid: UI.Element_SceneCamera.Draw
+  name: Draw()
+  href: api/UI.Element_SceneCamera.html#UI_Element_SceneCamera_Draw
+  commentId: M:UI.Element_SceneCamera.Draw
+  fullName: UI.Element_SceneCamera.Draw()
+  nameWithType: Element_SceneCamera.Draw()
+- uid: UI.Element_SceneCamera.Draw*
+  name: Draw
+  href: api/UI.Element_SceneCamera.html#UI_Element_SceneCamera_Draw_
+  commentId: Overload:UI.Element_SceneCamera.Draw
+  isSpec: "True"
+  fullName: UI.Element_SceneCamera.Draw
+  nameWithType: Element_SceneCamera.Draw
+- uid: UI.Element_SceneCamera.viewport
+  name: viewport
+  href: api/UI.Element_SceneCamera.html#UI_Element_SceneCamera_viewport
+  commentId: F:UI.Element_SceneCamera.viewport
+  fullName: UI.Element_SceneCamera.viewport
+  nameWithType: Element_SceneCamera.viewport
 - uid: UI.MenuButton
   name: MenuButton
   href: api/UI.MenuButton.html
@@ -950,6 +1040,19 @@ references:
   isSpec: "True"
   fullName: UI.MenuButton.OnUnHover
   nameWithType: MenuButton.OnUnHover
+- uid: UI.MenuButton.OnUpdate
+  name: OnUpdate()
+  href: api/UI.MenuButton.html#UI_MenuButton_OnUpdate
+  commentId: M:UI.MenuButton.OnUpdate
+  fullName: UI.MenuButton.OnUpdate()
+  nameWithType: MenuButton.OnUpdate()
+- uid: UI.MenuButton.OnUpdate*
+  name: OnUpdate
+  href: api/UI.MenuButton.html#UI_MenuButton_OnUpdate_
+  commentId: Overload:UI.MenuButton.OnUpdate
+  isSpec: "True"
+  fullName: UI.MenuButton.OnUpdate
+  nameWithType: MenuButton.OnUpdate
 - uid: UI.MenuButton.text
   name: text
   href: api/UI.MenuButton.html#UI_MenuButton_text
@@ -963,19 +1066,6 @@ references:
   isSpec: "True"
   fullName: UI.MenuButton.text
   nameWithType: MenuButton.text
-- uid: UI.MenuButton.Update
-  name: Update()
-  href: api/UI.MenuButton.html#UI_MenuButton_Update
-  commentId: M:UI.MenuButton.Update
-  fullName: UI.MenuButton.Update()
-  nameWithType: MenuButton.Update()
-- uid: UI.MenuButton.Update*
-  name: Update
-  href: api/UI.MenuButton.html#UI_MenuButton_Update_
-  commentId: Overload:UI.MenuButton.Update
-  isSpec: "True"
-  fullName: UI.MenuButton.Update
-  nameWithType: MenuButton.Update
 - uid: UI.Text
   name: Text
   href: api/UI.Text.html
@@ -1008,6 +1098,32 @@ references:
   isSpec: "True"
   fullName: UI.Text.Draw
   nameWithType: Text.Draw
+- uid: UI.Text.drawx
+  name: drawx
+  href: api/UI.Text.html#UI_Text_drawx
+  commentId: P:UI.Text.drawx
+  fullName: UI.Text.drawx
+  nameWithType: Text.drawx
+- uid: UI.Text.drawx*
+  name: drawx
+  href: api/UI.Text.html#UI_Text_drawx_
+  commentId: Overload:UI.Text.drawx
+  isSpec: "True"
+  fullName: UI.Text.drawx
+  nameWithType: Text.drawx
+- uid: UI.Text.drawy
+  name: drawy
+  href: api/UI.Text.html#UI_Text_drawy
+  commentId: P:UI.Text.drawy
+  fullName: UI.Text.drawy
+  nameWithType: Text.drawy
+- uid: UI.Text.drawy*
+  name: drawy
+  href: api/UI.Text.html#UI_Text_drawy_
+  commentId: Overload:UI.Text.drawy
+  isSpec: "True"
+  fullName: UI.Text.drawy
+  nameWithType: Text.drawy
 - uid: UI.Text.element
   name: element
   href: api/UI.Text.html#UI_Text_element

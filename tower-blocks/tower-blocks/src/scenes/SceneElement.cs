@@ -23,6 +23,16 @@ namespace Scenes
         public int y { get; set; }
 
         /// <summary>
+        /// X can change depending on camera position
+        /// </summary>
+        public int drawx { get; set; }
+
+        /// <summary>
+        /// Y can change depending on camera position
+        /// </summary>
+        public int drawy { get; set; }
+
+        /// <summary>
         /// Width of the element
         /// </summary>
         public int width { get; set; }
@@ -47,6 +57,10 @@ namespace Scenes
         /// </summary>
         public void Update()
         {
+            // Update relative position to scene camera
+            drawx = x + this.scene.camera.x;
+            drawy = y + this.scene.camera.y;
+
             OnUpdate();
         }
 

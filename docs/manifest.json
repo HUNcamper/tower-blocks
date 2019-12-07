@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Element_Tower_Moving.html",
-          "hash": "3fjIGzThUgWDoSsEfbB7Nw=="
+          "hash": "gt2wpQj7N3bbyMHiCWDGPg=="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene.html",
-          "hash": "oQC+h6FOLfx881Q9Kbm0pw=="
+          "hash": "ID5DwffvdfJHNxLOcONBkQ=="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.SceneElement.html",
-          "hash": "3bptAuy70wbcZsWnKWMMDg=="
+          "hash": "Cz1whYyKNE/TcSSjfAp6pA=="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_DifficultySelect.html",
-          "hash": "t550AmmalGZohUXHeMP25Q=="
+          "hash": "xTsPwOJqQFMgOjSQwwrk2Q=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_Game.html",
-          "hash": "MX2I8L6mbB0lAsHU5yrIAQ=="
+          "hash": "DrDuuTBqZQ2SKPNvcVqjzQ=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.Scene_MainMenu.html",
-          "hash": "kVcDu7z0R5uTt1e64gTZdA=="
+          "hash": "LVwQLW03LhSabnNNQpv9Tw=="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scenes.html",
-          "hash": "7pKum9ljRu7WpYxcFVxeKg=="
+          "hash": "Yg4tMbl60WpHhPPRhaAp8Q=="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.Button_DifficultySelect.html",
-          "hash": "wCzlF406hOuOSdBdg7zxiw=="
+          "hash": "ruQCzBuFKfZKuWua9cyehw=="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,19 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.Button_StartGame.html",
-          "hash": "tZjIN0P954ZS52ULkBlDIA=="
+          "hash": "Ds6OF5ojWot1ZQlGixaGbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/UI.Element_SceneCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UI.Element_SceneCamera.html",
+          "hash": "JvSLLRj0RlRE6kecXKSuXw=="
         }
       },
       "is_incremental": true,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.MenuButton.html",
-          "hash": "Jokvu/R2ZLm8qAeewNVuwQ=="
+          "hash": "RrXqwyi65ONkx9wZDTqJ1g=="
         }
       },
       "is_incremental": true,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.Text.html",
-          "hash": "61h6jR+dv2Fz1YW+cOh0kw=="
+          "hash": "AijSuP8LxBmZvLczwqDAsA=="
         }
       },
       "is_incremental": true,
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UI.html",
-          "hash": "XLpN5IT8FAY45l8/lQuKpg=="
+          "hash": "t2mHixVmqWlYKaBkdKfgMg=="
         }
       },
       "is_incremental": true,
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "kVqRtd+q8TclGrA/fNJg7g=="
+          "hash": "Sfpw8Kg/po/5G0IghZANHQ=="
         }
       },
       "is_incremental": false,
@@ -311,8 +323,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 16
+          "total_file_count": 17,
+          "skipped_file_count": 17
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
